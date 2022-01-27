@@ -1,8 +1,8 @@
-baseurl: https://lmm.pages.dev
+baseurl: https://joyscyberspace.github.io/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: 咖喱
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -12,11 +12,11 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
-DefaultContentLanguage: zh-cn
+DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: true
+hasCJKLanguage: false
 
 permalinks:
     post: /p/:slug/
@@ -27,7 +27,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /img/favicon.png
 
     footer:
         since: 2020
@@ -38,10 +38,10 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 
+        subtitle: Keep running
         avatar:
-            enabled: false
+            enabled: true
             local: true
             src: img/avatar.png
 
@@ -55,7 +55,7 @@ params:
 
     comments:
         enabled: true
-        provider: twikoo
+        provider: waline
 
         disqusjs:
             shortname:
@@ -84,7 +84,7 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
+            serverURL: https://waline-et0qdpqu9-joypankkk.vercel.app/
             lang:
             visitor:
             avatar:
@@ -99,7 +99,7 @@ params:
                 admin: Admin
 
         twikoo:
-            envId: twikoo-2g36bkuz88660f27
+            envId:
             region:
             path:
             lang:
@@ -129,14 +129,21 @@ params:
     widgets:
         enabled:
             - search
+            - toc
             - archives
+            - categories
             - tag-cloud
 
         archives:
             limit: 5
 
+        categoriesCloud:
+            limit: 10
+
         tagCloud:
             limit: 10
+        
+        
 
     opengraph:
         twitter:
@@ -177,20 +184,26 @@ menu:
           params:
               ### For demonstration purpose, the home link will be open in a new tab
               newTab: true
-              icon: home
+              
     
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+        - identifier: mastodon
+          name: Mastodon
+          url: https://o3o.ca/@purplerain
           params:
-            icon: brand-github
+            icon: mastodon
             
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: rss
+          name: RSS
+          url: https://joyscyberspace.github.io/index.xml
           params:
-            icon: brand-twitter
+            icon: rss
+
+        - identifier: subsription
+          name: Subsription
+          url: https://follow.it/arwfsr?action=followPub
+          params:
+            icon: subscription
 
 related:
     includeNewer: true
@@ -213,4 +226,15 @@ markup:
         ordered: true
         startLevel: 2
     highlight:
-        noClasses: false
+        anchorLineNos: false
+        codeFences: true
+        guessSyntax: false
+        hl_Lines: ""
+        lineAnchors: ""
+        lineNoStart: 1
+        lineNos: false
+        lineNumbersInTable: false
+        noClasses: true
+        style: monokailight
+        tabWidth: 4
+        
