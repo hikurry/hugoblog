@@ -1,1 +1,224 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+.article-subtitle {
+    font-size: 1.6rem;
+    line-height: 1.85;
+}
+.article-title{
+    font-size: 2.1rem;
+}
+.article-content h2{
+    font-size: 2rem;
+}
+.article-content h3{
+    font-size: 1.8rem;
+}
+.article-content h4{
+    font-size: 1.7rem;
+}
+.article-content h5,
+.article-content h6{
+    font-size: 1.6rem;
+}
+:root{
+    --tag-border-radius: 999em;
+    --card-text-color-main:#3d3d3d;
+    --base-font-family:"open sans", sans-serif;
+    --card-border-radius:5px;
+    --section-separation: 25px;
+    --article-font-size: 1.6rem;
+    --section-separation: 40px;
+    --accent-color:#1f4e5f;
+    --accent-color-darker:#79a8a9;
+    --body-background:#f4f7f7;
+    --code-background-color:#eee;
+}
+
+.site-info
+{
+    text-align: center;
+}
+
+.social-menu{
+    justify-content: center;
+}
+
+.site-info .site-avatar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li svg {
+    margin-right: 5px;
+}
+
+.sidebar .widget:not(:last-of-type):after {
+    content: none;
+}
+
+.search-form.widget input{
+    padding-top: 15px;
+}
+
+/* categories widget */
+
+.widget.categories {
+    .widget-categories--list {
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        background-color: var(--card-background); 
+    }
+
+    .category-list-item {
+        &:not(:last-of-type) {
+            border-bottom: 1.4px solid var(--card-separator-color);
+        }
+
+        a {
+            font-size: 1.4rem;
+            font-weight: 700;
+            padding: 18px 25px;
+            display: flex;
+            justify-content: space-between;
+            color: var(--card-text-color-main);
+}
+    span.category-list-count {
+        color: var(--card-text-color-tertiary);
+
+
+        }
+    }
+}
+
+input::-webkit-input-placeholder{
+    color:#d9d9d9;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#d9d9d9;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#d9d9d9;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#d9d9d9;
+}
+
+.tagCloud .tagCloud-tags a{
+    padding: 8px 16px;
+}
+
+@media (min-width:1024px) {
+    .left-sidebar {
+        padding-left: 15px;
+    }
+}
+
+.subsection-list .article-list--tile article{
+    width: 150px;
+    height: 50px;
+}
+
+.article-list--tile article .article-details {
+    justify-content: center;
+}
+
+.article-list--tile article .article-title{
+    font-weight: 700;
+}
+
+.search-form input{
+    padding-top: 20px;
+}
+
+@media (min-width: 768px){
+    .menu li{
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 768px){
+    #dark-mode-toggle{
+        padding-left: 0;
+    }
+}
+
+
+a:hover{
+    opacity: 0.8;
+}
+
+.right-sidebar.sticky{
+    margin-right: 15px;
+}
+
+.article-time svg{
+    margin-right: 3px;
+}
+
+.right-sidebar {
+    max-height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.article-page.has-toc .left-sidebar{
+    display: block;
+}
+// .widget {
+//     max-height: 100vh;
+//     overflow-y: auto;
+//     scrollbar-width: none;
+//     -ms-overflow-style: none;
+
+//     &::-webkit-scrollbar {
+//         display: none;
+//     }
+// }
+
+
+.main-article .toc{
+    padding: var(--card-padding);
+    padding-bottom: 0px;
+}
+
+.main-article .widget--toc{
+    margin-left: calc((var(--card-padding)) * -1);
+    margin-right: calc((var(--card-padding)) * -1);
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fafafa;
+}
+
+.main-article .toc h2:hover{
+    cursor: pointer;
+}
+@media (min-width: 1280px){
+    .main-article .toc{
+        display: none;
+    }
+}
+
+.article-content pre{
+    background-color: #fafafa;
+    color: #3d3d3d;
+}
+
+.article-title a{
+    transition: all 0.3s;
+}
+.article-title a:hover{
+    color: var(--accent-color-darker)
+}
+
+.article-list article:not(:last-of-type){
+    margin-bottom: 25px;
+}
+
+::selection{
+    background-color:#aacfd0;
+    color: #fff;
+}
