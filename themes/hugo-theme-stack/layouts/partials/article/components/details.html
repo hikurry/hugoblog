@@ -9,16 +9,16 @@
     </header>
     {{ end }}
 
-    <h2 class="article-title">
+    <h1 class="article-title">
         <a href="{{ .RelPermalink }}">
             {{- .Title -}}
         </a>
-    </h2>
+    </h1>
 
     {{ with .Params.description }}
-    <h3 class="article-subtitle">
+    <p class="article-subtitle">
         {{ . }}
-    </h3>
+    </p>
     {{ end }}
 
     {{ if or (not .Date.IsZero) (.Site.Params.article.readingTime) }}

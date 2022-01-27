@@ -1,0 +1,7 @@
+{{ if (.Scratch.Get "hasTOC") }}
+<section class="widget toc">
+  <h2 class="widget-title section-title">{{ T "article.tableOfContents" }}</h2>
+
+  <div class="widget--toc">{{ .TableOfContents }}</div>
+</section>
+{{ end }}

@@ -1,0 +1,11 @@
+{{ if (.Scratch.Get "hasTOC") }}
+<section class="widget toc">
+<h2
+  class="widget-title section-title"
+  onclick="document.all.collapse.style.display=(document.all.collapse.style.display =='none')?'':'none'"
+>
+  {{ T "article.tableOfContents" }}
+</h2>
+<div class="widget--toc" id="collapse" style="display: none">{{ .TableOfContents }}</div>
+</section>
+{{ end }}

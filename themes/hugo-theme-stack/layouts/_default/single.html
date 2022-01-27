@@ -13,6 +13,7 @@
 {{ end }}
 
 {{ define "main" }}
+    
     {{ partial "article/article.html" . }}
 
     {{ if .Params.links }}
@@ -26,12 +27,27 @@
     {{ end }}
 
     {{ partialCached "footer/footer" . }}
+    {{ partial "helper/external" (dict "Context" . "Namespace" "BigPicture") }}
+    <script>
+        window.addEventListener('load', function() {
+            var imageLinks = document.querySelectorAll('figure a')
+				for (var i = 0; i < imageLinks.length; i++) {
+					imageLinks[i].addEventListener('click', function(e) {
+						e.preventDefault()
+						BigPicture({
+							el: e.target,
+							gallery: 'figure',
+                            loop: true
+						})
+					})
+				}
+        });
+    </script>
 
-    {{ partialCached "article/components/photoswipe" . }}
 {{ end }}
 
 {{ define "left-sidebar" }}
-    {{ if (.Scratch.Get "hasTOC") }}
+     {{ if (.Scratch.Get "hasTOC") }}
         <div id="article-toolbar">
             <a href="{{ .Site.BaseURL | relLangURL }}" class="back-home">
                 {{ (resources.Get "icons/back.svg").Content | safeHTML }}
@@ -40,11 +56,12 @@
         </div>
     {{ else }}
         {{ partial "sidebar/left.html" . }}
-    {{ end }}
+    {{ end }} 
+    
 {{ end }}
 
 {{ define "right-sidebar" }}
-    {{ if (.Scratch.Get "hasTOC") }}
+    <!-- {{ if (.Scratch.Get "hasTOC") }}
         <aside class="sidebar right-sidebar sticky">
             <section class="widget archives">
                 <div class="widget-icon">
@@ -57,5 +74,8 @@
                 </div>
             </section>
         </aside>
-    {{ end }}
+    {{ else }}
+        {{ partial "sidebar/right.html" . }}
+    {{ end }} -->
+    {{ partial "sidebar/right.html" . }}
 {{ end }}

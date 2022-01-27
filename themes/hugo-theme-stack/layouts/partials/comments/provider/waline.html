@@ -1,6 +1,14 @@
 <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
 <div id="waline" class="waline-container"></div>
 <style>
+    :root{
+        --waline-theme-color:var(--accent-color);
+        --waline-active-color:#808080;
+    }
+    .v[data-class=v] .vheader{
+        border-bottom-style:solid;
+        border-bottom-width: 1px;
+    }
     .waline-container {
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
@@ -9,6 +17,12 @@
     }
     .waline-container .vcount {
         color: var(--card-text-color-main);
+    }
+    .v[data-class=v] .vcount{
+        font-size: 1.7rem;
+    }
+    .v[data-class=v] .vempty{
+        display: none;
     }
 </style>
 
