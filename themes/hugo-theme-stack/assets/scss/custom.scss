@@ -1,22 +1,33 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
-.article-subtitle {
+.read-more{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.article-subtitle,
+.article-summary p {
     font-size: 1.6rem;
     line-height: 1.85;
 }
 .article-title{
     font-size: 2.1rem;
 }
-.article-content h2{
+.article-content h2,
+.article-summary h2{
     font-size: 2rem;
 }
-.article-content h3{
+.article-content h3,
+.article-summary h3{
     font-size: 1.8rem;
 }
-.article-content h4{
+.article-content h4,
+.article-summary h4{
     font-size: 1.7rem;
 }
 .article-content h5,
-.article-content h6{
+.article-content h6,
+.article-summary h5,
+.article-summary h6{
     font-size: 1.6rem;
 }
 :root{
@@ -142,9 +153,7 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 }
 
 
-a:hover{
-    opacity: 0.8;
-}
+
 
 .right-sidebar.sticky{
     margin-right: 15px;
@@ -180,11 +189,13 @@ a:hover{
 // }
 
 
-.main-article .toc{
+.article-toc{
     padding: var(--card-padding);
     padding-bottom: 0px;
 }
-
+.article-list .article-details{
+    padding-bottom: 0;
+}
 .main-article .widget--toc{
     margin-left: calc((var(--card-padding)) * -1);
     margin-right: calc((var(--card-padding)) * -1);
@@ -193,11 +204,12 @@ a:hover{
     background-color: #fafafa;
 }
 
-.main-article .toc h2:hover{
+.article-toc h2:hover{
     cursor: pointer;
+    opacity: 0.8;
 }
 @media (min-width: 1280px){
-    .main-article .toc{
+    .article-toc{
         display: none;
     }
 }
@@ -207,7 +219,9 @@ a:hover{
     color: #3d3d3d;
 }
 
-.article-title a{
+.article-title a,
+.read-more a,
+.widget--toc a{
     transition: all 0.3s;
 }
 .article-title a:hover{
@@ -221,4 +235,10 @@ a:hover{
 ::selection{
     background-color:#aacfd0;
     color: #fff;
+}
+
+.widget--toc #TableOfContents li {
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
