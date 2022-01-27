@@ -51,13 +51,17 @@ widget:
     tagCloud:
         title:
             other: Tags
+    
+    categoriesCloud:
+        title:
+            other: Categories
 
 search:
     title:
         other: Search
 
     placeholder:
-        other: Type something...
+        other: Search
 
     resultTitle:
         other: "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
