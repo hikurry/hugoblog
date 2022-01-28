@@ -196,13 +196,13 @@ menu:
             
         - identifier: rss
           name: RSS
-          url: https://joyscyberspace.github.io/index.xml
+          url: https://joysblog.vercel.app/index.xml
           params:
             icon: rss
 
         - identifier: subsription
           name: Subsription
-          url: https://follow.it/arwfsr?action=followPub
+          url: https://follow.it/example-site?action=followPub
           params:
             icon: subscription
 
