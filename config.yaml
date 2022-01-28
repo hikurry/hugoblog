@@ -1,4 +1,4 @@
-baseurl: https://joysblog.pages.dev/
+baseurl: https://joysblog.vercel.app/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
