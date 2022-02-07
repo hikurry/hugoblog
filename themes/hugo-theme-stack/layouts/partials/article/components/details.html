@@ -6,6 +6,7 @@
                 {{ .LinkTitle }}
             </a>
         {{ end }}
+
     </header>
     {{ end }}
 
@@ -14,12 +15,12 @@
             {{- .Title -}}
         </a>
     </h1>
-
     {{ with .Params.description }}
     <p class="article-subtitle">
         {{ . }}
     </p>
     {{ end }}
+    
 
     {{ if or (not .Date.IsZero) (.Site.Params.article.readingTime) }}
     <footer class="article-time">
@@ -41,6 +42,5 @@
             </div>
         {{ end }}
     </footer>
-
     {{ end }}
 </div>

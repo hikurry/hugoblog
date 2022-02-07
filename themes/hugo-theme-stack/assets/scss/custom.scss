@@ -242,3 +242,31 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.article-tags a::before{
+    content: "#"
+}
+
+.article-tags a{
+    transition: all 0.3s;
+    border-radius: 999em;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #aacfd0;
+}
+
+.article-tags a:hover{
+    color:#fff;
+    opacity: 0.8;
+}
+
+.article-category{
+    display: flex;
+    margin-bottom: 10px;
+
+    a{
+        margin-right: 10px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+}
