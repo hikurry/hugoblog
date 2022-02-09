@@ -47,13 +47,20 @@
 .main-container {
   column-gap: 0;
 }
-
+@media (min-width:768px) {
+  .left-sidebar{
+  margin-right: 25px;
+  }
+}
+@media (min-width:1024px){
+  .left-sidebar{
+    margin-right: 40px;
+  }
+}
 .right-sidebar{
   margin-left: 40px;
 }
-.left-sidebar{
-  margin-right:40px;
-}
+
 #article-toolbar{
   margin-right: 40px;
 }
