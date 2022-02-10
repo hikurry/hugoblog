@@ -281,17 +281,6 @@
         margin: 1.5em 0;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin-left: calc((var(--card-padding)) * -1);
-        padding-left: calc(var(--card-padding) - var(--heading-border-size));
-        border-left: var(--heading-border-size) solid var(--accent-color);
-    }
-
     figure {
         text-align: center;
 
@@ -415,18 +404,7 @@
     }
 
     /// Negative margins
-    blockquote,
-    figure,
-    pre,
-    .gallery,
-    .video-wrapper,
-    .table-wrapper,
-    .s_video_simple {
-        margin-left: calc((var(--card-padding)) * -1);
-        margin-right: calc((var(--card-padding)) * -1);
-        width: calc(100% + var(--card-padding) * 2);
-    }
-
+    
     .highlight {
         position: relative;
 
