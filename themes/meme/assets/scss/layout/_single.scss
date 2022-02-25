@@ -2,25 +2,23 @@
     width: $postWidth;
 }
 
-.post-title {
-    text-align: center;
+.post-title{
+    margin-bottom: 0;
 }
 
 .post-subtitle {
     font-size: 1.8em;
-    text-align: center;
     font-weight: 700;
     margin-top: -0.618em;
 }
 
 .post-description {
-    text-align: center;
     margin: 1rem 0;
     font-size: 90%;
 }
 
 .post-body {
-    margin-top: 5em !important;
+    margin-top: 2em !important;
     a {
         text-decoration: underline;
         text-decoration-color: var(--color-contrast-low);
@@ -102,7 +100,6 @@ blockquote {
 }
 
 .contents {
-    margin-top: 5em;
     ol, ul {
         list-style: none;
     }

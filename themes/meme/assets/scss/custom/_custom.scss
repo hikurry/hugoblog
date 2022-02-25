@@ -1,0 +1,25 @@
+.menu-item svg,
+.footer-icon {
+  display: none;
+}
+
+.post-title a {
+  position: relative;
+}
+
+.post-title a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  background: var(--color-primary);
+  transition: all 0.3s ease-in-out;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 50% 0;
+}
+
+.post-title a:hover::after {
+  transform: scale3d(1, 1, 1);
+}

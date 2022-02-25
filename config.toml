@@ -197,7 +197,7 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         pageref = "/posts/"
-        name = "文章"
+        name = "归档"
         weight = 2
         pre = "internal"
         post = "archive"
@@ -222,9 +222,9 @@ uglyURLs = false
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
-    [[menu.main]]
-        weight = 7
-        identifier = "lang-switcher"
+    # [[menu.main]]
+    #    weight = 7
+    #    identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
     #     identifier = "search"
@@ -431,7 +431,7 @@ uglyURLs = false
     groupByMonth = true
 
     # 是否开启十二生肖
-    chineseZodiac = true
+    chineseZodiac = false
 
     # 是否翻译年份（仅对年份标题有效）
     i18nYear = true
@@ -725,7 +725,7 @@ uglyURLs = false
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = 36
+    postWidth = ""
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -766,12 +766,12 @@ uglyURLs = false
     publishedDateIcon = "calendar-alt"
 
     # 是否显示修改时间
-    displayModifiedDate = true
+    displayModifiedDate = false
     # 修改时间的图标
     modifiedDateIcon = "calendar-check"
 
     # 是否显示过期时间
-    displayExpiredDate = true
+    displayExpiredDate = false
     # 过期时间的图标
     expiredDateIcon = "calendar-times"
 
@@ -783,12 +783,12 @@ uglyURLs = false
     categoryDelimiter = "/"
 
     # 是否显示字数统计
-    displayWordCount = true
+    displayWordCount = false
     # 字数统计的图标
     wordCountIcon = "pencil-alt"
 
     # 是否显示阅读时长
-    displayReadingTime = true
+    displayReadingTime = false
     # 阅读时长的图标
     readingTimeIcon = "clock"
 
@@ -1057,7 +1057,7 @@ uglyURLs = false
     # 文章版权
 
     # 是否开启
-    enablePostCopyright = true
+    enablePostCopyright = false
 
     # 是否显示（全局设置）
     displayPostCopyright = true
@@ -1072,7 +1072,7 @@ uglyURLs = false
     enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false
     # 说明：文章的 Front Matter 中的 `badge`
     #      的优先级高于此处
 
@@ -1130,7 +1130,7 @@ uglyURLs = false
     enablePostShare = true
 
     # 是否显示（全局设置）
-    displayPostShare = true
+    displayPostShare = false
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
@@ -1250,7 +1250,7 @@ uglyURLs = false
     # 图标颜色
     iconColor = "#f06292"
     # 是否开启图标的跳动效果
-    iconAnimation = true
+    iconAnimation = false
 
     # 是否显示 Hugo 和 MemE 的链接
     displayPoweredBy = true
@@ -1271,7 +1271,7 @@ uglyURLs = false
     #      https://busuanzi.ibruce.info/
 
     # 社交链接
-    enableSocials = true
+    enableSocials = false
     # 说明：见 data/Socials.toml
 
 
@@ -1382,7 +1382,6 @@ uglyURLs = false
     algoliaApiKey = ""
     algoliaIndexName = ""
     # 说明：https://www.algolia.com/
-
 
     ######################################
     # 404 页面
