@@ -602,7 +602,7 @@ uglyURLs = false
     walineHighlight = true
     walineAvatarCDN = "https://cdn.v2ex.com/gravatar/"
     walineRequiredFields = ["nick", "mail"]
-    walineDark = auto
+    walineDark = html[data-theme="dark"]
     # 说明：https://waline.js.org/
 
 
