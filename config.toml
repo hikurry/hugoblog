@@ -1158,7 +1158,7 @@ uglyURLs = false
     enablePostTags = true
 
     # 标签的图标
-    postTagsIcon = "tag"
+    postTagsIcon = ""
 
 
     ######################################

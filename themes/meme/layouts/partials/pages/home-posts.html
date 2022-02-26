@@ -9,6 +9,7 @@
                 {{ if $.Site.Params.enablePostMetaInHome }}
                     {{ partial "components/post-meta.html" (dict "$" . "isHome" true) }}
                 {{ end }}
+                {{ partial "components/post-tags.html" . }}
                 <summary class="summary p-summary">
                     {{ partial "utils/summary.html" . }}
                 </summary>

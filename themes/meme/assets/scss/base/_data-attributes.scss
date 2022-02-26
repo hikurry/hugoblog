@@ -65,7 +65,7 @@
 }
 
 [data-toc-num="true"] {
-    .contents {
+    .contents details {
         ol {
             counter-reset: item;
             li {
@@ -77,13 +77,13 @@
         }
     }
     // First level
-    .contents > ol > li {
+    .contents details > ol > li {
         &::before {
             content: counters(item, ".") ".";
         }
     }
     // Sub level
-    .contents li > ol > li {
+    .contents details li > ol > li {
         &::before {
             content: counters(item, ".");
         }

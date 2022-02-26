@@ -25,3 +25,17 @@
   transform: scale3d(1, 1, 1);
 }
 
+/* toc */
+.contents-title:hover{
+  cursor: pointer;
+}
+h2#contents{
+  display: inline;
+}
+.contents{
+  margin: 1.618em 0 1em;
+}
+
+summary.toc{
+  margin-bottom: 1em;
+}

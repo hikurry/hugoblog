@@ -1,7 +1,8 @@
 .post-meta {
     color: var(--color-contrast-medium);
-    font-size: 80%;
+    font-size: 90%;
     margin: 0.5rem 0;
+    text-align: center;
     a {
         color: var(--color-contrast-medium);
         &:hover {
@@ -11,11 +12,14 @@
 }
 
 .post-meta-item {
-    margin: 0.5em;
     display: inline-block;
 }
 
 .post-meta-icon {
     fill: alpha(var(--color-contrast-medium), 0.5);
     margin-bottom: 0.3em;
+}
+
+.home .post-meta{
+    text-align: start;
 }

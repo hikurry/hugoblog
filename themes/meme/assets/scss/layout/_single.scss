@@ -2,19 +2,26 @@
     width: $postWidth;
 }
 
+.home .post-title{
+    text-align: start;
+}
+
 .post-title{
     margin-bottom: 0;
+    text-align: center;
 }
 
 .post-subtitle {
     font-size: 1.8em;
     font-weight: 700;
     margin-top: -0.618em;
+    text-align: center
 }
 
 .post-description {
     margin: 1rem 0;
     font-size: 90%;
+    text-align: center
 }
 
 .post-body {
