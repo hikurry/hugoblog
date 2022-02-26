@@ -1,8 +1,9 @@
+/* 隐藏菜单栏图标 */ 
 .menu-item svg,
 .footer-icon {
   display: none;
 }
-
+/* 标题hover样式 */
 .post-title a {
   position: relative;
 }
@@ -24,3 +25,10 @@
   transform: scale3d(1, 1, 1);
 }
 
+/* 评论黑暗模式 */
+:root{
+  --waline-text-color:var(--color-contrast-high);
+  --waline-bgcolor:var(--color-bg);
+  --waline-theme-color:var(--color-primary);
+  --waline-active-color:var(--color-primary);
+}
