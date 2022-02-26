@@ -1,4 +1,4 @@
-/* 隐藏菜单栏图标 */ 
+/* 隐藏菜单栏图标 */
 .menu-item svg,
 .footer-icon {
   display: none;
@@ -26,9 +26,25 @@
 }
 
 /* 评论黑暗模式 */
-:root{
-  --waline-text-color:var(--color-contrast-high);
-  --waline-bgcolor:var(--color-bg);
-  --waline-theme-color:var(--color-primary);
-  --waline-active-color:var(--color-primary);
+.v[data-class="v"] .vpanel {
+  background: var(--color-bg);
+  border: var(--color-contrast-high);
+}
+.v[data-class="v"] .vheader label,
+.v[data-class="v"] .vaction,
+.v[data-class="v"] .vempty,
+.v[data-class="v"] .vbtn {
+  color: var(--color-contrast-high);
+}
+.v[data-class="v"] .vbtn.primary,
+.v[data-class="v"] .vaction:hover {
+  background: var(--color-primary);
+}
+
+.v[data-class="v"] .vbtn.primary:hover,
+.v[data-class="v"] .vbtn.primary:active,
+.v[data-class="v"] .vbtn:hover,
+.v[data-class="v"] .vbtn:active {
+  background: var(--color-primary);
+  opacity: 0.8;
 }
