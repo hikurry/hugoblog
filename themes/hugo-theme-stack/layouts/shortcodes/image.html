@@ -1,7 +1,0 @@
-{{- $width := .Get "width" | default "resize" -}}
-<figure>
-    <a href="{{ .Get `src` }}">
-        <img data-bp="{{ .Get `src` }}" data-caption="{{ .Get `title` }}" src="{{ .Get `src` }}" width="{{ $width }}" loading="lazy" alt="{{ .Get `title` }}">
-    </a>
-    <figcaption>{{ .Get `title` }}</figcaption>
-</figure>
