@@ -201,13 +201,17 @@ uglyURLs = false
         pre = "internal"
         post = "tags"
     [[menu.main]]
+        pageref = "/cat/"
+        name = "猫咪"
+        weight = 5
+    [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 5
+        weight = 6
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 6
+        weight = 7
         identifier = "theme-switcher"
     # [[menu.main]]
     #    weight = 7
@@ -216,6 +220,7 @@ uglyURLs = false
     #    weight = 8
     #    identifier = "search"
     #    post = "search"
+    
 
 ##########################################
 # 主题配置
@@ -701,7 +706,7 @@ uglyURLs = false
     # 文章设置
 
     # 超链接的颜色变化持续时间（单位：秒）
-    duration = 0.5
+    duration = 0.3
 
     # 浅色模式的主色
     primaryColorLight = "220, 90%, 56%"
