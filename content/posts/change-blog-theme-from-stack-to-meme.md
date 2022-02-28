@@ -1,5 +1,5 @@
 ---
-title: "从Stack到MemE，博客主题更换"
+title: "从 Stack 到 MemE，博客主题更换"
 date: 2022-02-28T10:02:45+08:00
 draft: false
 categories: [慢慢学习路]
