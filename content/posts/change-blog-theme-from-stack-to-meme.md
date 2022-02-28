@@ -1,5 +1,5 @@
 ---
-title: "从 Stack 到 MemE，博客主题更换"
+title: "博客主题更换，Stack to MemE"
 date: 2022-02-28T10:02:45+08:00
 draft: false
 categories: [慢慢学习路]
@@ -107,8 +107,8 @@ comments: false
  </div>
  <script>
  new Artitalk({
- appId: "wWT5iT028qSD44uUpqh0Du0T-MdYXbMMI", // Your LeanCloud appId
- appKey: "6gw95viRApAFsWX1WiboYuQT", // Your LeanCloud appKey
+ appId: "", // Your LeanCloud appId
+ appKey: "", // Your LeanCloud appKey
  pageSize: 10, // 每页说说数量
  color3: "var(--color-contrast-high)", // 文字颜色
  color1: "hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5)", //背景颜色1
