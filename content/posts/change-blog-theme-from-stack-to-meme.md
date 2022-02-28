@@ -6,7 +6,7 @@ categories: [慢慢学习路]
 tags: [HUGO, 花里胡哨]
 ---
 
-是的我换主题了，永远年轻，永远爱换皮肤。曾经的我嫌弃单栏过于简陋，现在的我觉得单栏才是最好看的，回归简洁，选择了[MemE](https://github.com/reuixiy/hugo-theme-meme)这个主题。在 MemE 主题之上又做了一些个性化的修改。
+是的我换主题了，永远年轻，永远爱换皮肤。曾经的我嫌弃单栏过于简陋，现在的我觉得单栏才是最好看的，回归简洁，选择了[ MemE ](https://github.com/reuixiy/hugo-theme-meme)这个主题。在 MemE 主题之上又做了一些个性化的修改。
 
 <!--more-->
 
@@ -40,7 +40,7 @@ function newWaline() {
 
 ## 配置说说功能
 
-效果看这里：[铲屎官日记](https://joysblog.vercel.app/cat/)
+效果看这里：[铲屎官日记](https://joysblog.vercel.app/cat/)。
 
 最开始是看到[哔哔点啥 :: 木木木木木](https://immmmm.com/bb/)这个页面，觉得非常适合用来发我的铲屎官日记，看了大佬的教程，显然——我没有看懂。原理清楚，看着简单，插入到自己的主题里又摸不着路子，学习 Hugo 模板语法的时间成本太多，再加上用微信公众号、捷径等发哔哔的方式其实我也不是很需要，于是只好放弃。
 
