@@ -39,3 +39,7 @@ h2#contents{
 summary.toc{
   margin-bottom: 1em;
 }
+
+:focus-visible {
+  outline: none;
+}
