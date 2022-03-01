@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}"{{ if and .Site.Params.enableDarkMode .Site.Params.overrideSystemPreferences }}{{ with .Site.Params.defaultTheme | default "light" }} data-theme="{{ . }}"{{ end }}{{ end }}>
-    {{ partial "head.html" . }}
-<body>
+{{ define "main" }}
   <!-- 引用 artitalk -->
   <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
   <!--container和主题结构保持一致-->
-  <div class="container">
-    {{ partial "header.html" . }}
-    {{ if ne .Site.Params.headerLayout "flex" }}
-        {{ if or (and .IsHome .Site.Params.displayMenuInHome) (and (not .IsHome) .Site.Params.enableMenu) }}
-            {{ partial "menu.html" . }}
-        {{ end }}
-        {{ partial "components/multilingual.html" . }}
-        {{ partial "components/dark-mode.html" . }}
-    {{ end }}
   <main class="main list" id="main">
     <div class="main-inner">
     <div class="content cat">
@@ -62,5 +50,4 @@
       color: var(--color-primary);
     }
   </style>
-</body>
-</html>
+{{ end }}

@@ -141,7 +141,7 @@ uglyURLs = false
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS", "JSON"]
     section = ["HTML"]
     taxonomy = ["HTML"]
     term = ["HTML"]
@@ -211,15 +211,17 @@ uglyURLs = false
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 7
+        weight = 8
         identifier = "theme-switcher"
     # [[menu.main]]
     #    weight = 7
     #    identifier = "lang-switcher"
-    #[[menu.main]]
-    #    weight = 8
-    #    identifier = "search"
-    #    post = "search"
+    [[menu.main]]
+        pageref = "/search/"
+        weight = 7
+        name = "搜索"
+        identifier = "search"
+        post = "search"
     
 
 ##########################################
