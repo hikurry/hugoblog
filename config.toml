@@ -1225,10 +1225,10 @@ uglyURLs = false
     enableFooter = false
 
     # 是否显示
-    displayFooter = true
+    displayFooter = false
 
     # 是否在首页显示
-    displayFooterInHome = true
+    displayFooterInHome = false
 
     displayCopyleftSymbol = false
     # 是否显示版权符号（©）
