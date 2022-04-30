@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">咖喱</title>
+    <subtitle type="html">An archive of my own.</subtitle>
+    <updated>2022-04-30T23:11:25&#43;08:00</updated>
+    <id>https://joysblog.vercel.app/</id>
+    <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://joysblog.vercel.app/atom.xml" />
+    <author>
+            <name>咖喱</name>
+            <uri>https://joysblog.vercel.app/</uri>
+            
+                <email>reuixiy@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.92.0">Hugo</generator>
+        <entry>
+            <title type="text">答案在风中飘荡</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/blowing-in-the-wind/" />
+            <id>https://joysblog.vercel.app/posts/blowing-in-the-wind/</id>
+            <updated>2022-04-30T23:09:50&#43;08:00</updated>
+            <published>2022-04-30T22:59:27&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;现在是 4 月 30 日，明天就是五一。大学生涯最后一个学期我仍旧在家里，因为疫情迟迟无法返校。此时此刻，不知为何，我的脑海中就一直在反复“答案在风中飘扬”这句话，伴随着的画面时而是外交部那张蓝色背景的发言图，时而是灰蒙蒙的、暗淡的混沌体。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">博客主题更换：Stack to MemE</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/change-blog-theme-from-stack-to-meme/" />
+            <id>https://joysblog.vercel.app/posts/change-blog-theme-from-stack-to-meme/</id>
+            <updated>2022-02-28T20:18:25&#43;08:00</updated>
+            <published>2022-02-28T10:02:45&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;是的我换主题了，永远年轻，永远爱换皮肤。曾经的我嫌弃单栏过于简陋，现在的我觉得单栏才是最好看的，回归简洁，选择了&lt;a href=&#34;https://github.com/reuixiy/hugo-theme-meme&#34;&gt; MemE &lt;/a&gt;这个主题。在 MemE 主题之上又做了一些个性化的修改。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%85%A2%E6%85%A2%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="慢慢学习路" label="慢慢学习路" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/hugo/" term="HUGO" label="HUGO" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" term="花里胡哨" label="花里胡哨" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">铲屎官初体验</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/my-first-experience-as-a-catkeeper/" />
+            <id>https://joysblog.vercel.app/posts/my-first-experience-as-a-catkeeper/</id>
+            <updated>2022-02-25T12:54:38&#43;08:00</updated>
+            <published>2022-02-10T09:32:30&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;老姑突然说要养猫咪，在我反复确认她能够接受猫咪掉毛、抓沙发、需要铲屎等问题之后，没想到还能坚持。最后老姑朋友那里送了一只小狸花猫来家里，三个月大，头顶上有一些橘毛，活泼好动，特别能吃，也很黏人，冬日里的贴心暖手宝。老姑说要叫保时捷，我嫌弃不好听，但是她坚持，所以猫咪的名字就这么定下了。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E7%8C%AB%E5%92%AA%E6%9C%80%E9%87%8D%E8%A6%81/" term="猫咪最重要" label="猫咪最重要" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E5%B0%8F%E7%8C%AB%E5%8F%A8%E5%8F%A8/" term="小猫叨叨" label="小猫叨叨" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">坎坷的博客装修之路</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/rough-road-to-customize-my-blog/" />
+            <id>https://joysblog.vercel.app/posts/rough-road-to-customize-my-blog/</id>
+            <updated>2022-04-30T23:04:33&#43;08:00</updated>
+            <published>2022-01-24T12:39:19&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;磕磕绊绊地搭建好了博客，也进行了一翻装修。大部分都是站在前人的肩膀上进行调整，重复的部分就不赘述了，主要记录自己个性化和饶了点弯路的地方。主要参考的博文如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/126298572&#34;&gt;如何用 hugo 搭建博客&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://bore.vip/archives/hugo-theme-stack/&#34;&gt;Hugo Stack 主题配置与使用&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://mantyke.icu/2021/f9f0ec87/&#34;&gt;Hugo | 看中 Stack 主题的归档功能，搬家并做修改&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bigs3.com/article/modify-hugo-theme-stack-one/&#34;&gt;Hugo Stack 主題修改記錄 (瘦身篇)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bigs3.com/article/modify-hugo-theme-stack-lightbox/&#34;&gt;Hugo Stack 主題修改記錄 (添加 BigPicture 燈箱)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%85%A2%E6%85%A2%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="慢慢学习路" label="慢慢学习路" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/hugo/" term="HUGO" label="HUGO" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" term="花里胡哨" label="花里胡哨" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">2021年度总结</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/2021-personal-summary/" />
+            <id>https://joysblog.vercel.app/posts/2021-personal-summary/</id>
+            <updated>2022-02-28T16:55:04&#43;08:00</updated>
+            <published>2022-01-03T13:50:32&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;感觉这一年过得真快，上半年还对未来充满不安，现在都已经尘埃落定。没有什么总结，更多是流水账，想到什么写什么。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E6%80%BB%E7%BB%93/" term="总结" label="总结" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

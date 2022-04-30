@@ -8,15 +8,15 @@ tags: [HUGO, 花里胡哨]
 
 磕磕绊绊地搭建好了博客，也进行了一翻装修。大部分都是站在前人的肩膀上进行调整，重复的部分就不赘述了，主要记录自己个性化和饶了点弯路的地方。主要参考的博文如下：
 
-* [如何用hugo 搭建博客](https://zhuanlan.zhihu.com/p/126298572)
+* [如何用 hugo 搭建博客](https://zhuanlan.zhihu.com/p/126298572)
 
-* [Hugo Stack主题配置与使用](https://bore.vip/archives/hugo-theme-stack/) 
+* [Hugo Stack 主题配置与使用](https://bore.vip/archives/hugo-theme-stack/) 
 
 * [Hugo | 看中 Stack 主题的归档功能，搬家并做修改](https://mantyke.icu/2021/f9f0ec87/)
 
-* [Hugo Stack主題修改記錄 (瘦身篇)](https://www.bigs3.com/article/modify-hugo-theme-stack-one/)
+* [Hugo Stack 主題修改記錄 (瘦身篇)](https://www.bigs3.com/article/modify-hugo-theme-stack-one/)
 
-* [Hugo Stack主題修改記錄 (添加BigPicture燈箱)](https://www.bigs3.com/article/modify-hugo-theme-stack-lightbox/)
+* [Hugo Stack 主題修改記錄 (添加 BigPicture 燈箱)](https://www.bigs3.com/article/modify-hugo-theme-stack-lightbox/)
 
 <!--more-->
 
