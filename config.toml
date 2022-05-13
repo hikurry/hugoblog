@@ -194,12 +194,12 @@ uglyURLs = false
         weight = 3
         pre = "internal"
         post = "th"
-    [[menu.main]]
-        pageref = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "internal"
-        post = "tags"
+    #[[menu.main]]
+    #   pageref = "/tags/"
+    #    name = "标签"
+    #    weight = 4
+    #    pre = "internal"
+    #    post = "tags"
     [[menu.main]]
         pageref = "/cat/"
         name = "猫咪"
@@ -395,9 +395,9 @@ uglyURLs = false
     # 字号单位
     fontUnit = "em"
     # 最大字号
-    largestFontSize = 2.5
+    largestFontSize = 1.5
     # 最小字号
-    smallestFontSize = 1
+    smallestFontSize = 0.5
 
 
     ######################################
