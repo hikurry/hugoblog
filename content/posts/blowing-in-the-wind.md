@@ -4,7 +4,7 @@ date: 2022-04-30T22:59:27+08:00
 categories: [生活]
 ---
 
-现在是 4 月 30 日，明天就是五一。大学生涯最后一个学期我仍旧在家里，因为疫情迟迟无法返校。此时此刻，不知为何，我的脑海中就一直在反复“答案在风中飘扬”这句话，伴随着的画面时而是外交部那张蓝色背景的发言图，时而是灰蒙蒙的、暗淡的混沌体。
+现在是 4 月 30 日，明天就是五一。大学本科生涯最后一个学期我仍旧在家里，因为疫情迟迟无法返校。此时此刻，不知为何，我的脑海中就一直在反复“答案在风中飘扬”这句话，伴随着的画面时而是外交部那张蓝色背景的发言图，时而是灰蒙蒙的、暗淡的混沌体。
 
 <!--more-->
 
@@ -18,12 +18,12 @@ categories: [生活]
 
 上海的情况每天源源不断地传来，“四月之声”变成沉默的禁言；北京疫情又有抬头之势，返校遥遥无期；朋友圈里同学打着官腔说着要给国家更多探索的时间，我只觉得烦躁和愤怒，同时也很无力。
 
->*How many ears must one man have*
+> _How many ears must one man have_
 >
->*Before he can hear people cry*
+> _Before he can hear people cry_
 >
->*How many deaths will it take*
+> _How many deaths will it take_
 >
->*Till he knows that too many people have died*
+> _Till he knows that too many people have died_
 
 鲍勃迪伦说答案在风中飘荡，可是这里是一个只要想就可以让风消失的地方。

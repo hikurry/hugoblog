@@ -397,7 +397,7 @@ uglyURLs = false
     # 最大字号
     largestFontSize = 1.5
     # 最小字号
-    smallestFontSize = 0.5
+    smallestFontSize = 1
 
 
     ######################################
