@@ -10,14 +10,10 @@
   .header-wrapper {
     padding: 1em 0;
     @include blur;
-    background: hsla(
-        var(--color-bg-h),
-        var(--color-bg-s),
-        var(--color-bg-l),
-        0.8
-      )
-    linear-gradient(90deg, rgba(247,149,51,0.101961) 0, rgba(243,112,85,0.101961) 15%, rgba(239,78,123,0.101961) 30%, rgba(161,102,171,0.101961) 44%, rgba(80,115,184,0.101961) 58%, rgba(16,152,173,0.101961) 72%, rgba(7,179,155,0.101961) 86%, rgba(109,186,130,0.101961) 100%);
+    background: var(--color-bg);
     transition: background $duration;
+    border: 1px solid;
+    border-color: hsla(var(--color-contrast-medium-h), var(--color-contrast-medium-s), var(--color-contrast-medium-l), 0.2);;
   }
   .header-inner {
     display: flex;
