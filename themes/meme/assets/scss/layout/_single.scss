@@ -69,11 +69,13 @@
     hr {
         border: none;
         margin: 2.427em 0 1.5em;
+        font-family: 'Noto Serif SC';
         text-align: center;
         &::after {
-            content: "···";
-            letter-spacing: 2em;
-            padding-left: 2em;
+            content: "* * *";
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            color: rgba(0, 0, 0, 0.2);
         }
     }
 }

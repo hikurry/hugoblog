@@ -3,9 +3,9 @@
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
         {{ range $paginator.Pages }}
             <article class="content post home h-entry">
-                <h2 class="post-title p-name">
+                <h1 class="post-title p-name">
                     <a href="{{ .RelPermalink }}" class="summary-title-link u-url">{{ (partial "utils/title.html" (dict "$" . "title" .LinkTitle)).htmlTitle }}</a>
-                </h2>
+                </h1>
                 {{ if $.Site.Params.enablePostMetaInHome }}
                     {{ partial "components/post-meta.html" (dict "$" . "isHome" true) }}
                 {{ end }}
