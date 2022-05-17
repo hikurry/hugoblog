@@ -2,7 +2,7 @@
 title: "博客主题更换：Stack to MemE"
 date: 2022-02-28T10:02:45+08:00
 draft: false
-categories: [慢慢学习路]
+categories: [漫漫学习路]
 tags: [HUGO, 花里胡哨]
 ---
 
@@ -148,6 +148,7 @@ comments: false
 ## 折叠目录
 
 用`<details><summary></summary></details>`标签，添加在`layouts/partials/utils/toc.html` :
+
 ```HTML
 <!-- Inject TOC Title -->
 {{- if .Site.Params.displayTOCTitle -}}

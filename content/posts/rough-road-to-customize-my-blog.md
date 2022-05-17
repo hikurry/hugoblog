@@ -2,21 +2,21 @@
 title: "坎坷的博客装修之路"
 date: 2022-01-24T12:39:19+08:00
 draft: false
-categories: [慢慢学习路]
+categories: [漫漫学习路]
 tags: [HUGO, 花里胡哨]
 ---
 
 磕磕绊绊地搭建好了博客，也进行了一翻装修。大部分都是站在前人的肩膀上进行调整，重复的部分就不赘述了，主要记录自己个性化和饶了点弯路的地方。主要参考的博文如下：
 
-* [如何用 hugo 搭建博客](https://zhuanlan.zhihu.com/p/126298572)
+- [如何用 hugo 搭建博客](https://zhuanlan.zhihu.com/p/126298572)
 
-* [Hugo Stack 主题配置与使用](https://bore.vip/archives/hugo-theme-stack/) 
+- [Hugo Stack 主题配置与使用](https://bore.vip/archives/hugo-theme-stack/)
 
-* [Hugo | 看中 Stack 主题的归档功能，搬家并做修改](https://mantyke.icu/2021/f9f0ec87/)
+- [Hugo | 看中 Stack 主题的归档功能，搬家并做修改](https://mantyke.icu/2021/f9f0ec87/)
 
-* [Hugo Stack 主題修改記錄 (瘦身篇)](https://www.bigs3.com/article/modify-hugo-theme-stack-one/)
+- [Hugo Stack 主題修改記錄 (瘦身篇)](https://www.bigs3.com/article/modify-hugo-theme-stack-one/)
 
-* [Hugo Stack 主題修改記錄 (添加 BigPicture 燈箱)](https://www.bigs3.com/article/modify-hugo-theme-stack-lightbox/)
+- [Hugo Stack 主題修改記錄 (添加 BigPicture 燈箱)](https://www.bigs3.com/article/modify-hugo-theme-stack-lightbox/)
 
 <!--more-->
 
@@ -255,21 +255,21 @@ apple-touch-icon 支持 size 属性，可以对应不同的设备，例如手机
 
 ## 首页文章“阅读更多”取代 description
 
-比起每次都要写 description 我更喜欢采用“阅读更多”的方式，看了一下 Hugo 自身也支持“阅读更多”，通过使用`.Summary`page变量，生成内容摘要。默认摘要是文章内容的前70个单词（字数可以在配置文件中修改），也可以通过在文章中添加`<!--more-->`手动拆分。需要注意的地方是要识别中文字数需要在配置文件中将`hasCJKLanguage`设置成`true`。而且似乎自动识别的摘要是不带格式的（？ 总之我更倾向于手动拆分。
+比起每次都要写 description 我更喜欢采用“阅读更多”的方式，看了一下 Hugo 自身也支持“阅读更多”，通过使用`.Summary`page 变量，生成内容摘要。默认摘要是文章内容的前 70 个单词（字数可以在配置文件中修改），也可以通过在文章中添加`<!--more-->`手动拆分。需要注意的地方是要识别中文字数需要在配置文件中将`hasCJKLanguage`设置成`true`。而且似乎自动识别的摘要是不带格式的（？ 总之我更倾向于手动拆分。
 
 更具体地请见[官方文档](https://gohugo.io/content-management/summaries/)。
 
-在stack主题中添加readmore的位置我找了半天（意外收获就是把主题结构给摸得差不多清楚了），最终加在了`layouts/partials/article-list/default.html`中：
+在 stack 主题中添加 readmore 的位置我找了半天（意外收获就是把主题结构给摸得差不多清楚了），最终加在了`layouts/partials/article-list/default.html`中：
+
 ```html
 {{ partial "article/components/header" . }}
-    <!--在此处添加以下代码-->
-    <div class="article-content">
-        {{ .Summary }}
-        {{ if .Truncated }}
-        <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-        <div class="read-more">
-          <a href="{{ .RelPermalink }}">» READ MORE</a>
-        </div>
-      </div>
-        {{ end }}
+<!--在此处添加以下代码-->
+<div class="article-content">
+  {{ .Summary }} {{ if .Truncated }}
+  <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+  <div class="read-more">
+    <a href="{{ .RelPermalink }}">» READ MORE</a>
+  </div>
+</div>
+{{ end }}
 ```
