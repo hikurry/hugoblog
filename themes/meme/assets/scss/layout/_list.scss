@@ -39,10 +39,8 @@
     line-height: 2;
     position: relative;
     transition: border $duration;
-    border-bottom: 1px dashed var(--color-contrast-low);
-    margin-top: 1em;
     padding-bottom: 0.5em;
-    display: flex;
+    display: block;
     align-items: baseline;
     &:hover {
         border-bottom-color: var(--color-primary);
@@ -50,29 +48,19 @@
             background: var(--color-primary);
         }
     }
-    ::before {
-        content: " ";
-        position: absolute;
-        left: 0.618em;
-        top: 0.618em;
-        width: $fontSize / 3;
-        height: $fontSize / 3;
-        background: var(--color-contrast-low);
-        border-radius: 50%;
-        border: 1px solid var(--color-bg);
-        transition: background $duration;
-        font-size: 1rem;
-    }
+    
 }
 .list-item-title {
-    margin: 0 0.618em 0 2em;
-    font-size: 1.2em;
+    margin: 0 0.618em;
+    font-size: 1em;
     line-height: 1.5;
+    display: block;
 }
 .list-item-time {
-    margin: 0 0.618em 0 2em;
+    margin: 0 1.5em;
     color: var(--color-contrast-medium);
     line-height: 1.5;
+    font-size: 10px;
 }
 .list-read-more {
     margin-top: 1em;
