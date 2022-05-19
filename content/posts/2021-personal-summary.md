@@ -2,7 +2,7 @@
 title: "2021年度总结"
 date: 2022-01-03T13:50:32+08:00
 draft: false
-categories: [生活]
+categories: [总是要活着]
 tags: [总结]
 ---
 
