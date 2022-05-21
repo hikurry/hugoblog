@@ -47,12 +47,7 @@
                         {{ $pages := .Pages }}
                         {{ $.Scratch.Set "pages" $pages }}
                     {{ end }}
-                    {{$scratch := newScratch}}
-                    {{ range (where .Site.Pages "Kind" "page" )}}
-                        {{$scratch.Add "total" .WordCount}}
-                    {{ end }}
-                    {{$totalWord := $scratch.Get "total" }}
-                    <p class="wordcount">共{{$totalWord}}个字</p>
+                    
                     <!-- Start List -->
                     {{ $pages := .Scratch.Get "pages" }}
                     {{ range $pages.GroupByDate "2006" }}
