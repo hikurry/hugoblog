@@ -42,7 +42,8 @@
     padding-bottom: 0.5em;
     display: block;
     align-items: baseline;
-    &:hover {
+    border-bottom: dashed 1px var(--color-contrast-low);
+    a:hover {
         border-bottom-color: var(--color-primary);
         ::before {
             background: var(--color-primary);
