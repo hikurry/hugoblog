@@ -74,10 +74,7 @@ comments: false
 3. 在`layouts/_default/`下新增`cat.html`, 作为说说的 HTML 页面，并修改样式。内容如下:
 
 ```HTML
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}"{{ if and .Site.Params.enableDarkMode .Site.Params.overrideSystemPreferences }}{{ with .Site.Params.defaultTheme | default "light" }} data-theme="{{ . }}"{{ end }}{{ end }}>
- {{ partial "head.html" . }}
-<body>
+{{ define "main" }}
  <!-- 引用 artitalk -->
  <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
  <!--container和主题结构保持一致-->
@@ -139,8 +136,7 @@ comments: false
  color: var(--color-primary);
  }
  </style>
-</body>
-</html>
+{{ end }}
 ```
 
 配置完成，顺利的话博客就拥有了说说页面啦。
