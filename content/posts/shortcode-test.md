@@ -129,7 +129,7 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 {{</* music auto="https://music.163.com/#/song?id=494645489" */>}}
 ```
 
-{{< music auto="https://music.163.com/#/song?id=494645489" >}}
+不知道为什么插入音乐之后中文目录无法转跳，就先不放在这里了，效果见 [About Me]({{< ref about.md >}})。
 
 ### Bilibili
 
