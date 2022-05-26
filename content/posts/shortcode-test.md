@@ -1,0 +1,169 @@
+---
+title: "短代码测试"
+date: 2022-05-26T13:47:59+08:00
+categories: [漫漫学习路]
+tags: [hugo]
+---
+
+捡捡补补，程序员的共享精神真伟大。
+
+<!--more-->
+
+## HUGO 内置短代码
+
+### Figure
+
+```markdown
+{{</* figure src="https://unsplash.it/1920/1080/?random=4" title="Unplash Random" */>}}
+```
+
+{{< figure src="https://unsplash.it/1920/1080/?random=4" title="Unplash Random" >}}
+
+我自定义了 `figcaption` 的样式。
+
+### Gist
+
+```markdonw
+{{</* gist spf13 7896402 */>}}
+```
+
+{{< gist spf13 7896402 >}}
+
+### 代码高亮
+
+```markdown
+{{</* highlight html */>}}
+
+<div class="shortcode">
+    <p>shortcode test</p>
+</div>
+{{</* /highlight */>}}
+```
+
+{{< highlight html >}}
+
+<div class="shortcode">
+    <p>shortcode test</p>
+</div>
+{{< /highlight >}}
+
+MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
+
+### Param
+
+```markdown
+{{</* param categories */>}}
+```
+
+{{< param categories >}}
+
+### Ref 和 Relref
+
+```markdown
+[2021 年度总结]({{</* ref 2021-personal-summary.md */>}})
+
+[2021 年度总结 | 阅读]({{</* relref "2021-personal-summary.md#阅读" */>}})
+```
+
+[2021 年度总结]({{< ref 2021-personal-summary.md >}})
+
+[2021 年度总结 | 阅读]({{< relref "2021-personal-summary.md#阅读" >}})
+
+### Tweet
+
+```markdown
+{{</* tweet 1469024461223776256 */>}}
+```
+
+{{< tweet 1469024461223776256 >}}
+
+### Vimeo
+
+```markdown
+{{</* vimeo 146022717 */>}}
+```
+
+{{< vimeo 146022717 >}}
+
+### Youtube
+
+```markdown
+{{</* youtube y5WZ2htfiZU */>}}
+```
+
+{{< youtube y5WZ2htfiZU >}}
+
+## 自定义短代码
+
+### 折叠
+
+用 `detials` 和 `summary` 时列表会失效，手打列表标签还挺麻烦的，用短代码替代。
+
+```markdown
+{{</* accordion "以 TXT 为圆心" */>}}
+
+- THE BOYZ 为半径
+- 中间忘记了
+- 召唤五代丝
+  {{</* /accordion */>}}
+```
+
+{{< accordion "以 TXT 为圆心">}}
+
+- THE BOYZ 为半径
+- 中间忘记了
+- 召唤五代丝
+  {{< /accordion >}}
+
+### 图片轮播
+
+```markdown
+{{</* carousel "https://unsplash.it/1920/1080/?random=1,https://unsplash.it/1920/1080/?random=2,https://unsplash.it/1920/1080/?random=3" */>}}
+```
+
+{{< carousel "https://unsplash.it/1920/1080/?random=1,https://unsplash.it/1920/1080/?random=2,https://unsplash.it/1920/1080/?random=3" >}}
+
+### 音乐播放器
+
+```markdown
+{{</* music auto="https://music.163.com/#/song?id=494645489" */>}}
+```
+
+{{< music auto="https://music.163.com/#/song?id=494645489" >}}
+
+### Bilibili
+
+{{</* bilibili BV1c54y1H7rs */>}}
+{{< bilibili BV1c54y1H7rs >}}
+
+嵌入好像默认 360P，选更高清的就会转跳外部链接（强迫症略难受
+
+### 画廊
+
+```markdown
+{{</* gallery "https://unsplash.it/1920/1080/?random=5" "https://unsplash.it/1920/1080/?random=6" "https://unsplash.it/1920/1080/?random=7" */>}}
+
+{{</* gallery "https://unsplash.it/1920/1080/?random=8" "https://unsplash.it/1920/1080/?random=9" */>}}
+```
+
+{{< gallery "https://unsplash.it/1920/1080/?random=5" "https://unsplash.it/1920/1080/?random=6" "https://unsplash.it/1920/1080/?random=7" >}}
+
+{{< gallery "https://unsplash.it/1920/1080/?random=8" "https://unsplash.it/1920/1080/?random=9" >}}
+
+{{< accordion "插播一下自定义短码时学到的语法：" >}}
+
+- 循环短代码中变量 `.Params` 时和其他语言一样用的是 `range`
+
+- 统计变量的数量用 `len`，`len $variable`
+
+{{< /accordion >}}
+
+## 参考来源
+
+- [Create Your Own Shortcodes | Hugo](https://gohugo.io/templates/shortcode-templates/)
+
+- 来自[一种在 MemE 主题中实现轮播图功能的思路 | 荷戟独彷徨](https://guanqr.com/tech/website/a-way-to-realize-carousel-in-meme/)
+
+- [GitHub - Ice-Hazymoon/hugo-theme-luna: A simple, performance-first, SEO-friendly Hugo theme / 一个轻量，快速，SEO 友好的 Hugo 主题](https://github.com/Ice-Hazymoon/hugo-theme-luna)
+
+- [GitHub - dillonzq/LoveIt: ❤️A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题](https://github.com/dillonzq/LoveIt)

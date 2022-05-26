@@ -48,12 +48,22 @@
         border: 1px solid var(--color-contrast-lower);
         clear: both;
     }
+    figure{
+        margin: 0;
+    }
+    figcaption{
+        font-size: 10px;
+        text-align: center;
+        h4{color: gray!important;}
+        
+    }
     video {
         display: block;
         max-width: 100%;
         margin: 2em auto;
         clear: both;
     }
+
     sup {
         font-size: 70%;
         vertical-align: super;
@@ -214,6 +224,7 @@ code {
     padding: ($fontSize / 8) ($fontSize / 4);
     background-color: alpha(var(--color-contrast-lower), 0.5);
     font-size: 80%;
+    border-radius: 999em;
 }
 pre {
     overflow: auto;

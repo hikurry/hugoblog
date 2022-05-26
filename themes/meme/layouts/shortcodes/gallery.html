@@ -1,0 +1,7 @@
+{{- $params := .Params -}}
+{{- $paramscount := len $params -}}
+<div class="gallery" style="display:flex;">
+    {{- range $src := .Params -}}
+    <img src="{{- $src -}}" style="width:calc(95%/{{ $paramscount }});">
+    {{ end }}
+</div>

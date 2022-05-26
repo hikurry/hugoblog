@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">咖喱</title>
     <subtitle type="html">An archive of my own.</subtitle>
-    <updated>2022-04-30T23:11:25&#43;08:00</updated>
+    <updated>2022-05-26T23:08:47&#43;08:00</updated>
     <id>https://joysblog.vercel.app/</id>
     <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/" />
     <link rel="self" type="application/atom&#43;xml" href="https://joysblog.vercel.app/atom.xml" />
@@ -15,19 +15,19 @@
                 <email>reuixiy@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.92.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
         <entry>
-            <title type="text">答案在风中飘荡</title>
-            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/blowing-in-the-wind/" />
-            <id>https://joysblog.vercel.app/posts/blowing-in-the-wind/</id>
-            <updated>2022-04-30T23:09:50&#43;08:00</updated>
-            <published>2022-04-30T22:59:27&#43;08:00</published>
+            <title type="text">短代码测试</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/shortcode-test/" />
+            <id>https://joysblog.vercel.app/posts/shortcode-test/</id>
+            <updated>2022-05-26T23:08:31&#43;08:00</updated>
+            <published>2022-05-26T13:47:59&#43;08:00</published>
             <author>
                     <name>咖喱</name>
                     <uri>https://joysblog.vercel.app/</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;现在是 4 月 30 日，明天就是五一。大学生涯最后一个学期我仍旧在家里，因为疫情迟迟无法返校。此时此刻，不知为何，我的脑海中就一直在反复“答案在风中飘扬”这句话，伴随着的画面时而是外交部那张蓝色背景的发言图，时而是灰蒙蒙的、暗淡的混沌体。&lt;/p&gt; </summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;捡捡补补，程序员的共享精神真伟大。&lt;/p&gt; </summary>
             
             
             
@@ -39,7 +39,154 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/hugo/" term="HUGO" label="HUGO" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">拜拜北六环</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/goodbye-my-university/" />
+            <id>https://joysblog.vercel.app/posts/goodbye-my-university/</id>
+            <updated>2022-05-19T21:17:35&#43;08:00</updated>
+            <published>2022-05-19T21:01:23&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;上周三我通过了本科毕业论文答辩，从内容上正式结束了我的本科生涯。大学四年，始于不尽意的高考成绩，经历过一整个学期的家里蹲网课时代，终于 2022 年这个异常冷寒、疫情再次严重的五月。不出意外，形式上的毕业典礼也将在云上进行。回顾四年，通常与大学生活相联系的“青春”、“自由”、“热血”好像都和我无关，我在以一种消耗自我的方式做着或许毫无意义的抵抗。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%80%BB%E6%98%AF%E8%A6%81%E6%B4%BB%E7%9D%80/" term="总是要活着" label="总是要活着" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E6%80%BB%E7%BB%93/" term="总结" label="总结" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">《妈妈爱你：中国亲妈粉、偶像产业、性别和亲密乌托邦》笔记</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/fans-idols-research-review/" />
+            <id>https://joysblog.vercel.app/posts/fans-idols-research-review/</id>
+            <updated>2022-05-19T21:19:34&#43;08:00</updated>
+            <published>2022-05-15T21:06:40&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;追星占据了我人生近二分之一的时间，自己平时也会关注一些粉丝偶像文化研究。很多学者（以及部分媒体）逛了一圈微博，看了几个超话，还有点小得意地“深入群众”进了几个粉丝群就开始研究粉圈，我非常反感。一方面是有种主流文化对亚文化的凝视，文章结尾总是要加上“但是需要加强引导”这种话；另一方面是忽视了最初很朴素的“喜欢”这种情感，如果不能共情这种“喜欢”，反正我觉得很多研究是没有意义的。在《传播与社会学刊》 NO.57 性别与传媒专题中看到了《妈妈爱你：中国亲妈粉、偶像产业、性别和亲密乌托邦》(白玫佳黛）这篇文章，不谈观点我是否完全赞同，全文非常专业和真诚，没有高高在上的凝视，我很喜欢，在此对其做一个简单的综述。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E6%96%87%E7%8C%AE%E7%AC%94%E8%AE%B0/" term="文献笔记" label="文献笔记" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E7%B2%89%E4%B8%9D/" term="粉丝" label="粉丝" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E5%81%B6%E5%83%8F/" term="偶像" label="偶像" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E4%BC%A0%E5%AA%92/" term="传媒" label="传媒" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E6%80%A7%E5%88%AB/" term="性别" label="性别" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">答案在风中飘荡</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/blowing-in-the-wind/" />
+            <id>https://joysblog.vercel.app/posts/blowing-in-the-wind/</id>
+            <updated>2022-05-19T21:19:23&#43;08:00</updated>
+            <published>2022-04-30T22:59:27&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;现在是 4 月 30 日，明天就是五一。大学本科生涯最后一个学期我仍旧在家里，因为疫情迟迟无法返校。此时此刻，不知为何，我的脑海中就一直在反复“答案在风中飘扬”这句话，伴随着的画面时而是外交部那张蓝色背景的发言图，时而是灰蒙蒙的、暗淡的混沌体。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%80%BB%E6%98%AF%E8%A6%81%E6%B4%BB%E7%9D%80/" term="总是要活着" label="总是要活着" />
                             
                         
                     
@@ -53,7 +200,7 @@
             <title type="text">博客主题更换：Stack to MemE</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/change-blog-theme-from-stack-to-meme/" />
             <id>https://joysblog.vercel.app/posts/change-blog-theme-from-stack-to-meme/</id>
-            <updated>2022-02-28T20:18:25&#43;08:00</updated>
+            <updated>2022-05-22T00:43:29&#43;08:00</updated>
             <published>2022-02-28T10:02:45&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -72,7 +219,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%85%A2%E6%85%A2%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="慢慢学习路" label="慢慢学习路" />
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
                             
                         
                     
@@ -100,7 +247,7 @@
             <title type="text">铲屎官初体验</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/my-first-experience-as-a-catkeeper/" />
             <id>https://joysblog.vercel.app/posts/my-first-experience-as-a-catkeeper/</id>
-            <updated>2022-02-25T12:54:38&#43;08:00</updated>
+            <updated>2022-05-17T22:51:10&#43;08:00</updated>
             <published>2022-02-10T09:32:30&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -141,7 +288,7 @@
             <title type="text">坎坷的博客装修之路</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/rough-road-to-customize-my-blog/" />
             <id>https://joysblog.vercel.app/posts/rough-road-to-customize-my-blog/</id>
-            <updated>2022-04-30T23:04:33&#43;08:00</updated>
+            <updated>2022-05-17T13:43:15&#43;08:00</updated>
             <published>2022-01-24T12:39:19&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -177,7 +324,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%85%A2%E6%85%A2%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="慢慢学习路" label="慢慢学习路" />
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
                             
                         
                     
@@ -205,7 +352,7 @@
             <title type="text">2021年度总结</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/2021-personal-summary/" />
             <id>https://joysblog.vercel.app/posts/2021-personal-summary/</id>
-            <updated>2022-02-28T16:55:04&#43;08:00</updated>
+            <updated>2022-05-19T21:17:46&#43;08:00</updated>
             <published>2022-01-03T13:50:32&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -224,7 +371,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E7%94%9F%E6%B4%BB/" term="生活" label="生活" />
+                                <category scheme="https://joysblog.vercel.app/categories/%E6%80%BB%E6%98%AF%E8%A6%81%E6%B4%BB%E7%9D%80/" term="总是要活着" label="总是要活着" />
                             
                         
                     
