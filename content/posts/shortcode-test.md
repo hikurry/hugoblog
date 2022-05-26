@@ -129,7 +129,9 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 {{</* music auto="https://music.163.com/#/song?id=494645489" */>}}
 ```
 
-不知道为什么插入音乐之后中文目录无法转跳，就先不放在这里了，效果见 [About Me]({{< ref about.md >}})。
+{{< music auto="https://music.163.com/#/song?id=494645489" >}}
+
+用原生的 `Aplay.js` 会出现中文目录跳转失败的情况，搜索了一圈发现是里面 smoothscroll 的仓库处理 `hash` 时中文字符转成了 `Unicode` 码，具体看[使用 Aplayer 导致博客目录跳转失效](https://blog.wangriyu.wang/2018/06-Aplayer.html)这篇博文。博主也提供了修改后的 `Aplay.js`，我就直接拿来用了，完美解决中文目录跳转失效的情况。（再次感慨程序员的分享精神太伟大了!)
 
 ### Bilibili
 
