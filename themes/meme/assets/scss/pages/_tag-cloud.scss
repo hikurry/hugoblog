@@ -5,4 +5,7 @@
 .tag-cloud-item {
     margin: 0.5rem;
     display: inline-block;
+    background-color: var(--color-contrast-lower);
+    padding: 0 10px;
+    border-radius: 999em;
 }
