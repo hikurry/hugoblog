@@ -37,7 +37,12 @@
                 {{- $raw := . -}}
                 <div class="custom-footer">{{ partial "utils/markdownify.html" (dict "$" $ "raw" $raw "isContent" false) }}</div>
             {{- end }}
-
+            {{$scratch := newScratch}}
+                    {{ range (where .Site.Pages "Kind" "page" )}}
+                        {{$scratch.Add "total" .WordCount}}
+                    {{ end }}
+                    {{$totalWord := $scratch.Get "total" }}
+                    <div class="wordcount">本站共计{{$totalWord}}字</div>
             {{- if and .Site.Params.displayBusuanziSiteUVAndPV (eq hugo.Environment "production") }}
                 <div class="busuanzi-site-uv-and-pv">
                     <span id="busuanzi_container_site_uv">

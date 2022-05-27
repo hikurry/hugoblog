@@ -1,12 +1,6 @@
 <main class="main list" id="main">
     <div class="main-inner">
         <h1 class="list-title">{{ .Title | default (.Type | title) }}</h1>
-        {{$scratch := newScratch}}
-        {{ range (where .Site.Pages "Kind" "page" )}}
-            {{$scratch.Add "total" .WordCount}}
-        {{ end }}
-        {{$totalWord := $scratch.Get "total" }}
-        <div class="wordcount"><span>共写了{{$totalWord}}个字</span></div>
         <div class="content tag-cloud">
             {{ if .Site.Params.displayListTitle }}
                 
