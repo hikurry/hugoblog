@@ -8,4 +8,8 @@
     background-color: var(--color-contrast-lower);
     padding: 0 10px;
     border-radius: 999em;
+    &:hover{
+        color: var(--color-contrast-high);
+        opacity: 0.7;
+    }
 }

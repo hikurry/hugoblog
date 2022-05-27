@@ -4,14 +4,18 @@
 }
 
 .post-tags-link {
-    color: alpha(var(--color-contrast-medium), 0.9);
+    color: var(--color-contrast-high);
     line-height: 2;
     display: inline-block;
     margin-right: 0.5em;
     padding: 0 10px;
     background-color: var(--color-contrast-lower);
     border-radius: 999em;
-    
+    &:hover{
+        color: var(--color-contrast-high);
+        opacity: 0.7;
+
+    }
 }
 
 .tag-icon {

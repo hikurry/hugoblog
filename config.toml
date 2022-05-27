@@ -1228,13 +1228,13 @@ uglyURLs = false
     # 页脚
 
     # 是否开启
-    enableFooter =  true
+    enableFooter =  false
 
     # 是否显示
-    displayFooter = true
+    displayFooter = false
 
     # 是否在首页显示
-    displayFooterInHome = true
+    displayFooterInHome = false
 
     displayCopyleftSymbol = false
     # 是否显示版权符号（©）
@@ -1259,7 +1259,7 @@ uglyURLs = false
     # 自定义页脚（支持 Markdown）
     customFooter = ""
 
-    displayBusuanziSiteUVAndPV = true
+    displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"

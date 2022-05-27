@@ -28,8 +28,7 @@
 .p-summary {
     margin-top: 2em !important;
     a {
-        text-decoration: underline;
-        text-decoration-color: var(--color-contrast-low);
+        border-bottom: 1px dotted var(--color-contrast-high);
         &:hover {
             text-decoration-color: alpha(var(--color-primary), 0.5);
         }
