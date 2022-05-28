@@ -182,15 +182,15 @@ uglyURLs = false
     #     weight = 1
     #     pre = "internal"
     #     post = "home"
+    #[[menu.main]]
+    #    pageref = "/posts/"
+    #    name = "归档"
+    #    weight = 2
+    #    pre = "internal"
+    #    post = "archive"
     [[menu.main]]
-        pageref = "/posts/"
+        pageref = "/archive/"
         name = "归档"
-        weight = 2
-        pre = "internal"
-        post = "archive"
-    [[menu.main]]
-        pageref = "/categories/"
-        name = "分类"
         weight = 3
         pre = "internal"
         post = "th"
@@ -379,12 +379,12 @@ uglyURLs = false
     # 分类页面
 
     # 是否开启树状布局
-    enableTree = true
+    enableTree = false
     # 注意：如果你设置 categoryBy 为
     # `sections`，则无法关闭树状布局
 
     # 是否显示文章标题
-    displayPosts = true
+    displayPosts = false
 
     # 是否显示每一分类下的文章数
     displayPostsCount = true
@@ -401,9 +401,9 @@ uglyURLs = false
     # 字号单位
     fontUnit = "em"
     # 最大字号
-    largestFontSize = 1.1
+    largestFontSize = 1.0
     # 最小字号
-    smallestFontSize = 0.9
+    smallestFontSize = 0.8
 
 
     ######################################
