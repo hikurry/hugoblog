@@ -164,7 +164,7 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 
 - [Create Your Own Shortcodes | Hugo](https://gohugo.io/templates/shortcode-templates/)
 
-- 来自[一种在 MemE 主题中实现轮播图功能的思路 | 荷戟独彷徨](https://guanqr.com/tech/website/a-way-to-realize-carousel-in-meme/)
+- [一种在 MemE 主题中实现轮播图功能的思路 | 荷戟独彷徨](https://guanqr.com/tech/website/a-way-to-realize-carousel-in-meme/)
 
 - [GitHub - Ice-Hazymoon/hugo-theme-luna: A simple, performance-first, SEO-friendly Hugo theme / 一个轻量，快速，SEO 友好的 Hugo 主题](https://github.com/Ice-Hazymoon/hugo-theme-luna)
 
