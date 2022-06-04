@@ -5,7 +5,7 @@ categories: [学无止境]
 tags: [hugo]
 ---
 
-捡捡补补，程序员的共享精神真伟大。
+测试了一下Hugo的短代码，包括内置和自定义的。捡捡补补，程序员的共享精神真伟大。
 
 <!--more-->
 
@@ -20,6 +20,7 @@ tags: [hugo]
 {{< figure src="https://unsplash.it/1920/1080/?random=4" title="Unplash Random" >}}
 
 我自定义了 `figcaption` 的样式。
+
 
 ### Gist
 
