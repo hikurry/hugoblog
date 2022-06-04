@@ -73,7 +73,7 @@ a {
 
 在`layouts/partials/article/article.html`中引入目录：
 
-```html {hl_lines=[3]}
+```html
 {{ partial "article/components/header" . }}
 <!--在此处引入如下内容-->
 {{ partial "article/components/toc" . }}

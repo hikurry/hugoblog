@@ -104,6 +104,8 @@ height: 1.1rem;
   display: block;
   text-align: center;
 }
+
+/* 归档页面 */
 .wordcount {
   text-align: center;
   color:var(--color-contrast-medium);
@@ -120,4 +122,35 @@ height: 1.1rem;
   box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
   background-color: var(--color-contrast-lower2);
   text-align: center;
+}
+
+/* gist */
+.gist {
+  .gist-file,.gist-data{
+  border: none!important;
+  }
+  .gist-data, .highlight{
+  background: hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5)!important;
+   }
+  .gist-meta{
+    background-color: hsla(var(--color-contrast-lower-h), var(--color-contrast-lower-s), var(--color-contrast-lower-l), 0.5)!important;
+  }
+  .blob-code-inner{
+    color:var(--color-contrast-high)!important;
+  }
+  .pl-ent{
+    color:var(--chroma-keyword-color)!important;
+  }
+  .pl-c1, .gist .pl-s .pl-v{
+    color: var(--chroma-attribute-color)!important;
+  }
+  .pl-s, .gist .pl-pds, .gist .pl-s .pl-pse .pl-s1, .gist .pl-sr, .gist .pl-sr .pl-cce, .gist .pl-sr .pl-sre, .gist .pl-sr .pl-sra{
+    color:var(--chroma-literal-color)!important;
+  }
+  .pl-c{
+    color:var(--chroma-comment-color)!important;
+  }
+}
+.gist .blob-code-inner::selection, .gist .blob-code-inner *::selection{
+  background-color: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.3)!important;
 }
