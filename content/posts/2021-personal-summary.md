@@ -2,7 +2,7 @@
 title: "2021年度总结"
 date: 2022-01-03T13:50:32+08:00
 draft: false
-categories: [走过的路]
+categories: [LIFE]
 tags: [年度总结]
 ---
 

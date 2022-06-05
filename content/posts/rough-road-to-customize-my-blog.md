@@ -2,7 +2,7 @@
 title: "坎坷的博客装修之路"
 date: 2022-01-24T12:39:19+08:00
 draft: false
-categories: [学无止境]
+categories: [LEARN]
 tags: [HUGO, 花里胡哨]
 ---
 

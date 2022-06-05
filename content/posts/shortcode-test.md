@@ -1,7 +1,7 @@
 ---
 title: "短代码测试"
 date: 2022-05-26T13:47:59+08:00
-categories: [学无止境]
+categories: [LEARN]
 tags: [hugo]
 ---
 
