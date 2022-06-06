@@ -51,4 +51,8 @@ tags: [文献笔记]
 
 &nbsp;
 
-附上文章链接（原文地址不知道为什么打不开找了一个微信公众号上的）：[《妈妈爱你：中国亲妈粉、偶像产业、性别和亲密乌托邦》](https://mp.weixin.qq.com/s/9b63XWQIm66gAa6uwOClOA)
+附上原文
+
+[www.cschinese.com/word/17567132021.pdf](http://www.cschinese.com/word/17567132021.pdf)
+
+{{< pdf src="http://www.cschinese.com/word/17567132021.pdf" >}}

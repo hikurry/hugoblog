@@ -9,6 +9,7 @@ tags: [hugo]
 
 <!--more-->
 
+
 ## HUGO 内置短代码
 
 ### Figure
@@ -171,6 +172,15 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 
 {{< /accordion >}}
 
+### PDF
+```markdown
+{{</* pdf src="http://www.cschinese.com/word/17567132021.pdf" */>}}
+```
+
+{{< pdf src="http://www.cschinese.com/word/17567132021.pdf" >}}
+
+手机端不太方便，电脑端看着挺舒服的。
+
 ## 参考来源
 
 - [Create Your Own Shortcodes | Hugo](https://gohugo.io/templates/shortcode-templates/)
@@ -180,3 +190,5 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 - [GitHub - Ice-Hazymoon/hugo-theme-luna: A simple, performance-first, SEO-friendly Hugo theme / 一个轻量，快速，SEO 友好的 Hugo 主题](https://github.com/Ice-Hazymoon/hugo-theme-luna)
 
 - [GitHub - dillonzq/LoveIt: ❤️A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题](https://github.com/dillonzq/LoveIt)
+
+- [Hugo博客自定义shortcodes | Sulv's Blog](https://www.sulvblog.cn/posts/blog/shortcodes/)
