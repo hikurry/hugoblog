@@ -18,7 +18,7 @@ Kpop 重度爱好者，NO KPOP NO LIFE，目前没有固定担，心怀全剋泡
 
 ## About Blog
 
-博客框架是 [Hugo](https://gohugo.io/)，托管在 [Github](https://github.com/) 上，通过 [Vercel](https://vercel.app/) 部署。博客主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)。站点 favicon 来自 [Unplash](https://unsplash.com/)。
+博客框架是 [Hugo](https://gohugo.io/)，托管在 [Github](https://github.com/) 上，通过 [Vercel](https://vercel.app/) 部署，写作采用 [Obsidian](https://obsidian.md/)。博客主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)。站点 favicon 来自 [Unplash](https://unsplash.com/)。
 
 > **茫茫人海中如果有缘相遇欢迎交换友链**  
 > 名称：咖喱  
