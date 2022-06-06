@@ -3,7 +3,7 @@ title: "博客主题更换：Stack to MemE"
 date: 2022-02-28T10:02:45+08:00
 draft: false
 categories: [LEARN]
-tags: [HUGO, 花里胡哨]
+tags: [HUGO]
 ---
 
 是的我换主题了，永远年轻，永远爱换皮肤。曾经的我嫌弃单栏过于简陋，现在的我觉得单栏才是最好看的，回归简洁，选择了[ MemE ](https://github.com/reuixiy/hugo-theme-meme)这个主题。在 MemE 主题之上又做了一些个性化的修改。

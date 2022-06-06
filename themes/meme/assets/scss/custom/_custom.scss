@@ -154,3 +154,19 @@ height: 1.1rem;
 .gist .blob-code-inner::selection, .gist .blob-code-inner *::selection{
   background-color: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.3)!important;
 }
+
+/* rating */
+i.star{
+  color: var(--color-primary);
+  svg{
+    width: 20px;
+    fill: currentColor;
+  }
+}
+i.star-outline{
+  color: var(--color-contrast-low);
+  svg{
+    width: 20px;
+    fill: currentColor;
+  }
+}
