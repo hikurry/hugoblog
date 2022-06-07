@@ -51,8 +51,7 @@ tags: [文献笔记]
 
 &nbsp;
 
-附上原文
+附上原文地址
 
 [www.cschinese.com/word/17567132021.pdf](http://www.cschinese.com/word/17567132021.pdf)
 
-{{< pdf src="http://www.cschinese.com/word/17567132021.pdf" >}}
