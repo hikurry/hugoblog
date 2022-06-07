@@ -174,10 +174,10 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 
 ### PDF
 ```markdown
-{{</* pdf src="http://www.cschinese.com/word/17567132021.pdf" */>}}
+{{</* pdf src="https://www.blatchingtonmill.org.uk/assets/Uploads/All-Of-Me-Sheet-Music-John-Legend-All-Of-Me-Piano-Sheet-Music-Medium-Vocals-Piano-Guitar.pdf" */>}}
 ```
 
-{{< pdf src="http://www.cschinese.com/word/17567132021.pdf" >}}
+{{< pdf src="[https://www.blatchingtonmill.org.uk/assets/Uploads/All-Of-Me-Sheet-Music-John-Legend-All-Of-Me-Piano-Sheet-Music-Medium-Vocals-Piano-Guitar.pdf](https://www.blatchingtonmill.org.uk/assets/Uploads/All-Of-Me-Sheet-Music-John-Legend-All-Of-Me-Piano-Sheet-Music-Medium-Vocals-Piano-Guitar.pdf)" >}}
 
 手机端不太方便，电脑端看着挺舒服的。
 
