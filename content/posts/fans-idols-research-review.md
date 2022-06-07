@@ -55,4 +55,4 @@ tags: [文献笔记]
 
 [www.cschinese.com/word/17567132021.pdf](http://www.cschinese.com/word/17567132021.pdf)
 
-{{< pdf src="www.cschinese.com/word/17567132021.pdf" >}}
+{{< pdf src="http://www.cschinese.com/word/17567132021.pdf" >}}
