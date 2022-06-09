@@ -76,10 +76,10 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 ### Tweet
 
 ```markdown
-{{</* tweet 1469024461223776256 */>}}
+{{</* tweet user="cottonsprout" id="1469024461223776256" */>}}
 ```
 
-{{< tweet 1469024461223776256 >}}
+{{< tweet user="cottonsprout" id="1469024461223776256" >}}
 
 ### Vimeo
 
