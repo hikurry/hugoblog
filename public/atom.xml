@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">咖喱</title>
     <subtitle type="html">An archive of my own.</subtitle>
-    <updated>2022-05-26T23:08:47&#43;08:00</updated>
+    <updated>2022-06-11T21:21:11&#43;08:00</updated>
     <id>https://joysblog.vercel.app/</id>
     <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/" />
     <link rel="self" type="application/atom&#43;xml" href="https://joysblog.vercel.app/atom.xml" />
@@ -17,17 +17,17 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
         <entry>
-            <title type="text">短代码测试</title>
-            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/shortcode-test/" />
-            <id>https://joysblog.vercel.app/posts/shortcode-test/</id>
-            <updated>2022-05-26T23:08:31&#43;08:00</updated>
-            <published>2022-05-26T13:47:59&#43;08:00</published>
+            <title type="text">凭什么我们生来就要遭受这种恐惧</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/fear-that-we-are-facing/" />
+            <id>https://joysblog.vercel.app/posts/fear-that-we-are-facing/</id>
+            <updated>2022-06-11T21:19:20&#43;08:00</updated>
+            <published>2022-06-11T12:30:44&#43;08:00</published>
             <author>
                     <name>咖喱</name>
                     <uri>https://joysblog.vercel.app/</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;捡捡补补，程序员的共享精神真伟大。&lt;/p&gt; </summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;2022年上半年我看到了太多太多女性受害的事情。西安地铁、上海小红楼、徐州铁链女、消失的乌衣……唐山烧烤店男子对女性的性别恐怖主义暴行再次让我感受到这真实的世界。&lt;/p&gt; </summary>
             
             
             
@@ -39,7 +39,137 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E6%83%85%E7%BB%AA/" term="情绪" label="情绪" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Kindle 使用体验</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/my-kindle-experience/" />
+            <id>https://joysblog.vercel.app/posts/my-kindle-experience/</id>
+            <updated>2022-06-09T01:18:11&#43;08:00</updated>
+            <published>2022-06-06T03:11:44&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;去年 12 月买了 kindle，没想到不到一年 kindle 就要退出中国市场了。我最开始买的时候也没有过多研究，直接淘了个二手最低配的咪咕版（无背光），使用一周后换成了青春版（有背光）。虽然用的是很低的配置，但是体验依旧良好。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/kindle/" term="Kindle" label="Kindle" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E5%B7%A5%E5%85%B7/" term="工具" label="工具" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">成长痛：小猫长大了</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/feel-sad-about-my-cat-growing-up/" />
+            <id>https://joysblog.vercel.app/posts/feel-sad-about-my-cat-growing-up/</id>
+            <updated>2022-06-05T22:13:03&#43;08:00</updated>
+            <published>2022-05-29T15:42:44&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;不是小猫咪的成长痛，而是猫咪长大了，我心痛。&lt;/p&gt;
+&lt;p&gt;还记得小保刚到家的时候， 特别亲人，第二天下午就在我腿上睡得香呼呼的。后来每天下午都会来我的大腿上睡觉，还会一边大呼一边踩奶。自从我给它买了个窝之后，小保乐不思蜀，再也没有上过我的大腿睡觉了！即使我进行一些强制爱的行为，它也会挣扎着跑出去。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E7%8C%AB%E5%92%AA/" term="猫咪" label="猫咪" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">短代码测试</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/shortcode-test/" />
+            <id>https://joysblog.vercel.app/posts/shortcode-test/</id>
+            <updated>2022-06-09T23:00:54&#43;08:00</updated>
+            <published>2022-05-26T13:47:59&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;测试了一下Hugo的短代码，包括内置和自定义的。捡捡补补，程序员的共享精神真伟大。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/learn/" term="LEARN" label="LEARN" />
                             
                         
                     
@@ -61,7 +191,7 @@
             <title type="text">拜拜北六环</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/goodbye-my-university/" />
             <id>https://joysblog.vercel.app/posts/goodbye-my-university/</id>
-            <updated>2022-05-19T21:17:35&#43;08:00</updated>
+            <updated>2022-06-05T19:24:51&#43;08:00</updated>
             <published>2022-05-19T21:01:23&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -80,7 +210,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%80%BB%E6%98%AF%E8%A6%81%E6%B4%BB%E7%9D%80/" term="总是要活着" label="总是要活着" />
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
                             
                         
                     
@@ -102,7 +232,7 @@
             <title type="text">《妈妈爱你：中国亲妈粉、偶像产业、性别和亲密乌托邦》笔记</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/fans-idols-research-review/" />
             <id>https://joysblog.vercel.app/posts/fans-idols-research-review/</id>
-            <updated>2022-05-19T21:19:34&#43;08:00</updated>
+            <updated>2022-06-07T23:29:25&#43;08:00</updated>
             <published>2022-05-15T21:06:40&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -121,7 +251,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
+                                <category scheme="https://joysblog.vercel.app/categories/learn/" term="LEARN" label="LEARN" />
                             
                         
                     
@@ -134,30 +264,6 @@
                                 <category scheme="https://joysblog.vercel.app/tags/%E6%96%87%E7%8C%AE%E7%AC%94%E8%AE%B0/" term="文献笔记" label="文献笔记" />
                             
                         
-                            
-                            
-                            
-                                <category scheme="https://joysblog.vercel.app/tags/%E7%B2%89%E4%B8%9D/" term="粉丝" label="粉丝" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://joysblog.vercel.app/tags/%E5%81%B6%E5%83%8F/" term="偶像" label="偶像" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://joysblog.vercel.app/tags/%E4%BC%A0%E5%AA%92/" term="传媒" label="传媒" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://joysblog.vercel.app/tags/%E6%80%A7%E5%88%AB/" term="性别" label="性别" />
-                            
-                        
                     
                 
             
@@ -167,7 +273,7 @@
             <title type="text">答案在风中飘荡</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/blowing-in-the-wind/" />
             <id>https://joysblog.vercel.app/posts/blowing-in-the-wind/</id>
-            <updated>2022-05-19T21:19:23&#43;08:00</updated>
+            <updated>2022-06-11T20:32:28&#43;08:00</updated>
             <published>2022-04-30T22:59:27&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -186,11 +292,19 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%80%BB%E6%98%AF%E8%A6%81%E6%B4%BB%E7%9D%80/" term="总是要活着" label="总是要活着" />
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
                             
                         
                     
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E6%83%85%E7%BB%AA/" term="情绪" label="情绪" />
+                            
+                        
                     
                 
             
@@ -200,7 +314,7 @@
             <title type="text">博客主题更换：Stack to MemE</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/change-blog-theme-from-stack-to-meme/" />
             <id>https://joysblog.vercel.app/posts/change-blog-theme-from-stack-to-meme/</id>
-            <updated>2022-05-22T00:43:29&#43;08:00</updated>
+            <updated>2022-06-06T11:09:43&#43;08:00</updated>
             <published>2022-02-28T10:02:45&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -219,7 +333,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
+                                <category scheme="https://joysblog.vercel.app/categories/learn/" term="LEARN" label="LEARN" />
                             
                         
                     
@@ -232,12 +346,6 @@
                                 <category scheme="https://joysblog.vercel.app/tags/hugo/" term="HUGO" label="HUGO" />
                             
                         
-                            
-                            
-                            
-                                <category scheme="https://joysblog.vercel.app/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" term="花里胡哨" label="花里胡哨" />
-                            
-                        
                     
                 
             
@@ -247,7 +355,7 @@
             <title type="text">铲屎官初体验</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/my-first-experience-as-a-catkeeper/" />
             <id>https://joysblog.vercel.app/posts/my-first-experience-as-a-catkeeper/</id>
-            <updated>2022-05-17T22:51:10&#43;08:00</updated>
+            <updated>2022-06-05T19:27:34&#43;08:00</updated>
             <published>2022-02-10T09:32:30&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -266,7 +374,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E7%8C%AB%E5%92%AA%E6%9C%80%E9%87%8D%E8%A6%81/" term="猫咪最重要" label="猫咪最重要" />
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
                             
                         
                     
@@ -276,7 +384,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/tags/%E5%B0%8F%E7%8C%AB%E5%8F%A8%E5%8F%A8/" term="小猫叨叨" label="小猫叨叨" />
+                                <category scheme="https://joysblog.vercel.app/tags/%E7%8C%AB%E5%92%AA/" term="猫咪" label="猫咪" />
                             
                         
                     
@@ -288,7 +396,7 @@
             <title type="text">坎坷的博客装修之路</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/rough-road-to-customize-my-blog/" />
             <id>https://joysblog.vercel.app/posts/rough-road-to-customize-my-blog/</id>
-            <updated>2022-05-17T13:43:15&#43;08:00</updated>
+            <updated>2022-06-06T11:09:38&#43;08:00</updated>
             <published>2022-01-24T12:39:19&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -324,7 +432,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%BC%AB%E6%BC%AB%E5%AD%A6%E4%B9%A0%E8%B7%AF/" term="漫漫学习路" label="漫漫学习路" />
+                                <category scheme="https://joysblog.vercel.app/categories/learn/" term="LEARN" label="LEARN" />
                             
                         
                     
@@ -337,12 +445,6 @@
                                 <category scheme="https://joysblog.vercel.app/tags/hugo/" term="HUGO" label="HUGO" />
                             
                         
-                            
-                            
-                            
-                                <category scheme="https://joysblog.vercel.app/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" term="花里胡哨" label="花里胡哨" />
-                            
-                        
                     
                 
             
@@ -352,7 +454,7 @@
             <title type="text">2021年度总结</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/2021-personal-summary/" />
             <id>https://joysblog.vercel.app/posts/2021-personal-summary/</id>
-            <updated>2022-05-19T21:17:46&#43;08:00</updated>
+            <updated>2022-06-06T11:07:26&#43;08:00</updated>
             <published>2022-01-03T13:50:32&#43;08:00</published>
             <author>
                     <name>咖喱</name>
@@ -371,7 +473,7 @@
                             
                             
                             
-                                <category scheme="https://joysblog.vercel.app/categories/%E6%80%BB%E6%98%AF%E8%A6%81%E6%B4%BB%E7%9D%80/" term="总是要活着" label="总是要活着" />
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
                             
                         
                     
