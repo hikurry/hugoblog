@@ -26,6 +26,10 @@ Kpop 重度爱好者，NO KPOP NO LIFE。不喜欢一直怀念过去的成就，
 
 本页的音乐是朋友分享给我的，刚听的时候就很想哭，歌词也很符合自己很多时候的心绪。
 
+## Friends
+
+{{< friend name="Muko" url="https://hugo-mukokka.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" >}}
+
 > **茫茫人海中如果有缘相遇欢迎交换友链**  
 > 名称：咖喱  
 > 地址：joysblog.vercel.app  

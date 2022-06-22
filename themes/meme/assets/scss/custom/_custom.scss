@@ -170,3 +170,88 @@ i.star-outline{
     fill: currentColor;
   }
 }
+
+/* friendlink */
+.friendurl {
+  text-decoration: none !important;
+  color: black;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.myfriend {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%!important;
+  padding: 2px;
+  margin-top: 20px !important;
+  margin-left: 14px !important;
+  background-color: #fff;
+}
+
+.frienddiv {
+  overflow: auto;
+  height: 120px;
+  width: 48%;
+  display: inline-block;
+  border-radius: 5px;
+  background: var(--color-contrast-lower2);
+  
+  -webkit-transition: all ease-out 0.3s;
+  -moz-transition: all ease-out 0.3s;
+  -o-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  margin: 5px;
+  .medium-zoom-image{
+    cursor: pointer;
+  }
+}
+
+.friendcontent{
+  display: flex;
+  padding: 18px;
+}
+
+.frienddiv:hover .frienddivright img { 
+  transition: 0.9s !important;
+  -webkit-transition: 0.9s !important;
+  -moz-transition: 0.9s !important;
+  -o-transition: 0.9s !important;
+  -ms-transition: 0.9s !important;
+  transform: rotate(360deg) !important;
+  -webkit-transform: rotate(360deg) !important;
+  -moz-transform: rotate(360deg) !important;
+  -o-transform: rotate(360deg) !important;
+  -ms-transform: rotate(360deg) !important;
+}
+
+.frienddivright {
+  img{
+    margin: 5px 2px 0 2px !important;
+  }
+}
+
+.frienddivleft {
+  flex-grow: 1;
+}
+
+.friendname {
+  text-overflow: ellipsis;
+  font-size: 100%;
+  margin-bottom: 5px;
+
+}
+
+.friendinfo {
+  text-overflow: ellipsis;
+  font-size: 70%;
+}
+
+@media screen and (max-width: 600px) {
+  .frienddiv{
+    width: 100%;
+  }
+  .friendname {
+      font-size: 18px;
+  }
+}
