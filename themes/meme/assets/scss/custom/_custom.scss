@@ -174,7 +174,7 @@ i.star-outline{
 /* friendlink */
 .friendurl {
   text-decoration: none !important;
-  color: black;
+  color: var(--color-contrast-high);
   box-shadow: none !important;
   border: none !important;
 }
@@ -191,7 +191,7 @@ i.star-outline{
 
 .frienddiv {
   overflow: auto;
-  height: 120px;
+  height: 110px;
   width: 48%;
   display: inline-block;
   border-radius: 5px;
