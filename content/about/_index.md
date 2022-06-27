@@ -30,6 +30,8 @@ Kpop 重度爱好者，NO KPOP NO LIFE。不喜欢一直怀念过去的成就，
 
 {{< friend name="Muko" url="https://hugo-mukokka.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" >}}
 
+{{< friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" word="和我一起做赛博宵夜吧!" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" >}}
+
 > **茫茫人海中如果有缘相遇欢迎交换友链**  
 > 名称：咖喱  
 > 地址：joysblog.vercel.app  
