@@ -21,7 +21,7 @@ tags: [花里胡哨]
 
 ![](https://s2.loli.net/2022/06/27/6nPxymhX5LrYFjI.png)
 
-<center style="font-size:10px;margin-top:-25px;color:gray">突然开始电子咕卡（？毫无逻辑完全随性的拼贴</center>
+{{< caption "突然开始电子咕卡（？毫无逻辑完全随性的拼贴" >}}
 
 素材本自然就是用来收集各种贴纸胶带等素材啦，我的素材大部分来自于微博上太太们的分享，有些是点赞评即可，有些需要付费。然后我新学到了个小技巧就是用keynote抠图！有的贴纸是白色背景的不方便拼贴，在Keynote中用即时alpha可以快速抠图，把背景变成透明，特别方便。
 

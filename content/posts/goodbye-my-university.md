@@ -21,6 +21,6 @@ tags: [总结]
 
 ![天津之眼](https://s2.loli.net/2022/05/19/hHt94LxX7pWiOUN.jpg)
 
-<center style="font-size:10px;margin-top:-25px;color:gray">天津之眼，排了两个多小时还是没能上去</center>
+{{< caption "天津之眼，排了两个多小时还是没能上去" >}}
 
 虽然大学不是什么值得怀念的时期，但我也不是很难过。因为其实我的初中、高中也都是这样的，没有热血和激情，没有想象中的画面和电影情节，未来大抵也是如此。

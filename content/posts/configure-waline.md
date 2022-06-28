@@ -16,12 +16,11 @@ waline头像使用gravatar，到[官网](http://en.gravatar.com/)注册账号后
 
 ![](https://s2.loli.net/2022/06/28/YK7qjVbOcl8sIxh.png)
 
-<center style="font-size:10px;margin-top:-25px;color:gray">非自定义头像配置</center>
+{{< caption "非自定义头像配置" >}}
 
 更新到最新版本后在 vercel 中配置环境变量：`GRAVATAR_STR=https://cravatar.cn/avatar/{{mail|md5}}?d=monsterid`，然后重新部署，最后测试发现小怪兽头像配置成功了！
 
 ![](https://s2.loli.net/2022/06/28/RBfEw9egUZXSGNy.png)
-
 
 ## 配置评论通知
 
