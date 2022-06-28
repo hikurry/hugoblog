@@ -4,7 +4,7 @@ date: 2022-06-28T12:35:38+08:00
 categories: [LEARN]
 tags: [花里胡哨]
 ---
-虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，配置了头像和评论TG通知。
+虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。
 
 <!--more-->
 
@@ -18,7 +18,11 @@ waline头像使用gravatar，到[官网](http://en.gravatar.com/)注册账号后
 
 {{< caption "非自定义头像配置" >}}
 
-更新到最新版本后在 vercel 中配置环境变量：`GRAVATAR_STR=https://cravatar.cn/avatar/{{mail|md5}}?d=monsterid`，然后重新部署，最后测试发现小怪兽头像配置成功了！
+更新到最新版本后在 vercel 中配置环境变量：
+
+`GRAVATAR_STR = https://cravatar.cn/avatar/{{mail|md5}}?d=monsterid `
+
+然后重新部署，最后测试发现小怪兽头像配置成功了！
 
 ![](https://s2.loli.net/2022/06/28/RBfEw9egUZXSGNy.png)
 
@@ -29,3 +33,14 @@ waline头像使用gravatar，到[官网](http://en.gravatar.com/)注册账号后
 TG 推送评论通知效果如下：
 
 ![](https://s2.loli.net/2022/06/28/XMOtsASYGcHfkd7.png)
+
+## 其他环境变量
+
+隐藏评论者的用户代理：
+
+`DISABLE_USERAGENT = true`
+
+隐藏是评论者的归属地：
+
+`DISABLE_REGION = true`
+
