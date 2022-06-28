@@ -40,7 +40,7 @@ TG 推送评论通知效果如下：
 
 `DISABLE_USERAGENT = true`
 
-隐藏是评论者的归属地：
+隐藏评论者的归属地：
 
 `DISABLE_REGION = true`
 
