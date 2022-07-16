@@ -17,7 +17,7 @@
 
     <title>Posts | 咖喱</title>
 
-    <link rel="stylesheet" href="/css/meme.min.248f9605f25aa51abdeb2e42ca9e218b6e8b38174265749393ec6a666462c4b0.css"/>
+    <link rel="stylesheet" href="/css/meme.min.4269fcd29b56c49ac1d5d51b2c9ce3b57387b87028f85868d3a461fd58209b54.css"/>
 
     
     
@@ -57,7 +57,7 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "1969-07-20T20:17:43+00:00",
-        "dateModified": "2022-06-11T21:19:20+08:00",
+        "dateModified": "2022-07-16T14:08:22+08:00",
         "url": "https://joysblog.vercel.app/posts/",
         "name": "Posts",
         "description": "An archive of my own.",
@@ -241,6 +241,18 @@
                                     
                                 
                             
+                                
+                                    
+                                
+                            
+                                
+                                    
+                                
+                            
+                                
+                                    
+                                
+                            
                         
                     
 
@@ -286,6 +298,24 @@
                         <h2 class="list-year">二〇二二</h2>
                         
                             <ul class="list-part">
+        
+            <li class="list-item">
+                
+                <time datetime="2022-07-13T05:54:38&#43;08:00" class="list-item-time">7 月 13 日</time>
+                <a href="/posts/smile-eye-surgery-record/" class="list-item-title">全飞秒近视手术记录（附半飞秒手术及我的视力矫正史）</a>
+            </li>
+        
+            <li class="list-item">
+                
+                <time datetime="2022-06-28T12:35:38&#43;08:00" class="list-item-time">6 月 28 日</time>
+                <a href="/posts/configure-waline/" class="list-item-title">配置 Waline 评论</a>
+            </li>
+        
+            <li class="list-item">
+                
+                <time datetime="2022-06-27T01:06:01&#43;08:00" class="list-item-time">6 月 27 日</time>
+                <a href="/posts/try-e-notebook-again-in-2202/" class="list-item-title">2202 年我又开始做电子手帐了</a>
+            </li>
         
             <li class="list-item">
                 
@@ -393,7 +423,11 @@
         
 
         
-            <script>
+            <link
+  rel="stylesheet"
+  href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+/>
+<script>
   function loadComments() {
       if (typeof Waline === 'undefined') {
           var getScript = (options) => {
@@ -406,7 +440,7 @@
               document.body.appendChild(script);
           };
           getScript({
-              src: 'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js',
+              src: 'https://unpkg.com/@waline/client@v2/dist/waline.js',
               onload: () => {
                   newWaline();
               }
@@ -416,27 +450,36 @@
       }
   }
   function newWaline() {
-      new Waline({
+      const locale = {
+          nick: "昵称",
+          mail: "邮箱",
+          placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息。"
+      };
+      Waline.init({
           el: '#waline',
-          serverURL: 'https:\/\/waline-et0qdpqu9-joypankkk.vercel.app\/',
-          placeholder: '请填写正确的昵称和邮箱，方便接收评论回复信息哦。',
-          avatar: 'mp',
+          dark: 'html[data-theme="dark"]',
+          serverURL: 'https:\/\/waline-weld.vercel.app\/',
+          wordLimit:  0 ,
           meta: ["nick","mail","link"],
           pageSize:  10 ,
           lang: 'zh-CN',
-          highlight:  true ,
-          avatarCDN: 'https:\/\/cdn.v2ex.com\/gravatar\/',
-          requiredFields: ["nick","mail"],
-          dark: 'html[data-theme="dark"]'
+          highlighter:  true ,
+          emoji:  null ,
+          requiredMeta: ["nick","mail"],
+          login: 'enabled',
+          copyright:  true ,
+          locale
       });
   }
 </script>
+
 <style>
-    :root{
-        --waline-theme-color: var(--color-primary);
-        --waline-active-color: var(--color-primary);
-    }
+  :root {
+    --waline-theme-color: var(--color-primary);
+    --waline-active-color: var(--color-primary);
+  }
 </style>
+
         
         
     

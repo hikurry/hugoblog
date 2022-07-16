@@ -17,7 +17,7 @@
 
     <title>2021年度总结 | 咖喱</title>
 
-    <link rel="stylesheet" href="/css/meme.min.248f9605f25aa51abdeb2e42ca9e218b6e8b38174265749393ec6a666462c4b0.css"/>
+    <link rel="stylesheet" href="/css/meme.min.4269fcd29b56c49ac1d5d51b2c9ce3b57387b87028f85868d3a461fd58209b54.css"/>
 
     
     
@@ -352,19 +352,19 @@
                     </li>
                 
                     <li class="related-item">
+                        <a href="/posts/smile-eye-surgery-record/" class="related-link">全飞秒近视手术记录（附半飞秒手术及我的视力矫正史）</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/posts/try-e-notebook-again-in-2202/" class="related-link">2202 年我又开始做电子手帐了</a>
+                    </li>
+                
+                    <li class="related-item">
                         <a href="/posts/fear-that-we-are-facing/" class="related-link">凭什么我们生来就要遭受这种恐惧</a>
                     </li>
                 
                     <li class="related-item">
                         <a href="/posts/my-kindle-experience/" class="related-link">Kindle 使用体验</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/feel-sad-about-my-cat-growing-up/" class="related-link">成长痛：小猫长大了</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/blowing-in-the-wind/" class="related-link">答案在风中飘荡</a>
                     </li>
                 
             </ul>
@@ -456,7 +456,11 @@
         
 
         
-            <script>
+            <link
+  rel="stylesheet"
+  href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+/>
+<script>
   function loadComments() {
       if (typeof Waline === 'undefined') {
           var getScript = (options) => {
@@ -469,7 +473,7 @@
               document.body.appendChild(script);
           };
           getScript({
-              src: 'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/waline/1.5.4/Waline.min.js',
+              src: 'https://unpkg.com/@waline/client@v2/dist/waline.js',
               onload: () => {
                   newWaline();
               }
@@ -479,27 +483,36 @@
       }
   }
   function newWaline() {
-      new Waline({
+      const locale = {
+          nick: "昵称",
+          mail: "邮箱",
+          placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息。"
+      };
+      Waline.init({
           el: '#waline',
-          serverURL: 'https:\/\/waline-et0qdpqu9-joypankkk.vercel.app\/',
-          placeholder: '请填写正确的昵称和邮箱，方便接收评论回复信息哦。',
-          avatar: 'mp',
+          dark: 'html[data-theme="dark"]',
+          serverURL: 'https:\/\/waline-weld.vercel.app\/',
+          wordLimit:  0 ,
           meta: ["nick","mail","link"],
           pageSize:  10 ,
           lang: 'zh-CN',
-          highlight:  true ,
-          avatarCDN: 'https:\/\/cdn.v2ex.com\/gravatar\/',
-          requiredFields: ["nick","mail"],
-          dark: 'html[data-theme="dark"]'
+          highlighter:  true ,
+          emoji:  null ,
+          requiredMeta: ["nick","mail"],
+          login: 'enabled',
+          copyright:  true ,
+          locale
       });
   }
 </script>
+
 <style>
-    :root{
-        --waline-theme-color: var(--color-primary);
-        --waline-active-color: var(--color-primary);
-    }
+  :root {
+    --waline-theme-color: var(--color-primary);
+    --waline-active-color: var(--color-primary);
+  }
 </style>
+
         
         
     

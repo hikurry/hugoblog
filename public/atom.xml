@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">咖喱</title>
     <subtitle type="html">An archive of my own.</subtitle>
-    <updated>2022-06-22T21:12:51&#43;08:00</updated>
+    <updated>2022-07-16T14:09:11&#43;08:00</updated>
     <id>https://joysblog.vercel.app/</id>
     <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/" />
     <link rel="self" type="application/atom&#43;xml" href="https://joysblog.vercel.app/atom.xml" />
@@ -16,6 +16,130 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
+        <entry>
+            <title type="text">全飞秒近视手术记录（附半飞秒手术及我的视力矫正史）</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/smile-eye-surgery-record/" />
+            <id>https://joysblog.vercel.app/posts/smile-eye-surgery-record/</id>
+            <updated>2022-07-16T14:08:22&#43;08:00</updated>
+            <published>2022-07-13T05:54:38&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;做了全飞秒近视手术，感觉自己重生了。&lt;/p&gt;
+&lt;p&gt;本人的基本情况是，左右 550 度，右眼 650 度，双眼有 50 度的散光。小学五年级开始近视，初二起到大四除了高中有两年戴的是 RGP，一直都在佩戴角膜塑形镜。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E8%BF%91%E8%A7%86%E6%89%8B%E6%9C%AF/" term="近视手术" label="近视手术" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">配置 Waline 评论</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/configure-waline/" />
+            <id>https://joysblog.vercel.app/posts/configure-waline/</id>
+            <updated>2022-06-28T15:18:21&#43;08:00</updated>
+            <published>2022-06-28T12:35:38&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/learn/" term="LEARN" label="LEARN" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" term="花里胡哨" label="花里胡哨" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">2202 年我又开始做电子手帐了</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/try-e-notebook-again-in-2202/" />
+            <id>https://joysblog.vercel.app/posts/try-e-notebook-again-in-2202/</id>
+            <updated>2022-06-28T14:46:42&#43;08:00</updated>
+            <published>2022-06-27T01:06:01&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;两年前有坚持做了大概小半年的电子手帐，是日记形式的，后面因为懒就放弃了。前几天看到 mac 可以分屏到 ipad 上，突然又冒出了做电子手帐的想法（前后并没有因果关系反正就是突然灵光一现），于是马上下回 goodnotes 再次开始做电子手帐！&lt;/p&gt; </summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" term="花里胡哨" label="花里胡哨" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">凭什么我们生来就要遭受这种恐惧</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/fear-that-we-are-facing/" />
@@ -191,7 +315,7 @@
             <title type="text">拜拜北六环</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/goodbye-my-university/" />
             <id>https://joysblog.vercel.app/posts/goodbye-my-university/</id>
-            <updated>2022-06-05T19:24:51&#43;08:00</updated>
+            <updated>2022-06-28T14:46:23&#43;08:00</updated>
             <published>2022-05-19T21:01:23&#43;08:00</published>
             <author>
                     <name>咖喱</name>
