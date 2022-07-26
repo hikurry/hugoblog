@@ -47,3 +47,8 @@ tags: [Kindle, 工具]
 
 ### kindle highlights
 是 obsidian 的插件，一键将 kindle 标记导入至 obsidian。在亚马逊买的以及采用邮件发送至设备的电子书可以直接在线同步，用 USB 线导入的电子书需要手动上传 `My Clippings.txt`  文件。顺便一提，我连接数据线时，标记文件所在的文件夹是默认隐藏的，所以需要先选择显示被隐藏文件才能找到。
+
+### telegram bot
+[@zlibrary2bot](https://t.me/zlibrary2bot)：搜索 z-library 发送搜索结果。
+
+[@e_book_send_bot](https://t.me/e_book_send_bot)：发送文件至这个 bot 就能立刻推送至 kindle，个人感觉比邮件发送方便多了，结合上面的 bot 享受丝滑体验。
