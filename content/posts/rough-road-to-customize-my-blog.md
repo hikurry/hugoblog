@@ -18,8 +18,6 @@ tags: [HUGO]
 
 - [Hugo Stack 主題修改記錄 (添加 BigPicture 燈箱)](https://www.bigs3.com/article/modify-hugo-theme-stack-lightbox/)
 
-<!--more-->
-
 ## 调整链接样式
 
 不喜欢 hover 时的样式，在`assets/scss/style.scss`里修改样式：
@@ -255,7 +253,7 @@ apple-touch-icon 支持 size 属性，可以对应不同的设备，例如手机
 
 ## 首页文章“阅读更多”取代 description
 
-比起每次都要写 description 我更喜欢采用“阅读更多”的方式，看了一下 Hugo 自身也支持“阅读更多”，通过使用`.Summary`page 变量，生成内容摘要。默认摘要是文章内容的前 70 个单词（字数可以在配置文件中修改），也可以通过在文章中添加`<!--more-->`手动拆分。需要注意的地方是要识别中文字数需要在配置文件中将`hasCJKLanguage`设置成`true`。而且似乎自动识别的摘要是不带格式的（？ 总之我更倾向于手动拆分。
+比起每次都要写 description 我更喜欢采用“阅读更多”的方式，看了一下 Hugo 自身也支持“阅读更多”，通过使用`.Summary` 变量，生成内容摘要。默认摘要是文章内容的前 70 个单词（字数可以在配置文件中修改），也可以通过在文章中手动拆分。需要注意的地方是要识别中文字数需要在配置文件中将`hasCJKLanguage`设置成`true`。而且似乎自动识别的摘要是不带格式的（？ 总之我更倾向于手动拆分。
 
 更具体地请见[官方文档](https://gohugo.io/content-management/summaries/)。
 

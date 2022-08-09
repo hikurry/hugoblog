@@ -7,9 +7,6 @@ tags: [HUGO, Shortcode]
 
 测试了一下Hugo的短代码，包括内置和自定义的。捡捡补补，程序员的共享精神真伟大。
 
-<!--more-->
-
-
 ## HUGO 内置短代码
 
 ### Figure

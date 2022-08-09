@@ -8,23 +8,26 @@
   position: relative;
 }
 
-.post-title a::after {
+.post-title a:before, 
+.post-title a:after{
   content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
+  width: 0; 
+  height: 2px; 
+  background: var(--color-primary); 
   position: absolute;
-  bottom: -5px;
-  background: var(--color-primary);
-  transition: all 0.3s ease-in-out;
-  transform: scale3d(0, 1, 1);
-  transform-origin: 50% 0;
-}
+  top: 100%;
+  left: 50%;
+  transition: all .5s ; 
+  }
 
-.post-title a:hover::after {
-  transform: scale3d(1, 1, 1);
+.post-title a:hover:before{
+  left:0%;
+  width:50%;
+  }
+.post-title a:hover:after{
+  left: 50%; 
+  width: 50%;
 }
-
 /* toc */
 .contents-title:hover{
   cursor: pointer;
