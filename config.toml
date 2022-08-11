@@ -187,13 +187,13 @@ uglyURLs = false
     #    name = "归档"
     #    weight = 2
     #    pre = "internal"
-    #    post = "archive"
+    #    post = ""
     [[menu.main]]
         pageref = "/archive/"
         name = "归档"
         weight = 3
         pre = "internal"
-        post = "th"
+        post = ""
     #[[menu.main]]
     #   pageref = "/tags/"
     #    name = "标签"
@@ -209,19 +209,22 @@ uglyURLs = false
         name = "关于"
         weight = 6
         pre = "internal"
-        post = "user-circle"
+        post = ""
     [[menu.main]]
         weight = 8
         identifier = "theme-switcher"
+    [[menu.main]]
+        weight = 7
+        identifier = "search"
     # [[menu.main]]
     #    weight = 7
     #    identifier = "lang-switcher"
-    [[menu.main]]
-        pageref = "/search/"
-        weight = 7
-        name = "搜索"
-        identifier = "search"
-        post = "search"
+    #[[menu.main]]
+    #    pageref = "/search/"
+    #   weight = 7
+    #    name = "搜索"
+    #    identifier = "search"
+    #    post = "search"
     
 
 ##########################################
