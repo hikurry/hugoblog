@@ -123,9 +123,11 @@
   });
 
   // Update search on each keypress
-  input.onkeyup = function (event) {
-    executeQuery(this.value);
-  };
+
+  input.addEventListener("input", (event) => {
+    term = event.target.value.trim().replace("!", "");
+    executeQuery(term);
+  });
 
   function displaySearch() {
     if (!indexed) {
@@ -198,7 +200,7 @@
             <div class="search-item-content">
               <div class="search-item-title">${value.item.title}</div>
               <div class="search-item-categories">${value.item.categories}<span class="search-item-tags">&middot;</span>${value.item.tags}<span class="search-item-date">&middot;</span>${value.item.date}</span></div>
-              
+
             </div>
             <div class="search-item-link">&rarr;</div>
           </a>
