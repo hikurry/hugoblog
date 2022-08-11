@@ -297,6 +297,7 @@ input::-webkit-search-cancel-button {
   overflow: auto;
   flex: auto;
 }
+.chroma .lntable::-webkit-scrollbar,
 .search-section::-webkit-scrollbar {
   display: none;
 }

@@ -27,6 +27,7 @@ span.lnt {
 .chroma {
     color: var(--color-contrast-high);
     background-color: alpha(var(--color-contrast-lower), 0.5);
+    border-radius: 5px;
 }
 
 @if ($enableOverflowY) {

@@ -21,10 +21,10 @@ other = "上一页"
 other = "下一页"
 
 [copy]
-other = "复制"
+other = "Copy"
 
 [copied]
-other = "已复制"
+other = "Copied"
 
 [copyrightAuthor]
 other = "作者"

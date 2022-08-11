@@ -46,6 +46,7 @@
         margin: 2em auto;
         max-width: 100%;
         border: 1px solid var(--color-contrast-lower);
+        border-radius: 5px;
         clear: both;
     }
     figure{
@@ -258,6 +259,8 @@ pre {
         color: var(--color-bg);
         background-color: alpha(var(--color-contrast-medium), 0.5);
         transition: all $duration;
+        padding: 1px 5px;
+        border-radius: 999em;
         cursor: pointer;
         &:hover {
             background-color: alpha(var(--color-primary), 0.5);
