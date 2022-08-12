@@ -12,9 +12,7 @@ waline头像使用gravatar，到[官网](http://en.gravatar.com/)注册账号后
 
 非自定义的头像默认是很丑的蓝色图像，之前的配置中只要修改 `avatar` 的设置即可，但是我设置成 `monsterid` 后还是没有改变。找了好久都不知道哪里有问题，而且 Waline 版本更新后出的新的官方文档中删掉了 `avatar` 这个组建属性，两个官方文档我切换来切换去都搞懵了。 最后在官方 [issue](https://github.com/walinejs/waline/issues/775) 中看到了这条，就索性更新版本后按照评论中的方式设置环境变量试一试。
 
-![](https://s2.loli.net/2022/06/28/YK7qjVbOcl8sIxh.png)
-
-{{< caption "非自定义头像配置" >}}
+![](https://s2.loli.net/2022/06/28/YK7qjVbOcl8sIxh.png "非自定义头像配置")
 
 更新到最新版本后在 vercel 中配置环境变量：
 

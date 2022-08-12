@@ -10,7 +10,14 @@
                     {{ partial "components/post-meta.html" (dict "$" . "isHome" true) }}
                 {{ end }}
                 {{ partial "components/post-tags.html" . }}
+
+                {{ with .Params.img }}
+                  {{- $img := . -}}
+                    <img loading="lazy" src="{{$img}}" alt="" class="medium-zoom-image">
+                {{ end }}
                 <summary class="summary p-summary">
+                    
+                    
                     {{ partial "utils/summary.html" . }}
                 </summary>
                 {{ if or .Truncated .Params.summary }}

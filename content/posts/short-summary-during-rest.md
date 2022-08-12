@@ -3,13 +3,11 @@ title: "休息期间小记"
 date: 2022-08-01T05:37:38+08:00
 categories: [LIFE]
 tags: [兜风, 书籍, K-POP]
+img: "https://i.imgur.com/hMzJN18.jpg"
 ---
 
-![](https://i.imgur.com/hMzJN18.jpg)
-
-
 做了近视手术之后为了防止我躺在家里看手机，基本上每天晚上都被拉出去开车兜圈，转了大半个市区。期间也看了几本书。
-<!--more-->
+
 ## 兜兜转转
 
 ### 山
@@ -19,7 +17,7 @@ tags: [兜风, 书籍, K-POP]
 
 然后上了趟鼓岭，第一次开山路，又碰上大暴雨，开得我超紧张，背都不自觉挺直了，还被后面的车辆闪了好几次。到停车场后雨正好停了，夜景非常漂亮，说是能看到几乎整座城市。
 
-![](https://s2.loli.net/2022/08/02/nmI36agfSWNq7hT.jpg)
+![山顶夜景](https://s2.loli.net/2022/08/02/nmI36agfSWNq7hT.jpg)
 
 
 ### 水
