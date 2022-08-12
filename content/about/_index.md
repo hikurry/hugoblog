@@ -24,11 +24,13 @@ Kpop 重度爱好者，NO KPOP NO LIFE。不喜欢一直怀念过去的成就，
 
 博客框架是 [Hugo](https://gohugo.io/)，托管在 [Github](https://github.com/) 上，通过 [Vercel](https://vercel.app/) 部署，写作采用 [Obsidian](https://obsidian.md/)。博客主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)。站点 favicon 来自 [Flaticon](https://www.flaticon.com/)。
 
+魔改致谢：[Congo](https://github.com/jpanther/congo)、[Luna](https://github.com/Ice-Hazymoon/hugo-theme-luna)、[Lovelt](https://github.com/dillonzq/LoveIt)。
+
 本页的音乐是朋友分享给我的，刚听的时候就很想哭，歌词也很符合自己很多时候的心绪。
 
 ## Friends
 
-{{< friend name="Muko" url="https://hugo-mukokka.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" >}}
+{{< friend name="Muko" url="https://hugo-mukokka.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" logo="https://hugo-mukokka.vercel.app/avater.png" >}}
 
 {{< friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" word="和我一起做赛博宵夜吧!" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" >}}
 

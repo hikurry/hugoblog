@@ -131,8 +131,8 @@ i.star-outline{
 
 .frienddiv {
   overflow: auto;
-  height: 110px;
-  width: 48%;
+  height: 100px;
+  width: 47%;
   display: inline-block;
   border-radius: 5px;
   background: var(--color-contrast-lower2);
@@ -149,7 +149,7 @@ i.star-outline{
 
 .friendcontent{
   display: flex;
-  padding: 18px;
+  padding: 12px;
 }
 
 .frienddiv:hover .frienddivright img { 
@@ -173,6 +173,7 @@ i.star-outline{
 
 .frienddivleft {
   flex-grow: 1;
+  width: 75%;
 }
 
 .friendname {
