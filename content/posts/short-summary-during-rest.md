@@ -5,7 +5,8 @@ categories: [LIFE]
 tags: [兜风, 书籍, K-POP]
 ---
 
-![](https://i.imgur.com/IH9dH93.jpg)
+![](https://i.imgur.com/hMzJN18.jpg)
+
 
 做了近视手术之后为了防止我躺在家里看手机，基本上每天晚上都被拉出去开车兜圈，转了大半个市区。期间也看了几本书。
 <!--more-->
