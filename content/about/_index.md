@@ -24,7 +24,7 @@ Kpop 重度爱好者，NO KPOP NO LIFE。不喜欢一直怀念过去的成就，
 
 博客框架是 [Hugo](https://gohugo.io/)，托管在 [Github](https://github.com/) 上，通过 [Vercel](https://vercel.app/) 部署，写作采用 [Obsidian](https://obsidian.md/)。博客主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)。站点 favicon 来自 [Flaticon](https://www.flaticon.com/)。
 
-魔改致谢：[Congo](https://github.com/jpanther/congo)、[Luna](https://github.com/Ice-Hazymoon/hugo-theme-luna)、[Lovelt](https://github.com/dillonzq/LoveIt)。
+魔改致谢：[Congo](https://github.com/jpanther/congo)、[Luna](https://github.com/Ice-Hazymoon/hugo-theme-luna)、[Lovelt](https://github.com/dillonzq/LoveIt)、[林木木](https://immmmm.com/)。
 
 本页的音乐是朋友分享给我的，刚听的时候就很想哭，歌词也很符合自己很多时候的心绪。
 

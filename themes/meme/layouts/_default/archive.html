@@ -5,7 +5,7 @@
     {{$scratch := newScratch}} {{ range (where .Site.Pages "Kind" "page" )}}
     {{$scratch.Add "total" .WordCount}} {{ end }} {{$totalWord := $scratch.Get
     "total" }}
-    <div class="wordcount">本站共计{{$totalWord}}字</div>
+    <div class="wordcount">本站总计{{ len (where .Site.RegularPages "Section" "posts") }}篇文章，{{$totalWord}}字</div>
 
     <div class="content categories">
       <div><h2>分类</h2></div>
