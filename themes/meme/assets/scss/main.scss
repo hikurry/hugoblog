@@ -437,11 +437,6 @@ $fofPoster: url({{ $fofPoster }});
 
 // Third Party
 
-// Medium Zoom
-
-{{ if .Site.Params.enableMediumZoom }}
-    @import "third-party/medium-zoom";
-{{ end }}
 
 // Busuanzi Site UV And PV
 
