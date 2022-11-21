@@ -200,10 +200,7 @@ uglyURLs = false
     #    weight = 4
     #    pre = "internal"
     #    post = "tags"
-    #[[menu.main]]
-    #    pageref = "/cat/"
-    #    name = "猫咪"
-    #    weight = 5
+    
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
