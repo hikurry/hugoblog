@@ -18,8 +18,6 @@ comments: true
 
 Kpop 重度爱好者，NO KPOP NO LIFE。不喜欢一直怀念过去的成就，喜欢 Kpop 现在百花齐放，向全世界绽放魅力的活力和生机，沉浸之中就觉得自己永远十八岁。目前没有固定担。
 
-养了一只小狸花，关于小猫的碎碎念都在[铲屎官日记]({{< ref cat >}})这个页面。
-
 ## About Blog
 
 博客框架是 [Hugo](https://gohugo.io/)，托管在 [Github](https://github.com/) 上，通过 [Vercel](https://vercel.app/) 部署，写作采用 [Obsidian](https://obsidian.md/)。博客主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)。站点 favicon 来自 [Flaticon](https://www.flaticon.com/)。
