@@ -5,7 +5,13 @@
     {{$scratch := newScratch}} {{ range (where .Site.Pages "Kind" "page" )}}
     {{$scratch.Add "total" .WordCount}} {{ end }} {{$totalWord := $scratch.Get
     "total" }}
-    <div class="wordcount">本站总计{{ len (where .Site.RegularPages "Section" "posts") }}篇文章，{{$totalWord}}字</div>
+    <div class="post">
+      <img src="https://unsplash.it/1920/1080/?random=300" alt="" />
+    </div>
+    <div class="wordcount">
+      本站总计{{ len (where .Site.RegularPages "Section" "posts")
+      }}篇文章，{{$totalWord}}字
+    </div>
 
     <div class="content categories">
       <div><h2>分类</h2></div>
@@ -66,7 +72,7 @@
     </div>
 
     <div class="tag">
-      <h2><a href="/tags">标签</a></h2>
+      <h2><a href="/tags">标签 ←</a></h2>
     </div>
 
     <div class="content list-group">

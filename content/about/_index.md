@@ -1,10 +1,11 @@
 ---
 title: "About"
-date: 2022-02-25T11:35:33+08:00
 draft: false
 toc: false
 comments: true
 ---
+
+![](https://unsplash.it/1920/1080/?random=100)
 
 欢迎光临！
 
@@ -25,15 +26,3 @@ Kpop 重度爱好者，NO KPOP NO LIFE。不喜欢一直怀念过去的成就，
 魔改致谢：[Congo](https://github.com/jpanther/congo)、[Luna](https://github.com/Ice-Hazymoon/hugo-theme-luna)、[Lovelt](https://github.com/dillonzq/LoveIt)、[林木木](https://immmmm.com/)。
 
 本页的音乐是朋友分享给我的，刚听的时候就很想哭，歌词也很符合自己很多时候的心绪。
-
-## Friends
-
-{{< friend name="Muko" url="https://hugo-mukokka.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" logo="https://hugo-mukokka.vercel.app/avater.png" >}}
-
-{{< friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" word="和我一起做赛博宵夜吧!" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" >}}
-
-> **茫茫人海中如果有缘相遇欢迎交换友链**  
-> 名称：咖喱  
-> 地址：joysblog.vercel.app  
-> 头像：joysblog.vercel.app/icons/apple-touch-icon.png  
-> 简介：即使埋藏在内心也没关系

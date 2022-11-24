@@ -194,12 +194,12 @@ uglyURLs = false
         weight = 3
         pre = "internal"
         post = ""
-    #[[menu.main]]
-    #   pageref = "/tags/"
-    #    name = "标签"
-    #    weight = 4
-    #    pre = "internal"
-    #    post = "tags"
+    [[menu.main]]
+       pageref = "/friends/"
+        name = "友链"
+        weight = 4
+        pre = "internal"
+        post = ""
     
     [[menu.main]]
         pageref = "/about/"
