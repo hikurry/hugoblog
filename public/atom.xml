@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">咖喱</title>
     <subtitle type="html">An archive of my own.</subtitle>
-    <updated>2022-11-24T16:52:33&#43;08:00</updated>
+    <updated>2023-01-07T00:09:52&#43;08:00</updated>
     <id>https://joysblog.vercel.app/</id>
     <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/" />
     <link rel="self" type="application/atom&#43;xml" href="https://joysblog.vercel.app/atom.xml" />
@@ -16,6 +16,47 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
+        <entry>
+            <title type="text">伟大的意大利的左后卫</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/great-italian-left-back/" />
+            <id>https://joysblog.vercel.app/posts/great-italian-left-back/</id>
+            <updated>2023-01-07T00:06:54&#43;08:00</updated>
+            <published>2023-01-06T15:05:38&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">好久没有更新博客了，其实十月十一月都有动笔过，但是每次写完开头就会碰上一系列糟心事，导致我没有继续写下去的心情，只想暴躁地按下键……</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/life/" term="LIFE" label="LIFE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/tags/%E5%80%BC%E5%BE%97%E6%89%93%E4%B8%8A%E4%B8%80%E4%B8%AA%E5%BA%9F%E8%AF%9D%E7%9A%84%E6%A0%87%E7%AD%BE/" term="值得打上一个废话的标签" label="值得打上一个废话的标签" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">书籍影视漫画标记</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/book-movie-webtoon-recording/" />

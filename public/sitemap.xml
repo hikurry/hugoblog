@@ -2,26 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://joysblog.vercel.app/categories/</loc>
+    <lastmod>2023-01-07T00:06:54+08:00</lastmod>
+  </url><url>
+    <loc>https://joysblog.vercel.app/categories/life/</loc>
+    <lastmod>2023-01-07T00:06:54+08:00</lastmod>
+  </url><url>
+    <loc>https://joysblog.vercel.app/posts/</loc>
+    <lastmod>2023-01-07T00:06:54+08:00</lastmod>
+  </url><url>
+    <loc>https://joysblog.vercel.app/tags/</loc>
+    <lastmod>2023-01-07T00:06:54+08:00</lastmod>
+  </url><url>
+    <loc>https://joysblog.vercel.app/</loc>
+    <lastmod>2023-01-07T00:09:38+08:00</lastmod>
+  </url><url>
+    <loc>https://joysblog.vercel.app/posts/great-italian-left-back/</loc>
+    <lastmod>2023-01-07T00:06:54+08:00</lastmod>
+  </url><url>
+    <loc>https://joysblog.vercel.app/tags/%E5%80%BC%E5%BE%97%E6%89%93%E4%B8%8A%E4%B8%80%E4%B8%AA%E5%BA%9F%E8%AF%9D%E7%9A%84%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2023-01-07T00:06:54+08:00</lastmod>
+  </url><url>
     <loc>https://joysblog.vercel.app/tags/anilist/</loc>
     <lastmod>2022-09-29T20:24:17+08:00</lastmod>
   </url><url>
     <loc>https://joysblog.vercel.app/tags/anime-planet/</loc>
     <lastmod>2022-09-29T20:24:17+08:00</lastmod>
   </url><url>
-    <loc>https://joysblog.vercel.app/categories/</loc>
-    <lastmod>2022-11-21T23:02:19+08:00</lastmod>
-  </url><url>
-    <loc>https://joysblog.vercel.app/categories/life/</loc>
-    <lastmod>2022-09-29T20:24:17+08:00</lastmod>
-  </url><url>
     <loc>https://joysblog.vercel.app/tags/obsidian/</loc>
     <lastmod>2022-09-29T20:24:17+08:00</lastmod>
-  </url><url>
-    <loc>https://joysblog.vercel.app/posts/</loc>
-    <lastmod>2022-11-21T23:02:19+08:00</lastmod>
-  </url><url>
-    <loc>https://joysblog.vercel.app/tags/</loc>
-    <lastmod>2022-11-21T23:02:19+08:00</lastmod>
   </url><url>
     <loc>https://joysblog.vercel.app/tags/watcha-pedia/</loc>
     <lastmod>2022-09-29T20:24:17+08:00</lastmod>
@@ -31,9 +40,6 @@
   </url><url>
     <loc>https://joysblog.vercel.app/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/</loc>
     <lastmod>2022-09-29T20:24:17+08:00</lastmod>
-  </url><url>
-    <loc>https://joysblog.vercel.app/</loc>
-    <lastmod>2022-11-21T23:03:41+08:00</lastmod>
   </url><url>
     <loc>https://joysblog.vercel.app/posts/book-movie-webtoon-recording/</loc>
     <lastmod>2022-09-29T20:24:17+08:00</lastmod>
@@ -137,9 +143,6 @@
     <loc>https://joysblog.vercel.app/posts/change-blog-theme-from-stack-to-meme/</loc>
     <lastmod>2022-11-21T23:02:19+08:00</lastmod>
   </url><url>
-    <loc>https://joysblog.vercel.app/about/</loc>
-    <lastmod>2022-11-21T23:03:41+08:00</lastmod>
-  </url><url>
     <loc>https://joysblog.vercel.app/posts/my-first-experience-as-a-catkeeper/</loc>
     <lastmod>2022-08-09T22:34:02+08:00</lastmod>
   </url><url>
@@ -161,7 +164,13 @@
     <loc>https://joysblog.vercel.app/tags/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-08-09T22:33:59+08:00</lastmod>
   </url><url>
+    <loc>https://joysblog.vercel.app/about/</loc>
+    <lastmod>2023-01-07T00:09:38+08:00</lastmod>
+  </url><url>
+    <loc>https://joysblog.vercel.app/friends/</loc>
+    <lastmod>2022-11-24T17:58:58+08:00</lastmod>
+  </url><url>
     <loc>https://joysblog.vercel.app/archive/</loc>
-    <lastmod>2022-05-28T21:14:48+08:00</lastmod>
+    <lastmod>2022-11-24T17:58:51+08:00</lastmod>
   </url>
 </urlset>
