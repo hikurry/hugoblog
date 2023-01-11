@@ -327,7 +327,9 @@ uglyURLs = false
     homeKeywords = ""
     homeLinksDelimiter = ""
 
-
+    ## 文章摘要
+    enableHideInHomepage = true
+    
     ######################################
     # 站点信息
 

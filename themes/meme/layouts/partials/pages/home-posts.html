@@ -1,7 +1,9 @@
 <main class="main single" id="main">
   <div class="main-inner">
-    {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in"
-    .Site.Params.mainSections) }} {{ range $paginator.Pages }}
+    {{ $pages := where .Site.RegularPages "Section" "in"
+    .Site.Params.mainSections }} {{ if .Site.Params.enableHideInHomepage }} {{
+    $pages = where $pages ".Params.hideInHomepage" "ne" true }} {{ end }} {{
+    $paginator := .Paginate $pages }} {{ range $paginator.Pages }}
     <article class="content post home h-entry">
       <h1 class="post-title p-name">
         <a href="{{ .RelPermalink }}" class="summary-title-link u-url"

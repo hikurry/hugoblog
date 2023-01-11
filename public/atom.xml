@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">咖喱</title>
     <subtitle type="html">An archive of my own.</subtitle>
-    <updated>2023-01-07T00:09:52&#43;08:00</updated>
+    <updated>2023-01-12T00:03:37&#43;08:00</updated>
     <id>https://joysblog.vercel.app/</id>
     <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/" />
     <link rel="self" type="application/atom&#43;xml" href="https://joysblog.vercel.app/atom.xml" />
@@ -16,6 +16,72 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
+        <entry>
+            <title type="text">猫咪有什么坏心眼呢</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/photos/cat/" />
+            <id>https://joysblog.vercel.app/posts/photos/cat/</id>
+            <updated>2023-01-11T23:51:04&#43;08:00</updated>
+            <published>2023-01-11T15:34:32&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">.plog { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 4px; } .plog-wrapper { width: 100%; height: 0; padding-bottom: 100%; position: relative; } .plog img { position: absolute; object-fit: cover; width: 100%; height: 100%; cursor: pointer; transition: 0.3s; border: 0; } .plog img:hover { opacity: 80%; } @media screen and (max-width: 400px) { .plog { grid-template-columns: repeat(3, 1fr); } }</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/photo/" term="PHOTO" label="PHOTO" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">2022 PLOG</title>
+            <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/photos/2022/" />
+            <id>https://joysblog.vercel.app/posts/photos/2022/</id>
+            <updated>2023-01-11T23:35:48&#43;08:00</updated>
+            <published>2023-01-11T13:50:32&#43;08:00</published>
+            <author>
+                    <name>咖喱</name>
+                    <uri>https://joysblog.vercel.app/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">.plog { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 4px; } .plog-wrapper { width: 100%; height: 0; padding-bottom: 100%; position: relative; } .</summary>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://joysblog.vercel.app/categories/photo/" term="PHOTO" label="PHOTO" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">伟大的意大利的左后卫</title>
             <link rel="alternate" type="text/html" href="https://joysblog.vercel.app/posts/great-italian-left-back/" />

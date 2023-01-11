@@ -1,0 +1,42 @@
+{{ $image := (.Page.Resources.ByType "image") }} {{ with $image }}
+<div class="plog">
+  {{ range . }}
+  <div class="plog-wrapper">
+    <img loading="lazy" src="{{ .Permalink }}" />
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+<style>
+  .plog {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4px;
+  }
+
+  .plog-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+  }
+
+  .plog img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 0;
+  }
+  .plog img:hover {
+    opacity: 80%;
+  }
+
+  @media screen and (max-width: 400px) {
+    .plog {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>
