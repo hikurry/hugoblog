@@ -6,4 +6,4 @@ hideInHomepage: true
 displayModifiedDate: true
 ---
 
-{{< plog >}}
+{{< plog "images/cat" >}}
