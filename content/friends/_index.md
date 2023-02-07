@@ -13,6 +13,8 @@ comments: true
 
 {{< friend name="EvanNotFound's Blog" url="https://ohevan.com" word="Evan的部落阁，用香港记者的速度更新文章!" logo="https://evan.beee.top/avatar.png" >}}
 
+{{< friend name="呆呆不是槑" url="http://graugris.icu/" word="梦想是实现旺仔牛奶自由" logo="http://graugris.icu/avatar.png" >}}
+
 > **茫茫人海中如果有缘相遇欢迎交换友链**  
 > 名称：咖喱  
 > 地址：joysblog.vercel.app  
