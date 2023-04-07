@@ -6,18 +6,17 @@
   /* 自定义 */
   jQuery(document).ready(function ($) {
     //豆瓣图书电影条目
-    $(".post-body a[href*='douban.com/subject/']").each(function () {
+    $(".post-body a[href*='neodb.social/']").each(function () {
       var _this = $(this);
       var str = _this.attr("href");
-      var db_reg =
-        /^https\:\/\/(movie|book)\.douban\.com\/subject\/([0-9]+)\/?/;
+      var db_reg = /^https\:\/\/neodb.social\/(movie|book)\/([a-zA-Z0-9]+)\/?/;
       if (db_reg.test(str)) {
         var db_type = str.replace(db_reg, "$1");
         var db_id = str.replace(db_reg, "$2").toString();
-        var db_api = "https://douban.edui.fun/";
+        var db_api = "https://neodb.social/api/";
         if (db_type == "movie") {
           var ls_item = "movie" + db_id;
-          var url = db_api + "movies/" + db_id;
+          var url = db_api + "movie/" + db_id;
           if (
             localStorage.getItem(ls_item) == null ||
             localStorage.getItem(ls_item) == "undefined"
@@ -36,7 +35,7 @@
           }
         } else if (db_type == "book") {
           var ls_item = "book" + db_id;
-          var url = db_api + "v2/book/id/" + db_id;
+          var url = db_api + "book/" + db_id;
           if (
             localStorage.getItem(ls_item) == null ||
             localStorage.getItem(ls_item) == "undefined"
@@ -66,7 +65,7 @@
         "<div class='post-preview'><div class='post-preview-wrapper'><div class='post-preview--meta'><div class='post-preview--middle'><h4 class='post-preview--title'><a target='_blank' href='" +
           str +
           "'>《" +
-          data.name +
+          data.title +
           "》</a></h4><div class='rating'><div class='rating-star allstar" +
           db_star +
           "'></div><div class='rating-average'>" +
@@ -80,7 +79,7 @@
           "</time><section style='max-height:75px;overflow:hidden;' class='post-preview--excerpt'>" +
           data.intro.replace(/\s*/g, "") +
           "</section></div></div></div><img referrer-policy='no-referrer' loading='lazy' class='post-preview--image' src=" +
-          data.img +
+          data.over_image_url +
           "></div>"
       ).replaceAll(_this);
     }
