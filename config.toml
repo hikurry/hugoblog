@@ -1393,3 +1393,5 @@ uglyURLs = false
     fofVideoWebm = ""
     fofVideoMp4 = ""
     # 说明：视频地址可留空（""）
+
+    ignoreErrors = ["error-remote-getjson"]
