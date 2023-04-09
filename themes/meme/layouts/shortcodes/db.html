@@ -1,11 +1,8 @@
-{{ $dbUrl := "https://neodb.social/api/" }}
-{{ $reg := `.*neodb.social/(movie|book|tv|game|podcast)/([a-zA-Z0-9]+)` }}
-{{ $dbID := replaceRE $reg "$2" (.Get 0) }} 
-{{ $dbType := replaceRE $reg "$1" (.Get 0) }}
+{{ $dbUrl := "https://neodb.social/api/" }} {{ $reg :=
+`.*neodb.social/(movie|book|tv|game|podcast)/([a-zA-Z0-9]+)` }} {{ $dbID :=
+replaceRE $reg "$2" (.Get 0) }} {{ $dbType := replaceRE $reg "$1" (.Get 0) }}
 <!--电影-->
-{{if eq $dbType "movie" }}
-{{ $db := getJSON $dbUrl "movie/" $dbID }}
-{{if $db}}
+{{if eq $dbType "movie" }} {{ $db := getJSON $dbUrl "movie/" $dbID }} {{if $db}}
 <div class="post-preview game movie">
   <img
     referrer-policy="no-referrer"
@@ -46,12 +43,9 @@
 <p style="text-align: center">
   <small>远程获取内容失败，请检查 API 有效性。</small>
 </p>
-{{end}}
-{{end}}
+{{end}} {{end}}
 <!--书籍-->
-{{if eq $dbType "book" }}
-{{ $db := getJSON $dbUrl "book/" $dbID }}
-{{if $db}}
+{{if eq $dbType "book" }} {{ $db := getJSON $dbUrl "book/" $dbID }} {{if $db}}
 <div class="post-preview game movie">
   <img
     referrer-policy="no-referrer"
@@ -70,7 +64,8 @@
         <div class="release-time"></div>
       </div>
       <time class="post-preview--date">
-        {{ $db.pub_year }} / {{ range $author := $db.author }}{{ $author}} {{end}}
+        {{ $db.pub_year }} / {{ range $author := $db.author }}{{ $author}}
+        {{end}}
         <span class="post-preview--tags">
           {{ range $tags := $db.tags }}
           <span class="post-preview--tag">{{ $tags.name }}</span>
@@ -90,12 +85,9 @@
 <p style="text-align: center">
   <small>远程获取内容失败，请检查 API 有效性。</small>
 </p>
-{{end}}
-{{end}}
+{{end}} {{end}}
 <!--tv-->
-{{if eq $dbType "tv" }}
-{{ $db := getJSON $dbUrl "tv/" $dbID }}
-{{if $db}}
+{{if eq $dbType "tv" }} {{ $db := getJSON $dbUrl "tv/" $dbID }} {{if $db}}
 <div class="post-preview game movie">
   <img
     referrer-policy="no-referrer"
@@ -136,13 +128,11 @@
 <p style="text-align: center">
   <small>远程获取内容失败，请检查 API 有效性。</small>
 </p>
-{{end}}
-{{end}}
+{{end}} {{end}}
 
 <!--podcast-->
-{{if eq $dbType "podcast" }}
-{{ $db := getJSON $dbUrl "podcast/" $dbID }}
-{{if $db}}
+{{if eq $dbType "podcast" }} {{ $db := getJSON $dbUrl "podcast/" $dbID }} {{if
+$db}}
 <div class="post-preview game movie">
   <img
     referrer-policy="no-referrer"
@@ -161,7 +151,8 @@
         <div class="release-time"></div>
       </div>
       <time class="post-preview--date">
-        {{ range $genre := $db.genre }}{{ $genre }} {{ end }} / {{ range $hosts := $db.hosts }}{{ $hosts }} {{ end }}
+        {{ range $genre := $db.genre }}{{ $genre }} {{ end }} / {{ range $hosts
+        := $db.hosts }}{{ $hosts }} {{ end }}
         <span class="post-preview--tags">
           {{ range $tags := $db.tags }}
           <span class="post-preview--tag">{{ $tags.name }}</span>
@@ -181,14 +172,10 @@
 <p style="text-align: center">
   <small>远程获取内容失败，请检查 API 有效性。</small>
 </p>
-{{end}}
-{{end}}
-
+{{end}} {{end}}
 
 <!--game-->
-{{if eq $dbType "game" }}
-{{ $db := getJSON $dbUrl "game/" $dbID }}
-{{if $db}}
+{{if eq $dbType "game" }} {{ $db := getJSON $dbUrl "game/" $dbID }} {{if $db}}
 <div class="post-preview game movie">
   <img
     referrer-policy="no-referrer"
@@ -207,7 +194,9 @@
         <div class="release-time"></div>
       </div>
       <time class="post-preview--date">
-        {{ $db.release_date }} / {{ range $genre := $db.genre }}{{ $genre }} {{ end }} / {{ range $developer := $db.developer }}{{ $developer }} {{ end }}
+        {{ $db.release_date }} / {{ range $genre := $db.genre }}{{ $genre }} {{
+        end }} / {{ range $developer := $db.developer }}{{ $developer }} {{ end
+        }}
         <span class="post-preview--tags">
           {{ range $tags := $db.tags }}
           <span class="post-preview--tag">{{ $tags.name }}</span>
@@ -227,8 +216,7 @@
 <p style="text-align: center">
   <small>远程获取内容失败，请检查 API 有效性。</small>
 </p>
-{{end}}
-{{end}}
+{{end}} {{end}}
 
 <style>
   .post-preview {
@@ -252,7 +240,7 @@
   }
   .post-preview--meta {
     overflow: hidden;
-    margin: 8px 15px 8px 0;
+    margin: 8px 15px;
   }
   .post-preview--middle {
     line-height: 28px;
@@ -278,11 +266,11 @@
     line-height: 1.825;
   }
   .post-preview--image {
-    height: 150px !important;
+    height: 160px !important;
     width: auto;
     float: right;
     border: none !important;
-    margin: 15px !important;
+    margin: 10px 0px 10px 10px !important;
   }
   @media (max-width: 550px) {
     .post-preview {
@@ -299,7 +287,8 @@
       line-height: 19px;
     }
     .post-preview--image {
-      height: 90px !important;
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
     }
   }
   .rating {
