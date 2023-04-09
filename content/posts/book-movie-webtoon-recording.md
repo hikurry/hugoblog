@@ -38,7 +38,7 @@ watcha pedia 起家是电影和电视剧数据库，所以影视的词条很全�
 ![](https://i.imgur.com/MWMcf13.png "数据分析页面部分截图")
 
 ### 朋友动态
-和豆瓣友邻动态类似，在 APP 端“News Feed”中可以看到“Friend‘s Activity”，可以看到关注的人的评分、评论等，并且可以点赞评论。 [欢迎来找我一起玩](https://pedia.watcha.com/en-KR/users/YMKqmNjzlyvlo) 。
+和豆瓣友邻动态类似，在 APP 端“News Feed”中可以看到“Friend‘s Activity”，可以看到关注的人的评分、评论等，并且可以点赞评论。
 
 ![](https://i.imgur.com/b9kasZi.jpg "关注了一位据说是韩国著名评论家，but 我什么都看不懂==")
 
