@@ -45,11 +45,7 @@ watcha pedia 起家是电影和电视剧数据库，所以影视的词条很全�
 ## Anime-Planet（AP） / Anilist
 这两个都是漫画和动画标记平台，中日韩都有，数据库很全。但从数据库上来说，二者没有太大差别，主要是使用上有些微妙的不同。我个人体验简单来说 AP 条目搜索更方便，评分评论起来更丝滑，Anilist在已标记的漫画中筛选和数据分析可视化功能更强大。
 
-用了 watcha pedia 之后我就没怎么用这两个网页端了，因为我个人还是觉得 APP 方便些。这里就直接放上我的 profile 让大家直观感受一下这两个网站的页面吧。
-
-[posture00's profile · AniList](https://anilist.co/user/posture00/)
-
-[posture00's Profile | Anime-Planet](https://www.anime-planet.com/users/posture00)
+用了 watcha pedia 之后我就没怎么用这两个网页端了，因为我个人还是觉得 APP 方便些。
 
 ## 本地 Obsidian
 用 obsidian + mininal 主题+dataview 插件+DB folder 插件+obsidian douban 插件可以在本地实现类 notion 管理书籍影视。
