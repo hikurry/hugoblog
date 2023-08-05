@@ -1,7 +1,7 @@
 {{ $image := (.Page.Resources.ByType "image") }}
 {{ with $image }}
 <div class="plog">
-  {{ range . }}
+  {{ range sort . ".Name" "asc" }}
   <div class="plog-wrapper">
     <img
       loading="lazy"
