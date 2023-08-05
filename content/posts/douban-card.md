@@ -25,7 +25,9 @@ img: https://i.imgur.com/h8yWG2b.jpg
 
 {{< db "https://neodb.social/podcast/55pPDZBO9lnmKmOgIQnqAt" >}}
 
-音乐专辑和分季的电视剧暂时是失效的，And 开发者提醒这个 API 还处于 Alpha 阶段后续还会有变动。
+{{< db "https://neodb.social/album/0N4JA2WyWL43W5zFu4GN34" >}}
+
+{{< db "https://neodb.social/tv/season/2ndrjrm986DTBmyuSEfnFl" >}}
 
 在想哪个更好看一点（~~放弃装修是不可能的~~）：
 ![](https://i.imgur.com/h8yWG2b.jpg)
