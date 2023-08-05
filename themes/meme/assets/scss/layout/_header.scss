@@ -4,13 +4,13 @@
 
 @if ($headerLayoutFlex) {
   .header {
-    position: fixed;
-    width: 100vw;
+    position: sticky;
+    top: 0;
   }
   .header-wrapper {
     padding: 1em 0;
     @include blur;
-    background: var(--color-bg);
+    background: hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.7);
     transition: background $duration;
     border-bottom: 1px solid;
     border-color: hsla(var(--color-contrast-medium-h), var(--color-contrast-medium-s), var(--color-contrast-medium-l), 0.2);;

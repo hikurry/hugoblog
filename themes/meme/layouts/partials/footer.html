@@ -20,7 +20,7 @@
                   &nbsp;
               {{- end -}}
 
-              {{- .Site.Author.name -}}
+              {{- .Site.Author.name -}}&nbsp&nbsp<a href="/tags">TAG</a>
             </div>
 
             {{- if .Site.Params.displayPoweredBy }}
@@ -38,6 +38,12 @@
                 <div class="custom-footer">{{ partial "utils/markdownify.html" (dict "$" $ "raw" $raw "isContent" false) }}</div>
             {{- end }}
             
+            {{$scratch := newScratch}} {{ range (where .Site.Pages "Kind" "page" )}}
+            {{$scratch.Add "total" .WordCount}} {{ end }} {{$totalWord := $scratch.Get
+            "total" }}
+            <div class="total-count">本站总计{{ len (where .Site.RegularPages "Section" "posts")
+            }}篇文章，共嘟嘟了{{$totalWord}}字</div>
+
             {{- if and .Site.Params.displayBusuanziSiteUVAndPV (eq hugo.Environment "production") }}
                 <div class="busuanzi-site-uv-and-pv">
                     <span id="busuanzi_container_site_uv">

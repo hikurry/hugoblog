@@ -6,4 +6,4 @@ hideInHomepage: true
 displayModifiedDate: true
 ---
 
-{{< plog "images/2022" >}}
+{{< plog >}}

@@ -1,63 +1,14 @@
-{{ $baseURL := .Site.BaseURL }} {{- with (.Get 0) -}} {{- $files := readDir
-(print "/static/" .) }}
+{{ $image := (.Page.Resources.ByType "image") }}
+{{ with $image }}
 <div class="plog">
-  {{- range (sort $files "Name" "asc") -}} {{- if ( .Name | findRE
-  "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }} {{- $linkURL := print
-  $baseURL "/" ($.Get 0) "/" .Name | absURL }}
+  {{ range . }}
   <div class="plog-wrapper">
     <img
       loading="lazy"
       decoding="async"
-      src="{{  $linkURL  }}"
-      alt="{{ .Name }}"
+      src="{{ .Permalink }}"
     />
   </div>
-  {{- end }} {{- end }}
+  {{- end }} 
 </div>
 {{- end }}
-<style>
-  .main-inner:has(.plog) {
-    width: 100%;
-  }
-
-  .plog {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4px;
-  }
-
-  .plog-wrapper {
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    position: relative;
-  }
-
-  .plog img {
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    transition: 0.3s;
-    border: 0;
-  }
-  .plog img:hover {
-    opacity: 80%;
-  }
-  @media screen and (min-width: 476px) {
-    .plog {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-  @media screen and (min-width: 720px) {
-    .plog {
-      grid-template-columns: repeat(5, 1fr);
-    }
-  }
-  @media screen and (min-width: 868px) {
-    .plog {
-      grid-template-columns: repeat(6, 1fr);
-    }
-  }
-</style>

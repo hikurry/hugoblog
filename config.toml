@@ -412,7 +412,7 @@ uglyURLs = false
     # 列表页面
 
     # 宽度
-    listWidth = ""
+    listWidth = "50"
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -725,7 +725,7 @@ uglyURLs = false
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = ""
+    postWidth = "50"
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -926,7 +926,7 @@ uglyURLs = false
 
     ######################################
     # 滚动条
-    customizeScrollbar = true
+    customizeScrollbar = false
 
 
     ######################################
@@ -1230,13 +1230,13 @@ uglyURLs = false
     # 页脚
 
     # 是否开启
-    enableFooter =  false
+    enableFooter =  true
 
     # 是否显示
-    displayFooter = false
+    displayFooter = true
 
     # 是否在首页显示
-    displayFooterInHome = false
+    displayFooterInHome = true
 
     displayCopyleftSymbol = false
     # 是否显示版权符号（©）
@@ -1246,14 +1246,14 @@ uglyURLs = false
     displaySiteCreatedYear = false
 
     # 年份与作者之间的图标，留空（""）则无
-    iconBetweenYearAndAuthor = "heart"
+    iconBetweenYearAndAuthor = ""
     # 图标颜色
     iconColor = "#f06292"
     # 是否开启图标的跳动效果
     iconAnimation = false
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = false
+    displayPoweredBy = true
 
     # 是否显示站点的版权信息
     displaySiteCopyright = false

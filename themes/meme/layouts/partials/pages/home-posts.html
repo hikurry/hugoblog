@@ -1,49 +1,90 @@
-<main class="main single" id="main">
+<main class="main home single" id="main">
   <div class="main-inner">
     {{ $pages := where .Site.RegularPages "Section" "in"
     .Site.Params.mainSections }} {{ if .Site.Params.enableHideInHomepage }} {{
-    $pages = where $pages ".Params.hideInHomepage" "ne" true }} {{ end }} {{
-    $paginator := .Paginate $pages }} {{ range $paginator.Pages }}
-    <article class="content post home h-entry">
+    $pages = where $pages ".Params.hideInHomepage" "ne" true }} {{ end }}
+    
+    {{ $paginator := .Paginate $pages }} 
+    
+    {{ range first 1 $paginator.Pages }}
+    <article class="content post home home-1 h-entry">
+      <a href="{{ .RelPermalink }}">
+      {{ with .Params.img }} {{- $img
+        := . -}}
+        <div class="post-cover">
+        <img loading="lazy" src="{{$img}}" alt="" class="avatar" />
+        {{ end }}</div>
+      
+      <div class="home-post-content">
       <h1 class="post-title p-name">
-        <a href="{{ .RelPermalink }}" class="summary-title-link u-url"
-          >{{ (partial "utils/title.html" (dict "$" . "title"
-          .LinkTitle)).htmlTitle }}</a
-        >
+        {{ (partial "utils/title.html" (dict "$" . "title"
+          .LinkTitle)).htmlTitle }}
       </h1>
-      {{ if $.Site.Params.enablePostMetaInHome }} {{ partial
-      "components/post-meta.html" (dict "$" . "isHome" true) }} {{ end }} {{
-      partial "components/post-tags.html" . }} {{ with .Params.img }} {{- $img
-      := . -}}
-      <img loading="lazy" src="{{$img}}" alt="" class="avatar" />
-      {{ end }}
+    <div class="post-meta">
+      <time class="post-time">{{ .Page.Params.Date | time.Format $.Site.Params.postMetaDateFormat}}</time>
+      <span class="post-categories">{{ range .Params.categories }}{{ . }}&nbsp;{{ end }}</span>
+      {{ range .Params.tags }}<span class="post-tags">#{{ . }}&nbsp</span>{{ end }}
+    </div>
       <summary class="summary p-summary">
         {{ partial "utils/summary.html" . }}
       </summary>
-      {{ if or .Truncated .Params.summary }}
-      <div class="read-more-container">
-        <a href="{{ .RelPermalink }}" class="read-more-link"
-          >{{ i18n "readMore" }} »</a
-        >
-      </div>
-      {{ end }}
+
+    </div>
+  </a>
     </article>
-    {{ end }} {{ if or $paginator.HasPrev $paginator.HasNext }}
-    <ul class="pagination">
-      {{ if $paginator.HasPrev }}
-      <li class="pagination-prev">
-        <a href="{{ $paginator.Prev.URL }}" rel="prev"
-          >&lt; {{ i18n "prevPage" }}</a
-        >
-      </li>
-      {{ end }} {{ if $paginator.HasNext }}
-      <li class="pagination-next">
-        <a href="{{ $paginator.Next.URL }}" rel="next"
-          >{{ i18n "nextPage" }} &gt;</a
-        >
-      </li>
-      {{ end }}
-    </ul>
+    {{ end }} 
+    
+    <div class="recent-post">
+      
+    {{ range first 4 (after 1 $paginator.Pages) }}
+    <article class="content post home home-2 h-entry">
+      <a href="{{ .RelPermalink }}">
+      {{ with .Params.img }} {{- $img
+        := . -}}
+        <div class="post-cover">
+        <img loading="lazy" src="{{$img}}" alt="" class="avatar" />
+        {{ end }}</div>
+      
+      <div class="home-post-content">
+      <h1 class="post-title p-name">
+        {{ (partial "utils/title.html" (dict "$" . "title"
+          .LinkTitle)).htmlTitle }}
+      </h1>
+    <div class="post-meta">
+      <time class="post-time">{{ .Page.Params.Date | time.Format $.Site.Params.postMetaDateFormat}}</time>
+      <span class="post-categories">{{ range .Params.categories }}{{ . }}&nbsp;{{ end }}</span>
+      {{ range .Params.tags }}<span class="post-tags">#{{ . }}&nbsp</span>{{ end }}
+    </div>
+      <summary class="summary p-summary">
+        {{ partial "utils/summary.html" . }}
+      </summary>
+
+    </div>
+  </a>
+    </article>
+    {{ end }} 
+  </div>
+
+  <div class="homemore"><a href="/archive/">MORE</a></div>
+
+  <h1><a href="categories/photo/">Recent Photos</a></h1>
+  <div class="plog post">
+    {{ $all_images := slice }}
+    {{ range .Site.Pages }}
+        {{ $all_images = $all_images | append (.Page.Resources.ByType "image") }}
     {{ end }}
+    {{ range first 4 (sort $all_images ".Name" "desc") }}
+    <div class="plog-wrapper">
+      <img
+        loading="lazy"
+        decoding="async"
+        src="{{ .RelPermalink }}"
+      />
+    </div>
+    {{ end }}
+  </div>
+  
+
+   
   </div>
 </main>
