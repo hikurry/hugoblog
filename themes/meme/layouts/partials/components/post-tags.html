@@ -1,6 +1,6 @@
 {{ if .Site.Params.enablePostTags }}
     {{ with .Params.tags }}
-        <div class="post-tags">
+        <span class="post-tags">
             {{ range . }}
                 {{ $tag := . }}
                 <!-- Work-around for https://github.com/gohugoio/hugo/issues/6546 -->
@@ -10,6 +10,6 @@
                     <a href="{{ .RelPermalink }}" rel="tag" class="post-tags-link">{{ $icon  }}{{ .LinkTitle | default $path }}</a>
                 {{ end }}
             {{ end }}
-        </div>
+        </span>
     {{ end }}
 {{ end }}

@@ -43,6 +43,7 @@
     display: block;
     align-items: baseline;
     border-bottom: dashed 1px var(--color-contrast-low);
+    margin-bottom: 1rem;
     a:hover {
         border-bottom-color: var(--color-primary);
         ::before {
@@ -55,13 +56,13 @@
     margin: 0 0.618em;
     font-size: 1em;
     line-height: 1.5;
-    display: block;
 }
 .list-item-time {
     margin: 0 1.5em;
     color: var(--color-contrast-medium);
     line-height: 1.5;
     font-size: 10px;
+    display: flex;
 }
 .list-read-more {
     margin-top: 1em;
