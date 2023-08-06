@@ -1,5 +1,8 @@
+.post:not(.home) .post-tags{
+    display: block;
+}
+
 .post-tags {
-    margin-top: 1rem;
     font-size: 80%;
     text-align: center;
 }
