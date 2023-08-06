@@ -127,3 +127,9 @@ article.content.post.home {
   .plog img:hover {
     opacity: 80%;
   }
+
+@media screen and (max-width:752px){
+  .recent-photos{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
