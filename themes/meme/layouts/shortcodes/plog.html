@@ -1,9 +1,11 @@
-{{ $image := (.Page.Resources.ByType "image") }} {{ with $image }}
+{{ $image := (.Page.Resources.ByType "image") }}{{ with $image }}
 <div class="plog">
   {{ range sort . ".Name" "asc" }}
   <div class="plog-wrapper">
-    <img loading="lazy" decoding="async" src="{{ .Permalink }}" />
+    <img loading="lazy" decoding="async" 
+  src="{{ (.Resize "800x webp").RelPermalink }}" />
   </div>
   {{- end }}
 </div>
+
 {{- end }}

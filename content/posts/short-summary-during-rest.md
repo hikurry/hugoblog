@@ -2,7 +2,7 @@
 title: "休息期间小记"
 date: 2022-08-01T05:37:38+08:00
 categories: [LIFE]
-tags: [兜风, 书籍, K-POP]
+tags: [游玩, 书籍, K-POP]
 img: "https://i.imgur.com/hMzJN18.jpg"
 ---
 
