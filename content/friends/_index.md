@@ -5,11 +5,11 @@ toc: false
 comments: true
 ---
 
-![](https://unsplash.it/1920/1080/?random=200)
+![20230810201202](https://i.imgur.com/P19vNue.png)
 
 {{< friend name="Muko" url="https://hugo-mukokka.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" logo="https://hugo-mukokka.vercel.app/avater.png" >}}
 
-{{< friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" word="和我一起做赛博宵夜吧!" logo="https://hugo-missingid.vercel.app/img/avatar.jpg" >}}
+{{< friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" word="和我一起做赛博宵夜吧!"  >}}
 
 {{< friend name="EvanNotFound's Blog" url="https://ohevan.com" word="Evan的部落阁，用香港记者的速度更新文章!" logo="https://evan.beee.top/avatar.png" >}}
 
