@@ -7,7 +7,7 @@ comments: true
 
 ![20230810201202](https://i.imgur.com/P19vNue.png)
 
-{{< friend name="Muko" url="https://hugo-mukokka.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" logo="https://hugo-mukokka.vercel.app/avater.png" >}}
+{{< friend name="Muko" url="iceca.vercel.app" word="我以前没得选，现在我想做个绝望的文盲。" logo="iceca.vercel.app/avater.png" >}}
 
 {{< friend name="Missing 不想睡" url="https://hugo-missingid.vercel.app/" word="和我一起做赛博宵夜吧!"  >}}
 
