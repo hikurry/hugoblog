@@ -1,7 +1,7 @@
 ---
 title: "长三角集结！南京周末行"
 date: 2023-03-10T12:45:12+08:00
-categories: [LIFE]
+categories: [TRAVEL]
 tags: [游玩, 厂子]
 img: "https://i.imgur.com/uBk4KbX.jpg"
 ---

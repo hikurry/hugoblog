@@ -1,7 +1,7 @@
 ---
 title: "不去西湖的杭州行：亚运会&青山村"
 date: 2023-11-10T13:47:32+08:00
-categories: [LIFE]
+categories: [TRAVEL]
 tags: [旅游, 亚运会, woso]
 img: /posts/2023-plog/2023-10-05 1714 IMG_3824.JPG
 ---

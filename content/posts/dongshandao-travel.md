@@ -2,7 +2,7 @@
 title: "计划了但又没有：东山岛一夜一天自驾游"
 date: 2023-09-02T13:50:32+08:00
 draft: false
-categories: [LIFE]
+categories: [TRAVEL]
 tags: [旅游]
 img: https://i.imgur.com/NofTqXV.jpg
 ---
