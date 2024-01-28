@@ -1,5 +1,6 @@
 ---
 title: "2202 年我又开始做电子手帐了"
+draft: true
 date: 2022-06-27T01:06:01+08:00
 categories: [LIFE]
 tags: [花里胡哨, 电子手帐]
