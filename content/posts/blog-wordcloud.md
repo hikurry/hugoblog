@@ -5,8 +5,6 @@ categories: [LEARN]
 tags: [Hugo, 词云, 统计, 花里胡哨]
 img: https://i.imgur.com/KDlYMn7.jpg
 ---
-![20240128151425](https://i.imgur.com/KDlYMn7.jpg)
-
 
 论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。
 
