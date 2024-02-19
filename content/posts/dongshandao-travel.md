@@ -3,8 +3,7 @@ title: "计划了但又没有：东山岛一夜一天自驾游"
 date: 2023-09-02T13:50:32+08:00
 draft: false
 categories: [TRAVEL]
-tags: [旅游]
-img: https://i.imgur.com/NofTqXV.jpg
+tags: [游玩]
 ---
 
 趁期末结束离实习入职还有两周的时间回了趟家，时间比较短要做的事情又很多，七月初就简单就近去了趟东山岛自驾游。

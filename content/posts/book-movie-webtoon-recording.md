@@ -1,9 +1,9 @@
 ---
 title: "书籍影视漫画标记"
+draft: true
 date: 2022-09-29T08:05:38+08:00
 categories: [LIFE]
 tags: [花里胡哨, 标记平台, obsidian, watcha pedia, anime-planet, anilist]
-img: https://i.imgur.com/16BGdls.jpg
 ---
 
 所谓学习的时候干什么都有趣，之前复习考试时到处 google 发现了一些书籍影视漫画标记平台，使用感受还不错，推荐给需要的朋友们！

@@ -3,7 +3,6 @@ title: "休息期间小记"
 date: 2022-08-01T05:37:38+08:00
 categories: [LIFE]
 tags: [游玩, 书籍, K-POP]
-img: "https://i.imgur.com/hMzJN18.jpg"
 ---
 
 做了近视手术之后为了防止我躺在家里看手机，基本上每天晚上都被拉出去开车兜圈，转了大半个市区。期间也看了几本书。
@@ -13,7 +12,9 @@ img: "https://i.imgur.com/hMzJN18.jpg"
 ### 山
 去市区的几座小山转了转，上下可能不到三十分钟。说实话从小到大最不少见的就是山了，石阶山路，小水塘，路边偶尔经过古时遗留下来的亭子和石碑，典型的爬山公园。
 
-{{< gallery "https://s2.loli.net/2022/08/02/j7ikBDIT24E9gSo.jpg" "https://s2.loli.net/2022/08/02/ZOEhi9eUgsX7qVf.jpg" >}}
+![](https://s2.loli.net/2022/08/02/j7ikBDIT24E9gSo.jpg)
+![](https://s2.loli.net/2022/08/02/ZOEhi9eUgsX7qVf.jpg)
+
 
 然后上了趟鼓岭，第一次开山路，又碰上大暴雨，开得我超紧张，背都不自觉挺直了，还被后面的车辆闪了好几次。到停车场后雨正好停了，夜景非常漂亮，说是能看到几乎整座城市。
 
@@ -61,6 +62,9 @@ img: "https://i.imgur.com/hMzJN18.jpg"
 
 ### 音
 
-{{< gallery "https://img2.doubanio.com/view/subject/m/public/s34268001.jpg" "https://img3.doubanio.com/view/subject/m/public/s34268000.jpg" "https://img1.doubanio.com/view/subject/m/public/s34271387.jpg" "https://img1.doubanio.com/view/subject/m/public/s34277539.jpg"  >}}
+![](https://img2.doubanio.com/view/subject/m/public/s34268001.jpg)
+![](https://img3.doubanio.com/view/subject/m/public/s34268000.jpg)
+![](https://img1.doubanio.com/view/subject/m/public/s34271387.jpg)
+![](https://img1.doubanio.com/view/subject/m/public/s34277539.jpg)
 
 全专循环的几张专辑。皮宝宝这次回归让我又有点找回追星的热情了，MV 看得我眼泪都快要出来了，好有活力好有生命力。赫专特别适合开车兜风的时候听。

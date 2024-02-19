@@ -27,8 +27,10 @@ img: https://i.imgur.com/KDlYMn7.jpg
 
 呈上词云（用了猫咪图片做遮罩，P2 试了下用图片颜色做文字颜色）：
 
-{{<gallery "https://i.imgur.com/pkiuumO.png" "https://i.imgur.com/gmRkKgG.png" >}}
+![](https://i.imgur.com/pkiuumO.png)
+![](https://i.imgur.com/gmRkKgG.png)
 
+<br>
 {{< accordion "代码" >}}
 ```python
 import os

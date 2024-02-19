@@ -3,7 +3,6 @@ title: "豆瓣卡片测试"
 date: 2023-04-09T08:53:12+08:00
 categories: [LEARN]
 tags: [Hugo, shortcode]
-img: https://i.imgur.com/h8yWG2b.jpg
 ---
 
 原来的豆瓣 API 挂了，刚好看到 Neodb 的 [API](https://neodb.social/api-doc/) 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。
@@ -30,5 +29,6 @@ img: https://i.imgur.com/h8yWG2b.jpg
 {{< db "https://neodb.social/tv/season/2ndrjrm986DTBmyuSEfnFl" >}}
 
 在想哪个更好看一点（~~放弃装修是不可能的~~）：
+
 ![](https://i.imgur.com/h8yWG2b.jpg)
 

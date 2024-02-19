@@ -2,8 +2,7 @@
 title: "直到世界尽头"
 date: 2023-05-31T08:53:12+08:00
 categories: [LIFE]
-tags: [流水账, 游玩, 漫画, 足球]
-img: https://i.imgur.com/L44f6oo.jpg
+tags: [流水账, 游玩, 漫画, 足球, woso]
 ---
 
 又是标题和正文无关的一篇博文^ ^

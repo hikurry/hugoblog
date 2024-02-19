@@ -2,8 +2,7 @@
 title: "一定要沿着这条路走吗"
 date: 2023-09-05T11:24:32+08:00
 categories: [LIFE]
-tags: [流水帐, 工作]
-img: https://i.imgur.com/zRhARGw.jpg
+tags: [流水帐, 工作, 找工]
 ---
 
 六月到八月的流水账

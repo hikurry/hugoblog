@@ -15,6 +15,7 @@ tags: [猫咪]
 
 看着小猫咪一点点长大，逐渐独立起来，本老母亲又欣慰又惆怅。不过不管怎样，小保健康快乐就好！
 
-{{< gallery "https://s2.loli.net/2022/05/31/f56UK2DNZodzv4h.jpg" "https://s2.loli.net/2022/05/31/X2SP6GqermbTQNh.jpg" >}}
+![](https://s2.loli.net/2022/05/31/f56UK2DNZodzv4h.jpg) 
 
-<center style="font-size:10px;margin-top:-25px;color:gray">穿衣一小时，拍照一分钟</center>
+![](https://s2.loli.net/2022/05/31/X2SP6GqermbTQNh.jpg "穿衣一小时，拍照一分钟")
+
