@@ -1,12 +1,9 @@
-<img
-  loading="lazy"
-  src="{{ .Destination | safeURL }}"
-  alt="{{ .Text }}"
-  {{
-  with
-  .Title}}
-  title="{{ . }}"
-  {{
-  end
-  }}
-/>
+{{ if .Title }}
+  <figure>
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+    <span class="caption">{{ .Title }}</span>
+  </figure>
+{{ else }}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}">
+{{ end }}
+
