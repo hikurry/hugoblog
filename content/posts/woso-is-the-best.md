@@ -3,10 +3,12 @@ title: "女足就是最棒的"
 date: 2023-11-10T12:47:32+08:00
 categories: [LIFE]
 tags: [woso, 世界杯]
-img: https://i.imgur.com/JbIeffi.jpg
+img: https://pbs.twimg.com/media/FxAXgjwXgAEq1F4?format=jpg&name=large
 ---
 
 封面是最爱的马屁^ ^
+
+![](https://pbs.twimg.com/media/FxAXgjwXgAEq1F4?format=jpg&name=large)
 
 > "Mapi León has a way of life and values"
 
@@ -36,7 +38,7 @@ img: https://i.imgur.com/JbIeffi.jpg
 
 - 虽然踢得稀巴烂但是贡献了本届第一个喜剧名场面。
 
-  ![20231110004205](https://i.imgur.com/X5xg7B0.jpg)
+![dcfe850fac2b6a6a97feda0a18dc4085](https://s2.loli.net/2024/06/04/XMLctRCbSsywx4N.jpg)
 
 `July 23`
 
@@ -46,8 +48,8 @@ img: https://i.imgur.com/JbIeffi.jpg
 
 - 我被萌翻了
 
-![](https://i.imgur.com/HLY58fr.png)
-![](https://i.imgur.com/oKoCpSC.jpg)
+![1d663c4f74608d166e0ad6ea5ef7b97d](https://s2.loli.net/2024/06/04/nZdeLKAx9kV3ufT.jpg)
+![8adaa92046fb7acdde1ce7f346140e2d](https://s2.loli.net/2024/06/04/NsLHTrzGnvKOeVq.png)
 
 `July 30`
 
@@ -137,15 +139,7 @@ img: https://i.imgur.com/JbIeffi.jpg
 
 - 板鸭球员值得，味儿哒滚，躺了冠军就高升男足吧滚滚滚
 
-- 😭😭😭😭😭😭💔💔💔💔💔
-
-  ![20231110160508](https://i.imgur.com/M3AqLWf.png)
-
 `August 21`
-
-- 当众性骚扰……
-
-  ![20231110160529](https://i.imgur.com/xmk6NRO.png)
 
 - 之前还在讨论如果板鸭夺冠韦尔达夺冠的影响究竟是好还是坏，现在可是说是对板鸭女足世界女足完完全全的一次打击，看到西足协小人得志以及全世界各国 men help men 的狗腿模样，真是让人绝望的一场胜利。
 
@@ -155,22 +149,20 @@ img: https://i.imgur.com/JbIeffi.jpg
 
 - ale 退出国家队了，打响了反对西足协的第一枪！！憨森 amc 还有 cata
 
-  ![20231110160721](https://i.imgur.com/GDYISNp.png)
-
 - 宝宝 😭 板鸭夺冠时被认为是“反叛分子”，被嘲讽没了她们也能拿冠军，最后死光头自曝在公众场合公然性骚扰球员大家才终于意识到曾经的抗议和控诉都是真实的。迟来的正义很难让人接受，曾经维护的、沉默的，全部都是加害者。
 
-  ![20231110160801](https://i.imgur.com/si3Tdsw.png)
 
 `August 26`
 
 - 81 人签署联合声明宣布不再接受国家队的征召，来自全世界女足球员（当然也包括很多女运动员女教练女性媒体人女球迷等等）的支持，女足界的 metoo✊
 
-  ![20231110160906](https://i.imgur.com/K0i4zYL.jpg)
-  ![20231110160912](https://i.imgur.com/N9Xo5xS.jpg)
+  ![IMG_2984](https://s2.loli.net/2024/06/04/MAqBNxklyPKeYbC.jpg)
+  ![](https://s2.loli.net/2024/06/04/t6y1Hl8SOZoxQw5.jpg)
 
-  ![20231110160922](https://i.imgur.com/4n9udv9.jpg)
+  ![IMG_2995](https://s2.loli.net/2024/06/04/MGJHBZk2RLfsm1V.png)
 
-  ![20231110160928](https://i.imgur.com/TPafcBm.jpg)
+  ![](https://s2.loli.net/2024/06/04/YyaLzVgUAJcE72h.jpg)
+
 
 - 老有人喜欢说 just the football，不要把政治带到体育中来，男足不谈尚且没啥影响，女足要是不谈女性就根本无球可踢。
 
@@ -244,7 +236,7 @@ img: https://i.imgur.com/JbIeffi.jpg
 
 ## 老公女儿在土澳
 
-![ad80e4e5bc045ccf1d42024e305a815f](https://i.imgur.com/nVDpiQR.jpg)
+![ad80e4e5bc045ccf1d42024e305a815f](https://s2.loli.net/2024/06/04/QqsmO1grFVNHjZJ.jpg)
 
 `July 20`
 
@@ -290,7 +282,7 @@ img: https://i.imgur.com/JbIeffi.jpg
 
 ## 一见钟情的日本
 
-![2e369505af15918ff9312f5fbffe613c](https://i.imgur.com/JTzsjtZ.jpg "元气理子酱")
+![2e369505af15918ff9312f5fbffe613c](https://s2.loli.net/2024/06/04/M86JHsfpWxZUY9V.jpg "元气理子酱")
 
 July 22
 
@@ -328,19 +320,23 @@ August 11
 
 过程太过刺激，我都是捂着耳朵看的，直接上图！
 
-![20231110155723](https://i.imgur.com/nyEOXME.png)
+![7a326c6a8b4178bcd77f7ccdbd182eb3](https://s2.loli.net/2024/06/04/WclJHXKewL7kD8Q.jpg)
 
-![69c31e265ea5c6fd28f871488f07fac5](https://i.imgur.com/TVRNlfn.jpg)
+![b7cfe92617945bd0ac8269b36b04fccb](https://s2.loli.net/2024/06/04/CozyZg5tYalkI4O.jpg)
 
-![20231110155801](https://i.imgur.com/n24DYgy.png)
-![20231110155808](https://i.imgur.com/pfkH0lV.png)
+![](https://s2.loli.net/2024/06/04/fri9nHgVxNXcakQ.jpg)
+![cef6de2031aa6bfe649f6343cb92d4af](https://s2.loli.net/2024/06/04/AsPE5jiDLFuw6Kn.jpg)
 
 1mm 的胜利很戏剧，创造这 1mm 胜利的人是小胡更加戏剧，创造这 1mm 胜利的小胡绝杀的是美国简直是戏剧之巅。
 
-![IMG_2545](https://i.imgur.com/trsD7ML.jpg "要颜值有颜值，要球技有颜值的小胡")
+![IMG_2545](https://s2.loli.net/2024/06/04/C4s5RWq18dYSlXy.jpg "要颜值有颜值，要球技有颜值的小胡")
 
 ## 我们的未来
 
-{{< gallery "https://i.imgur.com/F1x948m.jpg" "https://i.imgur.com/y8MFspp.jpg" >}}
-{{< gallery "https://i.imgur.com/UfiruKF.jpg" "https://i.imgur.com/JOeJ15C.jpg" >}}
-{{< gallery "https://i.imgur.com/qZsR3yT.jpg" "https://i.imgur.com/iAHtbgf.jpg" "https://i.imgur.com/7ftfLWY.jpg" >}}
+![IMG_2107](https://s2.loli.net/2024/06/04/EfgG7u6dqjsSvcU.jpg)
+![IMG_2476](https://s2.loli.net/2024/06/04/ruUGbsK5kEZVnPX.jpg)
+![IMG_2133](https://s2.loli.net/2024/06/04/pEgGn4zXwdjJQlv.jpg)
+![IMG_2110](https://s2.loli.net/2024/06/04/NKPtS6paRG5AUqX.jpg)
+![IMG_2465](https://s2.loli.net/2024/06/04/H5twMRDjXd4LNOQ.jpg)
+![aa902402b8ade7bef53013befa6aba65](https://s2.loli.net/2024/06/04/mvpyFhO9dauf46T.jpg)
+
