@@ -17,12 +17,4 @@ tags: [情绪]
 
 上海的情况每天源源不断地传来，“四月之声”变成沉默的禁言；北京疫情又有抬头之势，返校遥遥无期；朋友圈里同学打着官腔说着要给国家更多探索的时间，我只觉得烦躁和愤怒，同时也很无力。
 
-> _How many ears must one man have_
->
-> _Before he can hear people cry_
->
-> _How many deaths will it take_
->
-> _Till he knows that too many people have died_
-
 鲍勃迪伦说答案在风中飘荡，可是这里是一个只要想就可以让风消失的地方。

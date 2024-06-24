@@ -4,7 +4,7 @@ date: 2023-12-30T12:50:32+08:00
 draft: false
 categories: [TRAVEL]
 tags: [游玩]
-img: /photos/2023-plog/2023-12-30 0029 IMG_5219.JPG
+img: https://s2.loli.net/2024/06/24/iUzWBd1uTLYleos.jpg
 ---
 
 圣诞+朋友生日所以在周末去了趟徐州，吃了很多徐州美食，在寒气以及火辣的双重攻击之下我不幸地病倒了两天，好在跨年前成功恢复健康～
@@ -21,25 +21,22 @@ img: /photos/2023-plog/2023-12-30 0029 IMG_5219.JPG
 
 牛油果披萨好吃！蛤蜊意面、小汉堡和金枪鱼土豆泥沙拉也推荐。
 
-![](/photos/2023-plog/2023-12-30%200032%20IMG_5214.JPG)
-
-![](/photos/2023-plog/2023-12-30%200031%20IMG_5215.JPG)
+![2023-12-30 0031 IMG_5215.JPG](https://s2.loli.net/2024/06/24/9n1C2RBlFvySaY7.jpg)
+![2023-12-30 0032 IMG_5214.JPG](https://s2.loli.net/2024/06/24/rCWveTJj175UtH2.jpg)
 
 **老家地锅鸡**{{< rating 5 5 >}}
 
 比点 TOP3 地锅鸡、蒜爆鱼、香菜撒子都好吃，前两者辣口，后面一个是酸甜口。这家还便宜，物美价廉。特别推荐蒜爆鱼，从未吃过这种味道做法的鱼，第一口超惊艳。除了口味重没毛病，吃完这个我晚上就流鼻血了（尴尬笑）
 
-![](/photos/2023-plog/2023-12-30%200029%20IMG_5219.JPG)
-![](/photos/2023-plog/2023-12-30%200029%20IMG_5220.JPG)
-
-![](/photos/2023-plog/2023-12-30%200033%20IMG_5221.JPG)
+![2023-12-30 0029 IMG_5219.JPG](https://s2.loli.net/2024/06/24/iUzWBd1uTLYleos.jpg)
+![image.png](https://s2.loli.net/2024/06/24/C5mio6EVJ1pgnkO.png)
 
 **什一餐厅**{{< rating 5 4 >}}
 
 尖椒鱼和大郎烧饼都好吃的，就是特别辣，徐州人太能吃辣了！徐州还有一个特色是干煸，啥菜都干煸，没有特别想吃的就点了干煸花菜，我吃不出区别就是干锅花菜的感觉。
 
-![](/photos/2023-plog/2023-12-30%200029%20IMG_5233.JPG)
-![](/photos/2023-plog/2023-12-30%200039%20IMG_5234.JPG)
+![image.png](https://s2.loli.net/2024/06/24/6gAEbhJnaDCZ7Kf.png)
+![2023-12-30 0039 IMG_5234.JPG](https://s2.loli.net/2024/06/24/FEHPA9BW13DYCkp.jpg)
 
 **會 Suit Cocktail Bar**{{< rating 5 4 >}}
 
