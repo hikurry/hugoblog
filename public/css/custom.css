@@ -1,0 +1,91 @@
+details summary {
+  list-style: none; /* 移除默认的小三角 */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+details summary::before {
+  content: "🐈"; /* 默认右箭头 */
+  display: inline-block;
+  margin-right: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+details[open] summary::before {
+  content: "🐈"; /* 展开后变成向下箭头 */
+  transform: rotate(90deg);
+}
+
+body {
+  font-family: 'LatoLatinWeb','Hiragino Sans GB', sans-serif;
+}
+
+.max-w-prose {
+  max-width: 70ch;
+}
+
+.prose{
+  font-size: 1rem;
+}
+
+article p:has(> img:nth-child(2)){column-count:2;column-gap:8px;margin: 1.3333333em 0;}
+article p:has(> img:nth-child(3)){column-count:3;}
+article p:has(> img:nth-child(4)){column-count:4;}
+article p:has(> img:nth-child(5)){column-count:5;}
+article p:has(> img:nth-child(6)){column-count:4;}
+article p:has(> img:nth-child(2)) img{display:inherit;}
+article p:has(> img:nth-child(6)) img{margin-bottom:1.3333333em;}
+
+article img{
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+  border-radius: 5px;
+}
+
+time {
+  margin: 10px 0;
+}
+
+.leading-none{
+  line-height: 1.5rem;
+}
+
+.prose h1 {
+  font-size: 1.8em;
+}
+
+article.main a,#maincontent a {
+  color: rgb(51, 65, 85)!important;
+  text-decoration-thickness:2px;
+  text-underline-offset:4px;
+  text-decoration-color:#cbd5e1;
+  transition: 0.3s;
+}
+article.main a:hover,#maincontent a:hover{
+  text-underline-offset:4px;
+  text-decoration-color:rgb(51, 65, 85);
+}
+
+a{
+  transition: 0.3s;
+}
+
+
+.highlight{
+  margin: 2em 0;
+}
+
+.lntable {
+  max-height: 20em;
+  display: block;
+}
+
+.chroma{
+  border-radius: 5px;
+}
+
+a.taxonomy .count,
+a.taxonomy{
+  font-weight: 200;
+}

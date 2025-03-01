@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>年度总结 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+    <description>Recent content in 年度总结 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Mon, 03 Jan 2022 13:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021年度总结</title>
+      <link>http://localhost:1313/posts/2021-personal-summary/</link>
+      <pubDate>Mon, 03 Jan 2022 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2021-personal-summary/</guid>
+      <description>&lt;p&gt;感觉这一年过得真快，上半年还对未来充满不安，现在都已经尘埃落定。没有什么总结，更多是流水账，想到什么写什么。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,6 +6,7 @@ tags: [Hugo, shortcode]
 ---
 
 原来的豆瓣 API 挂了，刚好看到 Neodb 的 [API](https://neodb.social/api-doc/) 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。
+<!--more-->
 
 短代码：
 ```markdown
@@ -27,8 +28,4 @@ tags: [Hugo, shortcode]
 {{< db "https://neodb.social/album/0N4JA2WyWL43W5zFu4GN34" >}}
 
 {{< db "https://neodb.social/tv/season/2ndrjrm986DTBmyuSEfnFl" >}}
-
-在想哪个更好看一点（~~放弃装修是不可能的~~）：
-
-![](https://i.imgur.com/h8yWG2b.jpg)
 

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on INNERSO</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sun, 23 Jun 2024 13:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最后一个假期</title>
+      <link>http://localhost:1313/posts/last-winter-vocation/</link>
+      <pubDate>Sun, 23 Jun 2024 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/last-winter-vocation/</guid>
+      <description>&lt;p&gt;拖到夏天写寒假==&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>博主口癖一览</title>
+      <link>http://localhost:1313/posts/blog-wordcloud/</link>
+      <pubDate>Sat, 27 Jan 2024 22:59:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/blog-wordcloud/</guid>
+      <description>&lt;p&gt;论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>疯狂的秋招：面试面试面试</title>
+      <link>http://localhost:1313/posts/crazy-job-searching-season/</link>
+      <pubDate>Sat, 30 Dec 2023 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/crazy-job-searching-season/</guid>
+      <description>&lt;p&gt;不完全统计投递了两百家家企业，收到一百多个测评，五十左右的面试，最后大概率确定了去深圳打工了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>火辣辣的徐州</title>
+      <link>http://localhost:1313/posts/spicy-xuzhou/</link>
+      <pubDate>Sat, 30 Dec 2023 12:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/spicy-xuzhou/</guid>
+      <description>&lt;p&gt;圣诞+朋友生日所以在周末去了趟徐州，吃了很多徐州美食，在寒气以及火辣的双重攻击之下我不幸地病倒了两天，好在跨年前成功恢复健康～&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>不去西湖的杭州行：亚运会&amp;青山村</title>
+      <link>http://localhost:1313/posts/hangzhou-without-west-lake/</link>
+      <pubDate>Fri, 10 Nov 2023 13:47:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hangzhou-without-west-lake/</guid>
+      <description>&lt;p&gt;其实主要是冲着亚运会去的，然后考虑到国庆期间杭州主要景点的爆满程度，最后挑了个距离市区一小时的青山村休闲度假游。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>女足就是最棒的</title>
+      <link>http://localhost:1313/posts/woso-is-the-best/</link>
+      <pubDate>Fri, 10 Nov 2023 12:47:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/woso-is-the-best/</guid>
+      <description>&lt;p&gt;封面是最爱的马屁^ ^&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一定要沿着这条路走吗</title>
+      <link>http://localhost:1313/posts/different-way-to-live/</link>
+      <pubDate>Tue, 05 Sep 2023 11:24:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/different-way-to-live/</guid>
+      <description>&lt;p&gt;六月到八月的流水账&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>计划了但又没有：东山岛一夜一天自驾游</title>
+      <link>http://localhost:1313/posts/dongshandao-travel/</link>
+      <pubDate>Sat, 02 Sep 2023 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/dongshandao-travel/</guid>
+      <description>&lt;p&gt;趁期末结束离实习入职还有两周的时间回了趟家，时间比较短要做的事情又很多，七月初就简单就近去了趟东山岛自驾游。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>直到世界尽头</title>
+      <link>http://localhost:1313/posts/until-the-end-of-the-world/</link>
+      <pubDate>Wed, 31 May 2023 08:53:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/until-the-end-of-the-world/</guid>
+      <description>&lt;p&gt;又是标题和正文无关的一篇博文^ ^&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>豆瓣卡片测试</title>
+      <link>http://localhost:1313/posts/douban-card/</link>
+      <pubDate>Sun, 09 Apr 2023 08:53:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/douban-card/</guid>
+      <description>&lt;p&gt;原来的豆瓣 API 挂了，刚好看到 Neodb 的 &lt;a href=&#34;https://neodb.social/api-doc/&#34;&gt;API&lt;/a&gt; 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>长三角集结！南京周末行</title>
+      <link>http://localhost:1313/posts/nanjing--weekend-trip/</link>
+      <pubDate>Fri, 10 Mar 2023 12:45:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/nanjing--weekend-trip/</guid>
+      <description>&lt;p&gt;本科期间经常出去玩的三人组现在一个在徐州一个在南京一个在上海，上上周末 cc 提出去南京后大家火速安排好了行程，长三角 AKA 包邮区（接代购）群网友终于奔现了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>伟大的意大利的左后卫</title>
+      <link>http://localhost:1313/posts/great-italian-left-back/</link>
+      <pubDate>Fri, 06 Jan 2023 15:05:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/great-italian-left-back/</guid>
+      <description>&lt;p&gt;好久没有更新博客了，其实十月十一月都有动笔过，但是每次写完开头就会碰上一系列糟心事，导致我没有继续写下去的心情，只想暴躁地按下键盘上的删除键，最好连自己也一同从这个世界删除掉。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>考试、开学，暂时幸存</title>
+      <link>http://localhost:1313/posts/still-alive/</link>
+      <pubDate>Sat, 10 Sep 2022 15:37:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/still-alive/</guid>
+      <description>&lt;p&gt;这篇真的拖了好久，不知道为啥我写不出来了。八月底九月初的流水账。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>休息期间小记</title>
+      <link>http://localhost:1313/posts/short-summary-during-rest/</link>
+      <pubDate>Mon, 01 Aug 2022 05:37:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/short-summary-during-rest/</guid>
+      <description>&lt;p&gt;做了近视手术之后为了防止我躺在家里看手机，基本上每天晚上都被拉出去开车兜圈，转了大半个市区。期间也看了几本书。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>全飞秒近视手术记录（附半飞秒手术及我的视力矫正史）</title>
+      <link>http://localhost:1313/posts/smile-eye-surgery-record/</link>
+      <pubDate>Wed, 13 Jul 2022 05:54:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/smile-eye-surgery-record/</guid>
+      <description>&lt;p&gt;做了全飞秒近视手术，感觉自己重生了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>配置 Waline 评论</title>
+      <link>http://localhost:1313/posts/configure-waline/</link>
+      <pubDate>Tue, 28 Jun 2022 12:35:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/configure-waline/</guid>
+      <description>&lt;p&gt;虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>凭什么我们生来就要遭受这种恐惧</title>
+      <link>http://localhost:1313/posts/fear-that-we-are-facing/</link>
+      <pubDate>Sat, 11 Jun 2022 12:30:44 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fear-that-we-are-facing/</guid>
+      <description>&lt;p&gt;2022年上半年我看到了太多太多女性受害的事情。西安地铁、上海小红楼、徐州铁链女、消失的乌衣……唐山烧烤店男子对女性的性别恐怖主义暴行再次让我感受到这真实的世界。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kindle 使用体验</title>
+      <link>http://localhost:1313/posts/my-kindle-experience/</link>
+      <pubDate>Mon, 06 Jun 2022 03:11:44 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-kindle-experience/</guid>
+      <description>&lt;p&gt;去年 12 月买了 kindle，没想到不到一年 kindle 就要退出中国市场了。我最开始买的时候也没有过多研究，直接淘了个二手最低配的咪咕版（无背光），使用一周后换成了青春版（有背光）。虽然用的是很低的配置，但是体验依旧良好。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>成长痛：小猫长大了</title>
+      <link>http://localhost:1313/posts/feel-sad-about-my-cat-growing-up/</link>
+      <pubDate>Sun, 29 May 2022 15:42:44 +0800</pubDate>
+      <guid>http://localhost:1313/posts/feel-sad-about-my-cat-growing-up/</guid>
+      <description>&lt;p&gt;不是小猫咪的成长痛，而是猫咪长大了，我心痛。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>短代码测试</title>
+      <link>http://localhost:1313/posts/shortcode-test/</link>
+      <pubDate>Thu, 26 May 2022 13:47:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/shortcode-test/</guid>
+      <description>&lt;p&gt;测试了一下 Hugo 的短代码，包括内置和自定义的。捡捡补补，程序员的共享精神真伟大。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>拜拜北六环</title>
+      <link>http://localhost:1313/posts/goodbye-my-university/</link>
+      <pubDate>Thu, 19 May 2022 21:01:23 +0800</pubDate>
+      <guid>http://localhost:1313/posts/goodbye-my-university/</guid>
+      <description>&lt;p&gt;上周三通过了本科毕业论文答辩，从内容上正式结束了我的本科生涯。大学四年，始于不尽意的高考成绩，经历过一整个学期的家里蹲网课时代，终于 2022 年这个异常冷寒、疫情再次严重的五月。不出意外，形式上的毕业典礼也将在云上进行。回顾四年，通常与大学生活相联系的“青春”、“自由”、“热血”好像都和我无关，我在以一种消耗自我的方式做着或许毫无意义的抵抗。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>答案在风中飘荡</title>
+      <link>http://localhost:1313/posts/blowing-in-the-wind/</link>
+      <pubDate>Sat, 30 Apr 2022 22:59:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/blowing-in-the-wind/</guid>
+      <description>&lt;p&gt;现在是 4 月 30 日，明天就是五一。大学本科生涯最后一个学期我仍旧在家里，因为疫情迟迟无法返校。此时此刻，不知为何，我的脑海中就一直在反复“答案在风中飘扬”这句话，伴随着的画面时而是外交部那张蓝色背景的发言图，时而是灰蒙蒙的、暗淡的混沌体。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>博客主题更换：Stack to MemE</title>
+      <link>http://localhost:1313/posts/change-blog-theme-from-stack-to-meme/</link>
+      <pubDate>Mon, 28 Feb 2022 10:02:45 +0800</pubDate>
+      <guid>http://localhost:1313/posts/change-blog-theme-from-stack-to-meme/</guid>
+      <description>&lt;p&gt;是的我换主题了，永远年轻，永远爱换皮肤。曾经的我嫌弃单栏过于简陋，现在的我觉得单栏才是最好看的，回归简洁，选择了&lt;a href=&#34;https://github.com/reuixiy/hugo-theme-meme&#34;&gt; MemE &lt;/a&gt;这个主题。在 MemE 主题之上又做了一些个性化的修改。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>铲屎官初体验</title>
+      <link>http://localhost:1313/posts/my-first-experience-as-a-catkeeper/</link>
+      <pubDate>Thu, 10 Feb 2022 09:32:30 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-experience-as-a-catkeeper/</guid>
+      <description>&lt;p&gt;老姑突然说要养猫咪，在我反复确认她能够接受猫咪掉毛、抓沙发、需要铲屎等问题之后，没想到还能坚持。最后老姑从经常做流浪猫救助的朋友那里领养了一只小狸花来家里，三个月大，头顶上有一些橘毛，活泼好动，特别能吃，也很黏人，冬日里的贴心暖手宝。老姑说要叫保时捷，我嫌弃不好听，但是她坚持，所以猫咪的名字就这么定下了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>坎坷的博客装修之路</title>
+      <link>http://localhost:1313/posts/rough-road-to-customize-my-blog/</link>
+      <pubDate>Mon, 24 Jan 2022 12:39:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/rough-road-to-customize-my-blog/</guid>
+      <description>&lt;p&gt;磕磕绊绊地搭建好了博客，也进行了一翻装修。大部分都是站在前人的肩膀上进行调整，重复的部分就不赘述了，主要记录自己个性化和饶了点弯路的地方。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2021年度总结</title>
+      <link>http://localhost:1313/posts/2021-personal-summary/</link>
+      <pubDate>Mon, 03 Jan 2022 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2021-personal-summary/</guid>
+      <description>&lt;p&gt;感觉这一年过得真快，上半年还对未来充满不安，现在都已经尘埃落定。没有什么总结，更多是流水账，想到什么写什么。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

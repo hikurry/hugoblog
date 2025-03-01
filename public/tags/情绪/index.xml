@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>情绪 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E6%83%85%E7%BB%AA/</link>
+    <description>Recent content in 情绪 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sat, 11 Jun 2022 12:30:44 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%83%85%E7%BB%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>凭什么我们生来就要遭受这种恐惧</title>
+      <link>http://localhost:1313/posts/fear-that-we-are-facing/</link>
+      <pubDate>Sat, 11 Jun 2022 12:30:44 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fear-that-we-are-facing/</guid>
+      <description>&lt;p&gt;2022年上半年我看到了太多太多女性受害的事情。西安地铁、上海小红楼、徐州铁链女、消失的乌衣……唐山烧烤店男子对女性的性别恐怖主义暴行再次让我感受到这真实的世界。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>答案在风中飘荡</title>
+      <link>http://localhost:1313/posts/blowing-in-the-wind/</link>
+      <pubDate>Sat, 30 Apr 2022 22:59:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/blowing-in-the-wind/</guid>
+      <description>&lt;p&gt;现在是 4 月 30 日，明天就是五一。大学本科生涯最后一个学期我仍旧在家里，因为疫情迟迟无法返校。此时此刻，不知为何，我的脑海中就一直在反复“答案在风中飘扬”这句话，伴随着的画面时而是外交部那张蓝色背景的发言图，时而是灰蒙蒙的、暗淡的混沌体。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

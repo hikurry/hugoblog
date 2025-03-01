@@ -5,7 +5,9 @@ categories: [LEARN]
 tags: [HUGO, Shortcode]
 ---
 
-测试了一下Hugo的短代码，包括内置和自定义的。捡捡补补，程序员的共享精神真伟大。
+测试了一下 Hugo 的短代码，包括内置和自定义的。捡捡补补，程序员的共享精神真伟大。
+
+<!--more-->
 
 ## HUGO 内置短代码
 
@@ -18,7 +20,6 @@ tags: [HUGO, Shortcode]
 {{< figure src="https://unsplash.it/1920/1080/?random=4" title="Unplash Random" >}}
 
 我自定义了 `figcaption` 的样式。
-
 
 ### Gist
 
@@ -132,34 +133,13 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 
 {{< carousel "https://unsplash.it/1920/1080/?random=1,https://unsplash.it/1920/1080/?random=2,https://unsplash.it/1920/1080/?random=3" >}}
 
-### 音乐播放器
+### Spotify
 
 ```markdown
-{{</* music auto="https://music.163.com/#/song?id=494645489" */>}}
+{{</* spotify track 3UZ46DvXvB2R7sBUZornlv */>}}
 ```
 
-{{< music auto="https://music.163.com/#/song?id=494645489" >}}
-
-用原生的 `Aplay.js` 会出现中文目录跳转失败的情况，搜索了一圈发现是里面 smoothscroll 的仓库处理 `hash` 时中文字符转成了 `Unicode` 码，具体看[使用 Aplayer 导致博客目录跳转失效](https://blog.wangriyu.wang/2018/06-Aplayer.html)这篇博文。博主也提供了修改后的 `Aplay.js`，我就直接拿来用了，完美解决中文目录跳转失效的情况。（再次感慨程序员的分享精神太伟大了!)
-
-### Bilibili
-
-{{</* bilibili BV1c54y1H7rs */>}}
-{{< bilibili BV1c54y1H7rs >}}
-
-嵌入好像默认 360P，选更高清的就会转跳外部链接（强迫症略难受
-
-### 画廊
-
-```markdown
-{{</* gallery "https://unsplash.it/1920/1080/?random=5" "https://unsplash.it/1920/1080/?random=6" "https://unsplash.it/1920/1080/?random=7" */>}}
-
-{{</* gallery "https://unsplash.it/1920/1080/?random=8" "https://unsplash.it/1920/1080/?random=9" */>}}
-```
-
-{{< gallery "https://unsplash.it/1920/1080/?random=5" "https://unsplash.it/1920/1080/?random=6" "https://unsplash.it/1920/1080/?random=7" >}}
-
-{{< gallery "https://unsplash.it/1920/1080/?random=8" "https://unsplash.it/1920/1080/?random=9" >}}
+{{< spotify track 3UZ46DvXvB2R7sBUZornlv >}}
 
 {{< accordion "插播一下自定义短码时学到的语法：" >}}
 
@@ -170,11 +150,12 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 {{< /accordion >}}
 
 ### PDF
+
 ```markdown
 {{</* pdf src="https://www.blatchingtonmill.org.uk/assets/Uploads/All-Of-Me-Sheet-Music-John-Legend-All-Of-Me-Piano-Sheet-Music-Medium-Vocals-Piano-Guitar.pdf" */>}}
 ```
 
-{{< pdf src="https://www.blatchingtonmill.org.uk/assets/Uploads/All-Of-Me-Sheet-Music-John-Legend-All-Of-Me-Piano-Sheet-Music-Medium-Vocals-Piano-Guitar.pdf" >}}      
+{{< pdf src="https://www.blatchingtonmill.org.uk/assets/Uploads/All-Of-Me-Sheet-Music-John-Legend-All-Of-Me-Piano-Sheet-Music-Medium-Vocals-Piano-Guitar.pdf" >}}
 
 手机端不太方便，电脑端看着挺舒服的。
 
@@ -188,4 +169,4 @@ MemE 主题中本来就自带代码高亮，所以这个短代码没啥用。
 
 - [GitHub - dillonzq/LoveIt: ❤️A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题](https://github.com/dillonzq/LoveIt)
 
-- [Hugo博客自定义shortcodes | Sulv's Blog](https://www.sulvblog.cn/posts/blog/shortcodes/)
+- [Hugo 博客自定义 shortcodes | Sulv's Blog](https://www.sulvblog.cn/posts/blog/shortcodes/)

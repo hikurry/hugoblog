@@ -8,6 +8,8 @@ tags: [HUGO]
 
 是的我换主题了，永远年轻，永远爱换皮肤。曾经的我嫌弃单栏过于简陋，现在的我觉得单栏才是最好看的，回归简洁，选择了[ MemE ](https://github.com/reuixiy/hugo-theme-meme)这个主题。在 MemE 主题之上又做了一些个性化的修改。
 
+<!--more-->
+
 ## 配置 waline 评论
 
 Stack 主题里用的是 waline 评论，MemE 主题的评论插件中没有提供 waline，不想再去创建一个应用，搜了一圈发现刚好有在 MemE 中配置 waline 评论的帖子，就直接搬来用了。

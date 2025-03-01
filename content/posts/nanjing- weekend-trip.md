@@ -6,6 +6,7 @@ tags: [游玩, 厂子, 足球, woso]
 ---
 
 本科期间经常出去玩的三人组现在一个在徐州一个在南京一个在上海，上上周末 cc 提出去南京后大家火速安排好了行程，长三角 AKA 包邮区（接代购）群网友终于奔现了。
+<!--more-->
 
 ## 日行两万步
 
@@ -39,7 +40,9 @@ tags: [游玩, 厂子, 足球, woso]
 
 最后放个韩国人搞的吴晓梅兔子，我对厂子的兴趣其中一环还是 Ditto 导演淋雨二十年的发言。导演本人应该想不到自己的采访发言直接给隔壁造了个梗，问淋雨批谁是淋雨批（）
 
-{{< gallery "https://pbs.twimg.com/media/FqsyJJzacAAo5HN?format=jpg&name=small" "https://pbs.twimg.com/media/FqsyJXzacAAx90l?format=jpg&name=small" "https://pbs.twimg.com/media/FqsyJk5agAA7sRM?format=jpg&name=small" "https://pbs.twimg.com/media/FqsyJ4facAAmjzu?format=jpg&name=small">}}
+![](https://pbs.twimg.com/media/FqsyJJzacAAo5HN?format=jpg&name=small)
+![](https://pbs.twimg.com/media/FqsyJXzacAAx90l?format=jpg&name=small)
+![](https://pbs.twimg.com/media/FqsyJk5agAA7sRM?format=jpg&name=small)
 
 ## 分类怎么办
 

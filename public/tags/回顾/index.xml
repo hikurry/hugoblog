@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>回顾 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E5%9B%9E%E9%A1%BE/</link>
+    <description>Recent content in 回顾 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sun, 23 Jun 2024 13:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%9B%9E%E9%A1%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最后一个假期</title>
+      <link>http://localhost:1313/posts/last-winter-vocation/</link>
+      <pubDate>Sun, 23 Jun 2024 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/last-winter-vocation/</guid>
+      <description>&lt;p&gt;拖到夏天写寒假==&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>拜拜北六环</title>
+      <link>http://localhost:1313/posts/goodbye-my-university/</link>
+      <pubDate>Thu, 19 May 2022 21:01:23 +0800</pubDate>
+      <guid>http://localhost:1313/posts/goodbye-my-university/</guid>
+      <description>&lt;p&gt;上周三通过了本科毕业论文答辩，从内容上正式结束了我的本科生涯。大学四年，始于不尽意的高考成绩，经历过一整个学期的家里蹲网课时代，终于 2022 年这个异常冷寒、疫情再次严重的五月。不出意外，形式上的毕业典礼也将在云上进行。回顾四年，通常与大学生活相联系的“青春”、“自由”、“热血”好像都和我无关，我在以一种消耗自我的方式做着或许毫无意义的抵抗。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

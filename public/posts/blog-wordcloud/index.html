@@ -1,407 +1,290 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
-    <meta charset="UTF-8" />
+<!doctype html>
+<html
+  lang="zh-Hans"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    博主口癖一览 | INNERSO
+</title>
+  <meta name="description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。" />
+<meta property="og:url" content="http://localhost:1313/posts/blog-wordcloud/">
+  <meta property="og:site_name" content="INNERSO">
+  <meta property="og:title" content="博主口癖一览">
+  <meta property="og:description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。">
+  <meta property="og:locale" content="zh_Hans">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-01-27T22:59:27+08:00">
+    <meta property="article:modified_time" content="2024-01-27T22:59:27+08:00">
+    <meta property="article:tag" content="HUGO">
+    <meta property="article:tag" content="词云">
+    <meta property="article:tag" content="统计">
+    <meta property="article:tag" content="花里胡哨">
 
-    <meta name="generator" content="Hugo 0.98.0" /><meta name="theme-color" content="#fff" />
-    <meta name="color-scheme" content="light dark">
 
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
-    
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta itemprop="name" content="博主口癖一览">
+  <meta itemprop="description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。">
+  <meta itemprop="datePublished" content="2024-01-27T22:59:27+08:00">
+  <meta itemprop="dateModified" content="2024-01-27T22:59:27+08:00">
+  <meta itemprop="wordCount" content="313">
+  <meta itemprop="keywords" content="HUGO,词云,统计,花里胡哨">
 
-    <title>博主口癖一览 | 咖喱</title>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="博主口癖一览">
+  <meta name="twitter:description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。">
 
-    <link rel="stylesheet" href="/css/meme.min.73c2d3a93dfda8b77f177db875f9a53fa908f854689621aecad4141200c4a773.css"/>
+<link rel="canonical" href="http://localhost:1313/posts/blog-wordcloud/" />
 
-    
-    
-        <script
-  src="/js/meme.min.0dd98f5953bf3e317c8307caad61300c15dcdafd343dea21b2e42ad7f87c02cb.js"></script>
+    <link rel="stylesheet" href="/css/index.css" />
 
-    
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
-
-    <meta name="author" content="咖喱" /><meta name="description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。 一开始只是想着年终了要不也做点什么博客总结，比如看看……" />
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="咖喱" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="咖喱" />
-    <meta name="msapplication-starturl" content="../../" />
-    <meta name="msapplication-TileColor" content="#fff" />
-    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
-    <link rel="manifest" href="/manifest.json" />
-
-    
-    
-
-    
-    <link rel="canonical" href="https://joysblog.vercel.app/posts/blog-wordcloud/" />
-    
+      <script src="/js/main.js" defer></script>
+  
 
 <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "datePublished": "2024-01-27T22:59:27+08:00",
-        "dateModified": "2024-02-19T22:34:09+08:00",
-        "url": "https://joysblog.vercel.app/posts/blog-wordcloud/",
-        "headline": "博主口癖一览",
-        "description": "论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。 一开始只是想着年终了要不也做点什么博客总结，比如看看……",
-        "inLanguage" : "zh-CN",
-        "articleSection": "posts",
-        "wordCount":  805 ,
-        "image": ["https://i.imgur.com/pkiuumO.png","https://i.imgur.com/gmRkKgG.png"],
-        "author": {
-            "@type": "Person",
-            "description": "Learn and Run",
-            "email": "reuixiy@gmail.com",
-            "image": "https://joysblog.vercel.app/icons/apple-touch-icon.png",
-            "url": "https://joysblog.vercel.app/",
-            "name": "咖喱"
-        },
-        "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
-        "publisher": {
-            "@type": "Organization",
-            "name": "咖喱",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://joysblog.vercel.app/icons/apple-touch-icon.png"
-            },
-            "url": "https://joysblog.vercel.app/"
-        },
-        "mainEntityOfPage": {
-            "@type": "WebSite",
-            "@id": "https://joysblog.vercel.app/"
-        }
-    }
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/posts/blog-wordcloud/",
+  "@type": "BlogPosting",
+  "articleSection": [
+    "LEARN"
+  ],
+  "copyrightNotice": "咖喱",
+  "datePublished": "2024-01-27",
+  "description": "论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。",
+  "headline": "博主口癖一览",
+  "isPartOf": {
+    "@id": "http://localhost:1313/posts/",
+    "@type": "Blog",
+    "name": "Posts"
+  },
+  "keywords": [
+    "HUGO",
+    "统计",
+    "花里胡哨",
+    "词云"
+  ],
+  "mainEntityOfPage": "http://localhost:1313/posts/blog-wordcloud/",
+  "name": "博主口癖一览",
+  "timeRequired": "PT2M",
+  "url": "http://localhost:1313/posts/blog-wordcloud/",
+  "wordCount": 313
+}
 </script>
 
-    
 
-<meta name="twitter:card" content="summary_large_image" />
+<link rel="stylesheet" href="/css/custom.css">
 
-
-
-    
-
-
-
-<meta property="og:title" content="博主口癖一览" />
-<meta property="og:description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。 一开始只是想着年终了要不也做点什么博客总结，比如看看……" />
-<meta property="og:url" content="https://joysblog.vercel.app/posts/blog-wordcloud/" />
-<meta property="og:site_name" content="咖喱" />
-<meta property="og:locale" content="zh" /><meta property="og:image" content="https://i.imgur.com/pkiuumO.png" />
-<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2024-01-27T22:59:27&#43;08:00" />
-    <meta property="article:modified_time" content="2024-02-19T22:34:09&#43;08:00" />
-    
-    <meta property="article:section" content="posts" />
-
-
-
-    
-    
-
-    
-    
-    <meta name="referrer" content="no-referrer">
-
-</head>
-
-    <body>
-        <div class="container">
-            
-    <header class="header">
-        
-            <div class="header-wrapper">
-                <div class="header-inner single">
-                    
-    <div class="site-brand">
-        
-            <a href="/" class="brand">咖喱</a>
-        
-    </div>
-
-                    <nav class="nav">
-    <ul class="menu" id="menu">
-        
-            
-        
-        
-        
-        
-            
-                <li class="menu-item"><a href="/archive/"><span class="menu-item-name">归档</span></a>
-                </li>
-            
-        
-            
-                <li class="menu-item"><a href="/friends/"><span class="menu-item-name">友链</span></a>
-                </li>
-            
-        
-            
-                <li class="menu-item"><a href="/about/"><span class="menu-item-name">关于</span></a>
-                </li>
-            
-        
-            
-            <li class="menu-item">
-                <button
-                  id="search-button"
-                  class="text-base hover:text-primary-600 dark:hover:text-primary-400"
-                  title="Search(/)"
-                >
-                <span class="icon">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
-                
-                  </span>
-                </button>
-              </li>
-                
-            
-        
-            
-                
-                    
-                    
-                        <li class="menu-item darkmode">
-                            <a id="theme-switcher" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon theme-icon-light light"><path d="M384 64C490 64 576 149.1 576 256C576 362 490 448 384 448H192C85.96 448 0 362 0 256C0 149.1 85.96 64 192 64H384zM384 352C437 352 480 309 480 256C480 202.1 437 160 384 160C330.1 160 288 202.1 288 256C288 309 330.1 352 384 352z"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon theme-icon-dark dark"><path d="M192 352C138.1 352 96 309 96 256C96 202.1 138.1 160 192 160C245 160 288 202.1 288 256C288 309 245 352 192 352zM384 448H192C85.96 448 0 362 0 256C0 149.1 85.96 64 192 64H384C490 64 576 149.1 576 256C576 362 490 448 384 448zM384 128H192C121.3 128 64 185.3 64 256C64 326.7 121.3 384 192 384H384C454.7 384 512 326.7 512 256C512 185.3 454.7 128 384 128z"/></svg></a>
-                        </li>
-
-                    
-                
-            
-        
-        
-    </ul>
-</nav>
-
-                    
-                </div>
-            </div>
-            
-
-        
-    </header>
-
-
-
-
-            
-            
-    <main class="main single" id="main">
-    <div class="main-inner">
-
-        
-
-        <article class="content post h-entry" data-align="justify" data-type="posts" data-toc-num="true">
-
-            <h1 class="post-title p-name">博主口癖一览</h1>
-
-            
-
-            
-                
-            
-
-            
-                
-
-<div class="post-meta">
-    
-        
-        <time datetime="2024-01-27T22:59:27&#43;08:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2024.1.27</time>
-    
-    
-    
-    
-        
-        
-        
-            
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/learn/" class="category-link p-category">LEARN</a></span>
-            
-        
-    
-    
-    
-    
-    
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/">INNERSO</a>
 </div>
 
-            
-
-            
-    
-        <span class="post-tags">
-            
-                
-                
-                
-                
-                    
-                    <a href="/tags/hugo/" rel="tag" class="post-tags-link">Hugo</a>
-                
-            
-                
-                
-                
-                
-                    
-                    <a href="/tags/%E8%AF%8D%E4%BA%91/" rel="tag" class="post-tags-link">词云</a>
-                
-            
-                
-                
-                
-                
-                    
-                    <a href="/tags/%E7%BB%9F%E8%AE%A1/" rel="tag" class="post-tags-link">统计</a>
-                
-            
-                
-                
-                
-                
-                    
-                    <a href="/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" rel="tag" class="post-tags-link">花里胡哨</a>
-                
-            
-        </span>
-    
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a>Notes</a
+      >
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a
+      >
+    </li>
+    <li>
+      <a href="/graph/">Graph</a
+      >
+    </li>
+    <li>
+      <a href="/about/">About</a
+      >
+    </li>
+    </ul>
+  </nav>
 
 
-            
-            <nav class="contents"></nav><div class="post-body e-content">
-                <p>论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。</p>
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        <article class="main">
+    <header>
+      <h1 class="!mb-1">博主口癖一览</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2024-01-27T22:59:27&#43;08:00"
+            >January 27, 2024</time
+          >
+        </div>
+    </header>
+
+    <p>论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。</p>
 <p>一开始只是想着年终了要不也做点什么博客总结，比如看看这一年的关键词是什么。用 python 又是 jieba 又是 wordcloud 筛选了两个字及以上的非数字、英文词语后发现根本没有啥关键词，只是口癖大赏罢了。（用的是建站以来所有的博文不单是 24 年的）</p>
 <p>前十高频词全部都是习惯用语，引用毛象上看到的一条，“真的感觉没有真的感觉就不会说话了”，“真的特别喜欢用真的感觉”。倒是“没有”断层第一有点意料之外，居然会说得这么经常。十一至二十高频词开始有了一些主题，比如“眼睛”、“女性”、“女足”、“粉丝”、“猫咪”。第二十个词是“晚上”，晚起晚睡人士大概很多事情都是在晚上做的所以提到的次数多吧。</p>
-<div class="table-container"><table>
-<thead>
-<tr>
-<th>排名</th>
-<th>词语</th>
-<th>词频</th>
-<th>排名</th>
-<th>词语</th>
-<th>词频</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>没有</td>
-<td>121</td>
-<td>11</td>
-<td>眼睛</td>
-<td>36</td>
-</tr>
-<tr>
-<td>2</td>
-<td>最后</td>
-<td>52</td>
-<td>12</td>
-<td>女性</td>
-<td>35</td>
-</tr>
-<tr>
-<td>3</td>
-<td>喜欢</td>
-<td>51</td>
-<td>13</td>
-<td>这种</td>
-<td>32</td>
-</tr>
-<tr>
-<td>4</td>
-<td>现在</td>
-<td>47</td>
-<td>14</td>
-<td>需要</td>
-<td>30</td>
-</tr>
-<tr>
-<td>5</td>
-<td>真的</td>
-<td>46</td>
-<td>15</td>
-<td>可能</td>
-<td>29</td>
-</tr>
-<tr>
-<td>6</td>
-<td>特别</td>
-<td>46</td>
-<td>16</td>
-<td>女足</td>
-<td>29</td>
-</tr>
-<tr>
-<td>7</td>
-<td>看到</td>
-<td>43</td>
-<td>17</td>
-<td>粉丝</td>
-<td>29</td>
-</tr>
-<tr>
-<td>8</td>
-<td>感觉</td>
-<td>43</td>
-<td>18</td>
-<td>猫咪</td>
-<td>28</td>
-</tr>
-<tr>
-<td>9</td>
-<td>很多</td>
-<td>41</td>
-<td>19</td>
-<td>感受</td>
-<td>27</td>
-</tr>
-<tr>
-<td>10</td>
-<td>觉得</td>
-<td>36</td>
-<td>20</td>
-<td>晚上</td>
-<td>26</td>
-</tr>
-</tbody>
-</table></div>
-<p>呈上词云（用了猫咪图片做遮罩，P2 试了下用图片颜色做文字颜色）：</p>
-<p>
-  <img src="https://i.imgur.com/pkiuumO.png" alt="">
-
-
-
-
-  <img src="https://i.imgur.com/gmRkKgG.png" alt="">
-
-
-</p>
-<br>
-<details class="accordion" >
+<table>
+  <thead>
+      <tr>
+          <th>排名</th>
+          <th>词语</th>
+          <th>词频</th>
+          <th>排名</th>
+          <th>词语</th>
+          <th>词频</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>没有</td>
+          <td>121</td>
+          <td>11</td>
+          <td>眼睛</td>
+          <td>36</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>最后</td>
+          <td>52</td>
+          <td>12</td>
+          <td>女性</td>
+          <td>35</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>喜欢</td>
+          <td>51</td>
+          <td>13</td>
+          <td>这种</td>
+          <td>32</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>现在</td>
+          <td>47</td>
+          <td>14</td>
+          <td>需要</td>
+          <td>30</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>真的</td>
+          <td>46</td>
+          <td>15</td>
+          <td>可能</td>
+          <td>29</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>特别</td>
+          <td>46</td>
+          <td>16</td>
+          <td>女足</td>
+          <td>29</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>看到</td>
+          <td>43</td>
+          <td>17</td>
+          <td>粉丝</td>
+          <td>29</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>感觉</td>
+          <td>43</td>
+          <td>18</td>
+          <td>猫咪</td>
+          <td>28</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>很多</td>
+          <td>41</td>
+          <td>19</td>
+          <td>感受</td>
+          <td>27</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>觉得</td>
+          <td>36</td>
+          <td>20</td>
+          <td>晚上</td>
+          <td>26</td>
+      </tr>
+  </tbody>
+</table>
+<p>呈上词云（用了猫咪图片做遮罩，P2试了下用图片颜色做文字颜色）：</p>
+<p><img src="https://s2.loli.net/2024/06/04/aWHMGJu6gPYqy8L.png" alt="wc1"></p>
+<p><img src="https://s2.loli.net/2024/06/04/nrEV2kiAjNqOgWK.png" alt="wc2"></p>
+<p><details class="accordion" >
     <summary class="accordion-summary">代码</summary>
-    <div class="accordion-details"><div class="highlight"><div class="chroma">
-<div class="table-container"><table class="lntable"><tr><td class="lntd">
+    <div class="accordion-details"><figure class="codeblock not-prose relative scroll-mt-8" id="codeblock-01">
+  <aside
+    class="absolute right-0 top-0 hidden rounded-bl-sm rounded-tr-sm bg-white/10 px-2 py-1 text-white/70 transition-opacity md:inline-block"
+  >
+    <div class="codeblock-meta flex max-w-xs flex-row items-center space-x-3">
+      <div class="small-caps shrink cursor-default truncate font-mono text-xs" aria-hidden="true">
+        <span class="relative">python</span>
+      </div>
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy code to clipboard"
+          title="Copy code to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#codeblock-01 code"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#codeblock-01"
+          class="block"
+          aria-label="Link to this code block"
+          title="Link to this code block"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">python code snippet start</p>
+  <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
@@ -461,6 +344,12 @@
 </span><span class="lnt">57
 </span><span class="lnt">58
 </span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
@@ -470,551 +359,309 @@
 </span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
 </span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">imageio</span>
 </span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置停用词,哈工大版 from github &amp; 手工加了些词</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 设置停用词,哈工大版from github &amp; 手工加了些词</span>
 </span></span><span class="line"><span class="cl"><span class="n">stopwords_file</span> <span class="o">=</span> <span class="s1">&#39;/Users/joy/Desktop/hit_stopwords.txt&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">stopwords_file</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">stopwords</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">splitlines</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl"><span class="n">stopwords</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">splitlines</span><span class="p">())</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 遍历指定文件夹下的所有md文件</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 遍历指定文件夹下的所有 md 文件</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">md_folder</span> <span class="o">=</span> <span class="s1">&#39;/Users/joy/Documents/hugoblog/content/posts&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="n">text</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">root</span><span class="p">,</span> <span class="n">dirs</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">md_folder</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.md&#39;</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="n">filepath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">                <span class="n">text</span> <span class="o">+=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">file</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.md&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl"><span class="n">filepath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl"><span class="n">text</span> <span class="o">+=</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 使用jieba进行分词</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用 jieba 进行分词</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">words</span> <span class="o">=</span> <span class="n">jieba</span><span class="o">.</span><span class="n">lcut</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 过滤停用词、单个字母数字组合以及长度小于2的词</span>
-</span></span><span class="line"><span class="cl"><span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">word</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="ow">and</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">stopwords</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^[a-zA-Z0-9]+$&#39;</span><span class="p">,</span> <span class="n">word</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 过滤停用词、单个字母数字组合以及长度小于 2 的词</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">word</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">word</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="ow">and</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">stopwords</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">re</span><span class="o">.</span><span class="k">match</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^[a-zA-Z0-9]+$&#39;</span><span class="p">,</span> <span class="n">word</span><span class="p">)]</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 计算词频</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">word_counter</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">top_words</span> <span class="o">=</span> <span class="n">word_counter</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;输入二个字及以上单词的词频:&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">top_words</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">count</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">count</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 生成遮罩</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">mask_image</span> <span class="o">=</span> <span class="s1">&#39;/Users/joy/Desktop/cat.png&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="n">mask</span> <span class="o">=</span> <span class="n">imageio</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">mask_image</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 生成词云，mac 需要把字体定位到系统字体文件夹，不如中文会显示框框</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">wc1</span> <span class="o">=</span> <span class="n">WordCloud</span><span class="p">(</span><span class="n">font_path</span><span class="o">=</span><span class="s2">&#34;/System/Library/fonts/PingFang.ttc&#34;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">background_color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span><span class="n">mask</span><span class="o">=</span><span class="n">mask</span><span class="p">)</span><span class="o">.</span><span class="n">generate_from_frequencies</span><span class="p">(</span><span class="n">word_counter</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 保存词云图像</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">wc1</span><span class="o">.</span><span class="n">to_file</span><span class="p">(</span><span class="s1">&#39;wc1.png&#39;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 生成遮罩</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">color_image</span> <span class="o">=</span> <span class="s1">&#39;/Users/joy/Desktop/test.png&#39;</span>
 </span></span><span class="line"><span class="cl"><span class="n">color</span><span class="o">=</span><span class="n">imageio</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">color_image</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># 提取颜色</span>
-</span></span><span class="line"><span class="cl"><span class="n">img_colors</span> <span class="o">=</span> <span class="n">ImageColorGenerator</span><span class="p">(</span><span class="n">color</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#生成词云</span>
-</span></span><span class="line"><span class="cl"><span class="n">wc2</span> <span class="o">=</span> <span class="n">WordCloud</span><span class="p">(</span><span class="n">font_path</span><span class="o">=</span><span class="s2">&#34;/System/Library/fonts/PingFang.ttc&#34;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">background_color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span><span class="n">mask</span><span class="o">=</span><span class="n">color</span><span class="p">)</span><span class="o">.</span><span class="n">generate_from_frequencies</span><span class="p">(</span><span class="n">word_counter</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#修改字体颜色</span>
-</span></span><span class="line"><span class="cl"><span class="n">wc2</span><span class="o">.</span><span class="n">recolor</span><span class="p">(</span><span class="n">color_func</span><span class="o">=</span><span class="n">img_colors</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#保存图像</span>
-</span></span><span class="line"><span class="cl"><span class="n">wc2</span><span class="o">.</span><span class="n">to_file</span><span class="p">(</span><span class="s1">&#39;wc2.png&#39;</span><span class="p">)</span>
-</span></span></code></pre></td></tr></table></div>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">img_colors</span> <span class="o">=</span> <span class="n">ImageColorGenerator</span><span class="p">(</span><span class="n">color</span><span class="p">)</span> <span class="c1">#生成词云</span>
+</span></span><span class="line"><span class="cl"><span class="n">wc2</span> <span class="o">=</span> <span class="n">WordCloud</span><span class="p">(</span><span class="n">font_path</span><span class="o">=</span><span class="s2">&#34;/System/Library/fonts/PingFang.ttc&#34;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span> <span class="n">background_color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span><span class="n">mask</span><span class="o">=</span><span class="n">color</span><span class="p">)</span><span class="o">.</span><span class="n">generate_from_frequencies</span><span class="p">(</span><span class="n">word_counter</span><span class="p">)</span> <span class="c1">#修改字体颜色</span>
+</span></span><span class="line"><span class="cl"><span class="n">wc2</span><span class="o">.</span><span class="n">recolor</span><span class="p">(</span><span class="n">color_func</span><span class="o">=</span><span class="n">img_colors</span><span class="p">)</span> <span class="c1">#保存图像</span>
+</span></span><span class="line"><span class="cl"><span class="n">wc2</span><span class="o">.</span><span class="n">to_file</span><span class="p">(</span><span class="s1">&#39;wc2.png&#39;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
 </div>
-</div></div>
-</details>
-            </div>
+</div>
+  <p class="sr-only">python code snippet end</p>
 
-            
+  
+</figure>
+</div>
+</details></p>
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shapes h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
+  />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <circle cx="17.5" cy="17.5" r="3.5" />
+</svg>
 
+        <span>Categories</span>
+      </h2>
 
-        </article>
-
-        
-
-        
-
-
-        
-
-
-        
-
-
-        
-    
-    
-        <div class="related-posts">
-            <h2 class="related-title">相关文章：<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon related-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"/></svg></h2>
-            <ul class="related-list">
-                
-                    <li class="related-item">
-                        <a href="/posts/configure-waline/" class="related-link">配置 Waline 评论</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/rough-road-to-customize-my-blog/" class="related-link">坎坷的博客装修之路</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/douban-card/" class="related-link">豆瓣卡片测试</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/shortcode-test/" class="related-link">短代码测试</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/change-blog-theme-from-stack-to-meme/" class="related-link">博客主题更换：Stack to MemE</a>
-                    </li>
-                
-            </ul>
-        </div>
-    
-
-
-
-        
-
-
-        
-
-
-        
-    
-        
-        
-    
-    
-    
-    
-        <ul class="post-nav">
-            
-                <li class="post-nav-prev">
-                    <a href="/posts/2024-plog/" rel="prev">&lt; 2024 PLOG</a>
-                </li>
-            
-            
-                <li class="post-nav-next">
-                    <a href="/posts/crazy-job-searching-season/" rel="next">疯狂的秋招：面试面试面试 &gt;</a>
-                </li>
-            
-        </ul>
-    
-
-
-
-        
-    
-
-        
-            <div class="load-comments">
-                <div id="load-comments">加载评论</div>
-            </div>
-        
-
-        
-
-        
-
-        
-
-        
-
-        
-            <div id="waline"></div>
-        
-    
-
-
-
-    </div>
-</main>
-
-
-            
-    <div id="back-to-top" class="back-to-top">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon arrow-up"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
-    </div>
-
-
-            
-            
-    <footer id="footer" class="footer">
-        <div class="footer-inner">
-            <div class="site-info">2024&nbsp;咖喱&nbsp&nbsp<a href="/tags">TAG</a>
-            </div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div>
-            
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-              
-            <div class="total-count">本站总计30篇文章，共嘟嘟了59475字</div>
-
-            
-
-
-            
-        </div>
-    </footer>
-
-
-        </div>
-        <div id="search-wrapper" data-url="/">
-  <div id="search-modal">
-    <header class="search-header">
-      <form class="search-form">
-        <div class="search-icon">
-          <span class="icon">
-            <svg
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fas"
-              data-icon="search"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512"
-            >
-              <path
-                fill="currentColor"
-                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
-              ></path>
-            </svg>
-          </span>
-        </div>
-        <input
-          type="search"
-          id="search-query"
-          placeholder="Search"
-          tabindex="0"
-        />
-      </form>
-      <button id="close-search-button" title="Close(Esc)" class="search-icon">
-        <span class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-            <path
-              fill="currentColor"
-              d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
-            ></path>
-          </svg>
-        </span>
-      </button>
-    </header>
-    <section class="search-section">
-      <ul id="search-results">
-        
+      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/categories/learn/" class="taxonomy category">LEARN</a>
+          </li>
       </ul>
     </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-tags h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" />
+  <path
+    d="M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z"
+  />
+  <circle cx="6.5" cy="9.5" r=".5" fill="currentColor" />
+</svg>
+
+        <span>Tags</span>
+      </h2>
+
+      <ul class="not-prose ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/tags/hugo/" class="taxonomy tag">Hugo</a>
+          </li>
+          <li>
+            <a href="/tags/%E8%AF%8D%E4%BA%91/" class="taxonomy tag">词云</a>
+          </li>
+          <li>
+            <a href="/tags/%E7%BB%9F%E8%AE%A1/" class="taxonomy tag">统计</a>
+          </li>
+          <li>
+            <a href="/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" class="taxonomy tag">花里胡哨</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/posts/blog-wordcloud/"
+></content-network-graph>
+
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-newspaper h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2M18 14h-8M15 18h-5"
+  />
+  <path d="M10 6h8v4h-8V6Z" />
+</svg>
+
+        <span>Posts</span>
+      </h2>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 256 256"
+  class="h-4 w-4"
+  aria-hidden="true"
+>
+  <path
+    fill="currentColor"
+    d="M222.16 153.26a8 8 0 0 1-1 11.25c-17.36 14.38-32.86 19.49-47 19.49-18.58 0-34.82-8.81-49.93-17-25.35-13.75-47.24-25.63-79.07.74a8 8 0 1 1-10.22-12.3c40.17-33.27 70.32-16.92 96.93-2.48 25.35 13.75 47.24 25.62 79.07-.75a8 8 0 0 1 11.22 1.05m-177-49.46c31.83-26.37 53.72-14.5 79.07-.75 15.11 8.2 31.35 17 49.93 17 14.14 0 29.64-5.11 47-19.49a8 8 0 1 0-10.22-12.3c-31.83 26.37-53.72 14.49-79.07.74-26.61-14.43-56.76-30.79-96.93 2.48a8 8 0 0 0 10.17 12.32Z"
+  />
+</svg>
+
+            <span>Related</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/configure-waline/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="配置 Waline 评论"
+              >配置 Waline 评论</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/learn/"
+                  class="taxonomy"
+                  title="Posts and notes on LEARN"
+                  >LEARN</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/douban-card/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="豆瓣卡片测试"
+              >豆瓣卡片测试</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/learn/"
+                  class="taxonomy"
+                  title="Posts and notes on LEARN"
+                  >LEARN</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/rough-road-to-customize-my-blog/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="坎坷的博客装修之路"
+              >坎坷的博客装修之路</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/learn/"
+                  class="taxonomy"
+                  title="Posts and notes on LEARN"
+                  >LEARN</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+</ol>
+
+        </section>
+    </section>
+</aside>
+
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+      <p>Copyright &copy; 2025, 咖喱.</p>
+
   </div>
-</div>
-<script src="https://unpkg.com/fuse.js@6.6.2"></script>
-<script>
-  var fuse;
-  var showButton = document.getElementById("search-button");
-  var hideButton = document.getElementById("close-search-button");
-  var wrapper = document.getElementById("search-wrapper");
-  var modal = document.getElementById("search-modal");
-  var input = document.getElementById("search-query");
-  var output = document.getElementById("search-results");
-  var first = output.firstChild;
-  var last = output.lastChild;
-  var searchVisible = false;
-  var indexed = false;
-  var hasResults = false;
+    <div>
+      <a
+        href="https://github.com/michenriksen/hugo-theme-til"
+        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
+        data-theme-version="0.6.0"
+        >theme: til</a
+      >
+    </div>
+</section>
 
-  
-  showButton.addEventListener("click", displaySearch);
-  hideButton.addEventListener("click", hideSearch);
-  wrapper.addEventListener("click", hideSearch);
-  modal.addEventListener("click", function (event) {
-    event.stopPropagation();
-    event.stopImmediatePropagation();
-    return false;
-  });
-  document.addEventListener("keydown", function (event) {
+      </footer>
+    </div>
     
-    if (event.key == "/") {
-      if (!searchVisible) {
-        event.preventDefault();
-        displaySearch();
-      }
-    }
-
-    
-    if (event.key == "Escape") {
-      hideSearch();
-    }
-
-    
-    if (event.key == "ArrowDown") {
-      if (searchVisible && hasResults) {
-        event.preventDefault();
-        if (document.activeElement == input) {
-          first.focus();
-        } else if (document.activeElement == last) {
-          last.focus();
-        } else {
-          document.activeElement.parentElement.nextSibling.firstElementChild.focus();
-        }
-      }
-    }
-
-    
-    if (event.key == "ArrowUp") {
-      if (searchVisible && hasResults) {
-        event.preventDefault();
-        if (document.activeElement == input) {
-          input.focus();
-        } else if (document.activeElement == first) {
-          input.focus();
-        } else {
-          document.activeElement.parentElement.previousSibling.firstElementChild.focus();
-        }
-      }
-    }
-  });
-
-  
-
-  input.addEventListener("input", (event) => {
-    term = event.target.value.trim().replace("!", "");
-    executeQuery(term);
-  });
-
-  function displaySearch() {
-    if (!indexed) {
-      buildIndex();
-    }
-    if (!searchVisible) {
-      document.body.style.overflow = "hidden";
-      wrapper.style.visibility = "visible";
-      input.focus();
-      searchVisible = true;
-    }
-  }
-
-  function hideSearch() {
-    if (searchVisible) {
-      document.body.style.overflow = "visible";
-      wrapper.style.visibility = "hidden";
-      input.value = "";
-      output.innerHTML = "";
-      document.activeElement.blur();
-      searchVisible = false;
-    }
-  }
-
-  function fetchJSON(path, callback) {
-    var httpRequest = new XMLHttpRequest();
-    httpRequest.onreadystatechange = function () {
-      if (httpRequest.readyState === 4) {
-        if (httpRequest.status === 200) {
-          var data = JSON.parse(httpRequest.responseText);
-          if (callback) callback(data);
-        }
-      }
-    };
-    httpRequest.open("GET", path);
-    httpRequest.send();
-  }
-
-  function buildIndex() {
-    var baseURL = wrapper.getAttribute("data-url");
-    baseURL = baseURL.replace(/\/?$/, "/");
-    fetchJSON(baseURL + "index.json", function (data) {
-      var options = {
-        shouldSort: true,
-        ignoreLocation: true,
-        threshold: 0.0,
-        includeMatches: true,
-        keys: [
-          { name: "title", weight: 0.8 },
-          { name: "categories", weight: 0.2 },
-          { name: "tags", weight: 0.2 },
-          { name: "content", weight: 0.4 },
-        ],
-      };
-      fuse = new Fuse(data, options);
-      indexed = true;
-    });
-  }
-
-  function executeQuery(term) {
-    let results = fuse.search(term);
-    let resultsHTML = "";
-
-    if (results.length > 0) {
-      results.forEach(function (value, key) {
-        resultsHTML =
-          resultsHTML +
-          `<li class="search-item">
-          <a href="${value.item.permalink}" tabindex="0">
-            <div class="search-item-content">
-              <div class="search-item-title">${value.item.title}</div>
-              <div class="search-item-categories">${value.item.categories}<span class="search-item-tags">&middot;</span>${value.item.tags}<span class="search-item-date">&middot;</span>${value.item.date}</span></div>
-
-            </div>
-            <div class="search-item-link">&rarr;</div>
-          </a>
-        </li>`;
-      });
-      hasResults = true;
-    } else {
-      resultsHTML = "";
-      hasResults = false;
-    }
-
-    output.innerHTML = resultsHTML;
-    if (results.length > 0) {
-      first = output.firstChild.firstElementChild;
-      last = output.lastChild.firstElementChild;
-    }
-  }
-</script>
-
-        
-
-        
-
-
-
-
-
-
-    
-
-        
-
-        
-
-        
-
-        
-
-        
-            <link
-  rel="stylesheet"
-  href="https://unpkg.com/@waline/client@2.6.1/dist/waline.css"
-/>
-<script>
-  function loadComments() {
-      if (typeof Waline === 'undefined') {
-          var getScript = (options) => {
-              var script = document.createElement('script');
-              script.defer = true;
-              script.crossOrigin = 'anonymous';
-              Object.keys(options).forEach((key) => {
-                  script[key] = options[key];
-              });
-              document.body.appendChild(script);
-          };
-          getScript({
-              src: 'https://unpkg.com/@waline/client@2.6.1/dist/waline.js',
-              onload: () => {
-                  newWaline();
-              }
-          });
-      } else {
-          newWaline();
-      }
-  }
-  function newWaline() {
-      const locale = {
-          nick: "昵称",
-          mail: "邮箱",
-          placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息。"
-      };
-      Waline.init({
-          el: '#waline',
-          dark: 'html[data-theme="dark"]',
-          serverURL: 'https:\/\/waline-weld.vercel.app\/',
-          wordLimit:  0 ,
-          meta: ["nick","mail","link"],
-          pageSize:  10 ,
-          lang: 'zh-CN',
-          highlighter:  true ,
-          emoji:  null ,
-          requiredMeta: ["nick","mail"],
-          login: 'enabled',
-          copyright:  true ,
-          locale
-      });
-  }
-</script>
-
-<style>
-  :root {
-    --waline-theme-color: var(--color-primary);
-    --waline-active-color: var(--color-primary);
-  }
-</style>
-
-        
-        
-    
-
-
-
-    <script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
-<script>
-  window.ViewImage &&
-    ViewImage.init(".post img:not(.post-preview img, .avatar, .frienddiv img)");
-</script>
-
-
-
-
-    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js" type="module" defer></script>
-
-
-
-
-
-
-
-<script>
-    (function(u, c) {
-      var d = document, t = 'script', o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function(e) { c(e); }); }
-      s.parentNode.insertBefore(o, s);
-    })('//cdn.bootcss.com/pangu/3.3.0/pangu.min.js', function() {
-      pangu.spacingPage();
-    });
-    </script>
-    
-
-
-    </body>
+  </body>
 </html>

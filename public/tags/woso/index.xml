@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Woso on INNERSO</title>
+    <link>http://localhost:1313/tags/woso/</link>
+    <description>Recent content in Woso on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Fri, 10 Nov 2023 13:47:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/woso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不去西湖的杭州行：亚运会&amp;青山村</title>
+      <link>http://localhost:1313/posts/hangzhou-without-west-lake/</link>
+      <pubDate>Fri, 10 Nov 2023 13:47:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hangzhou-without-west-lake/</guid>
+      <description>&lt;p&gt;其实主要是冲着亚运会去的，然后考虑到国庆期间杭州主要景点的爆满程度，最后挑了个距离市区一小时的青山村休闲度假游。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>女足就是最棒的</title>
+      <link>http://localhost:1313/posts/woso-is-the-best/</link>
+      <pubDate>Fri, 10 Nov 2023 12:47:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/woso-is-the-best/</guid>
+      <description>&lt;p&gt;封面是最爱的马屁^ ^&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>直到世界尽头</title>
+      <link>http://localhost:1313/posts/until-the-end-of-the-world/</link>
+      <pubDate>Wed, 31 May 2023 08:53:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/until-the-end-of-the-world/</guid>
+      <description>&lt;p&gt;又是标题和正文无关的一篇博文^ ^&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>长三角集结！南京周末行</title>
+      <link>http://localhost:1313/posts/nanjing--weekend-trip/</link>
+      <pubDate>Fri, 10 Mar 2023 12:45:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/nanjing--weekend-trip/</guid>
+      <description>&lt;p&gt;本科期间经常出去玩的三人组现在一个在徐州一个在南京一个在上海，上上周末 cc 提出去南京后大家火速安排好了行程，长三角 AKA 包邮区（接代购）群网友终于奔现了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>游玩 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E6%B8%B8%E7%8E%A9/</link>
+    <description>Recent content in 游玩 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sun, 23 Jun 2024 13:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%B8%B8%E7%8E%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最后一个假期</title>
+      <link>http://localhost:1313/posts/last-winter-vocation/</link>
+      <pubDate>Sun, 23 Jun 2024 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/last-winter-vocation/</guid>
+      <description>&lt;p&gt;拖到夏天写寒假==&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>火辣辣的徐州</title>
+      <link>http://localhost:1313/posts/spicy-xuzhou/</link>
+      <pubDate>Sat, 30 Dec 2023 12:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/spicy-xuzhou/</guid>
+      <description>&lt;p&gt;圣诞+朋友生日所以在周末去了趟徐州，吃了很多徐州美食，在寒气以及火辣的双重攻击之下我不幸地病倒了两天，好在跨年前成功恢复健康～&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>不去西湖的杭州行：亚运会&amp;青山村</title>
+      <link>http://localhost:1313/posts/hangzhou-without-west-lake/</link>
+      <pubDate>Fri, 10 Nov 2023 13:47:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hangzhou-without-west-lake/</guid>
+      <description>&lt;p&gt;其实主要是冲着亚运会去的，然后考虑到国庆期间杭州主要景点的爆满程度，最后挑了个距离市区一小时的青山村休闲度假游。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>计划了但又没有：东山岛一夜一天自驾游</title>
+      <link>http://localhost:1313/posts/dongshandao-travel/</link>
+      <pubDate>Sat, 02 Sep 2023 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/dongshandao-travel/</guid>
+      <description>&lt;p&gt;趁期末结束离实习入职还有两周的时间回了趟家，时间比较短要做的事情又很多，七月初就简单就近去了趟东山岛自驾游。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>直到世界尽头</title>
+      <link>http://localhost:1313/posts/until-the-end-of-the-world/</link>
+      <pubDate>Wed, 31 May 2023 08:53:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/until-the-end-of-the-world/</guid>
+      <description>&lt;p&gt;又是标题和正文无关的一篇博文^ ^&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>长三角集结！南京周末行</title>
+      <link>http://localhost:1313/posts/nanjing--weekend-trip/</link>
+      <pubDate>Fri, 10 Mar 2023 12:45:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/nanjing--weekend-trip/</guid>
+      <description>&lt;p&gt;本科期间经常出去玩的三人组现在一个在徐州一个在南京一个在上海，上上周末 cc 提出去南京后大家火速安排好了行程，长三角 AKA 包邮区（接代购）群网友终于奔现了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>休息期间小记</title>
+      <link>http://localhost:1313/posts/short-summary-during-rest/</link>
+      <pubDate>Mon, 01 Aug 2022 05:37:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/short-summary-during-rest/</guid>
+      <description>&lt;p&gt;做了近视手术之后为了防止我躺在家里看手机，基本上每天晚上都被拉出去开车兜圈，转了大半个市区。期间也看了几本书。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

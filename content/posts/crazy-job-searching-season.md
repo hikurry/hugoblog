@@ -4,9 +4,10 @@ date: 2023-12-30T13:50:32+08:00
 draft: false
 categories: [LIFE]
 tags: [找工, 打工人]
-img: https://s2.loli.net/2024/06/04/Yg8zAoKn3cwF7Vt.jpg
 ---
 不完全统计投递了两百家家企业，收到一百多个测评，五十左右的面试，最后大概率确定了去深圳打工了。
+
+<!--more-->
 
 ## 无情的网申测评面试机器
 

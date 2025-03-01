@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>亚运会 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E4%BA%9A%E8%BF%90%E4%BC%9A/</link>
+    <description>Recent content in 亚运会 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Fri, 10 Nov 2023 13:47:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E4%BA%9A%E8%BF%90%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不去西湖的杭州行：亚运会&amp;青山村</title>
+      <link>http://localhost:1313/posts/hangzhou-without-west-lake/</link>
+      <pubDate>Fri, 10 Nov 2023 13:47:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hangzhou-without-west-lake/</guid>
+      <description>&lt;p&gt;其实主要是冲着亚运会去的，然后考虑到国庆期间杭州主要景点的爆满程度，最后挑了个距离市区一小时的青山村休闲度假游。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

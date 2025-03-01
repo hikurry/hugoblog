@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>打工人 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E6%89%93%E5%B7%A5%E4%BA%BA/</link>
+    <description>Recent content in 打工人 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sat, 01 Mar 2025 00:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%89%93%E5%B7%A5%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>集美怎么上班后话少了</title>
+      <link>http://localhost:1313/posts/terrible-working-life/</link>
+      <pubDate>Sat, 01 Mar 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/terrible-working-life/</guid>
+      <description>&lt;p&gt;打工已有半年，感想是接小行星撞地球。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>疯狂的秋招：面试面试面试</title>
+      <link>http://localhost:1313/posts/crazy-job-searching-season/</link>
+      <pubDate>Sat, 30 Dec 2023 13:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/crazy-job-searching-season/</guid>
+      <description>&lt;p&gt;不完全统计投递了两百家家企业，收到一百多个测评，五十左右的面试，最后大概率确定了去深圳打工了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

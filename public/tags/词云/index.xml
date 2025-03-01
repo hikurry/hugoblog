@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>词云 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E8%AF%8D%E4%BA%91/</link>
+    <description>Recent content in 词云 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sat, 27 Jan 2024 22:59:27 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%AF%8D%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博主口癖一览</title>
+      <link>http://localhost:1313/posts/blog-wordcloud/</link>
+      <pubDate>Sat, 27 Jan 2024 22:59:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/blog-wordcloud/</guid>
+      <description>&lt;p&gt;论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

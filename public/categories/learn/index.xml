@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LEARN on INNERSO</title>
+    <link>http://localhost:1313/categories/learn/</link>
+    <description>Recent content in LEARN on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sat, 27 Jan 2024 22:59:27 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/learn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博主口癖一览</title>
+      <link>http://localhost:1313/posts/blog-wordcloud/</link>
+      <pubDate>Sat, 27 Jan 2024 22:59:27 +0800</pubDate>
+      <guid>http://localhost:1313/posts/blog-wordcloud/</guid>
+      <description>&lt;p&gt;论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>豆瓣卡片测试</title>
+      <link>http://localhost:1313/posts/douban-card/</link>
+      <pubDate>Sun, 09 Apr 2023 08:53:12 +0800</pubDate>
+      <guid>http://localhost:1313/posts/douban-card/</guid>
+      <description>&lt;p&gt;原来的豆瓣 API 挂了，刚好看到 Neodb 的 &lt;a href=&#34;https://neodb.social/api-doc/&#34;&gt;API&lt;/a&gt; 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>配置 Waline 评论</title>
+      <link>http://localhost:1313/posts/configure-waline/</link>
+      <pubDate>Tue, 28 Jun 2022 12:35:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/configure-waline/</guid>
+      <description>&lt;p&gt;虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>短代码测试</title>
+      <link>http://localhost:1313/posts/shortcode-test/</link>
+      <pubDate>Thu, 26 May 2022 13:47:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/shortcode-test/</guid>
+      <description>&lt;p&gt;测试了一下 Hugo 的短代码，包括内置和自定义的。捡捡补补，程序员的共享精神真伟大。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>博客主题更换：Stack to MemE</title>
+      <link>http://localhost:1313/posts/change-blog-theme-from-stack-to-meme/</link>
+      <pubDate>Mon, 28 Feb 2022 10:02:45 +0800</pubDate>
+      <guid>http://localhost:1313/posts/change-blog-theme-from-stack-to-meme/</guid>
+      <description>&lt;p&gt;是的我换主题了，永远年轻，永远爱换皮肤。曾经的我嫌弃单栏过于简陋，现在的我觉得单栏才是最好看的，回归简洁，选择了&lt;a href=&#34;https://github.com/reuixiy/hugo-theme-meme&#34;&gt; MemE &lt;/a&gt;这个主题。在 MemE 主题之上又做了一些个性化的修改。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>坎坷的博客装修之路</title>
+      <link>http://localhost:1313/posts/rough-road-to-customize-my-blog/</link>
+      <pubDate>Mon, 24 Jan 2022 12:39:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/rough-road-to-customize-my-blog/</guid>
+      <description>&lt;p&gt;磕磕绊绊地搭建好了博客，也进行了一翻装修。大部分都是站在前人的肩膀上进行调整，重复的部分就不赘述了，主要记录自己个性化和饶了点弯路的地方。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+<p><details class="accordion" {{ if eq (.Get 1) "open" }}open{{ end }}>
+    <summary class="accordion-summary">{{- index .Params 0 -}}</summary>
+    <div class="accordion-details">{{- .Inner | markdownify -}}</div>
+</details></p>

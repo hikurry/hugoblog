@@ -3,12 +3,14 @@ title: "女足就是最棒的"
 date: 2023-11-10T12:47:32+08:00
 categories: [LIFE]
 tags: [woso, 世界杯]
-img: https://pbs.twimg.com/media/FxAXgjwXgAEq1F4?format=jpg&name=large
 ---
 
 封面是最爱的马屁^ ^
 
+<!--more-->
+
 ![](https://pbs.twimg.com/media/FxAXgjwXgAEq1F4?format=jpg&name=large)
+
 
 > "Mapi León has a way of life and values"
 

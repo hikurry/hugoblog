@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>猫咪 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E7%8C%AB%E5%92%AA/</link>
+    <description>Recent content in 猫咪 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sat, 10 Sep 2022 15:37:38 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%8C%AB%E5%92%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>考试、开学，暂时幸存</title>
+      <link>http://localhost:1313/posts/still-alive/</link>
+      <pubDate>Sat, 10 Sep 2022 15:37:38 +0800</pubDate>
+      <guid>http://localhost:1313/posts/still-alive/</guid>
+      <description>&lt;p&gt;这篇真的拖了好久，不知道为啥我写不出来了。八月底九月初的流水账。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>成长痛：小猫长大了</title>
+      <link>http://localhost:1313/posts/feel-sad-about-my-cat-growing-up/</link>
+      <pubDate>Sun, 29 May 2022 15:42:44 +0800</pubDate>
+      <guid>http://localhost:1313/posts/feel-sad-about-my-cat-growing-up/</guid>
+      <description>&lt;p&gt;不是小猫咪的成长痛，而是猫咪长大了，我心痛。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>铲屎官初体验</title>
+      <link>http://localhost:1313/posts/my-first-experience-as-a-catkeeper/</link>
+      <pubDate>Thu, 10 Feb 2022 09:32:30 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-experience-as-a-catkeeper/</guid>
+      <description>&lt;p&gt;老姑突然说要养猫咪，在我反复确认她能够接受猫咪掉毛、抓沙发、需要铲屎等问题之后，没想到还能坚持。最后老姑从经常做流浪猫救助的朋友那里领养了一只小狸花来家里，三个月大，头顶上有一些橘毛，活泼好动，特别能吃，也很黏人，冬日里的贴心暖手宝。老姑说要叫保时捷，我嫌弃不好听，但是她坚持，所以猫咪的名字就这么定下了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

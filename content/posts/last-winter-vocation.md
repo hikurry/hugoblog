@@ -4,10 +4,11 @@ date: 2024-06-23T13:50:32+08:00
 draft: false
 categories: [LIFE]
 tags: [流水账, 游玩, 学校, 回顾]
-img: https://s2.loli.net/2024/06/24/WJtUKTVSubfEimw.jpg
 ---
 
 拖到夏天写寒假==
+
+<!--more-->
 
 ## 关于论文
 

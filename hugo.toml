@@ -1,0 +1,62 @@
+baseURL = 'https://joysblog.vercel.app/'
+languageCode = 'zh-Hans'
+title = "INNERSO"
+copyright = '咖喱' # Used in the footer copyright mention.
+enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
+
+[module]
+  [[module.imports]]
+    path = "github.com/michenriksen/hugo-theme-til"
+
+[outputs]
+  home = ['html']
+  section = ['html', 'rss', 'json']
+  page = ['html']
+
+[menus]
+  [[menus.main]]
+    name = 'Notes'
+    pageRef = '/notes'
+    weight = 20
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 30
+  [[menus.main]]
+    name = 'Graph'
+    pageRef = '/graph'
+    weight = 40
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 50
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "monokailight"
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+    guessSyntax = true
+
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+[params.notes]
+showCategoryFilter = true
+[params.posts]
+showCategoryFilter = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  customcss = ["css/custom.css"]
+  enableCarousel = true
+
+[params.home]
+  recentPostsLimit = 5
