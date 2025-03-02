@@ -17,6 +17,7 @@
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
         "/posts/terrible-working-life/"
       ],
       "out": []
@@ -54,6 +55,7 @@
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
         "/posts/terrible-working-life/"
       ],
       "out": []
@@ -64,6 +66,7 @@
     },
     "/posts/dongshandao-travel/": {
       "in": [
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
@@ -120,6 +123,7 @@
         "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/"
       ],
       "out": []
@@ -138,6 +142,7 @@
     },
     "/posts/nanjing-weekend-trip/": {
       "in": [
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/",
@@ -175,9 +180,14 @@
     },
     "/posts/spicy-xuzhou/": {
       "in": [
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/"
       ],
       "out": [
+        "/posts/spicy-xuzhou/",
+        "/posts/hangzhou-without-west-lake/",
+        "/posts/dongshandao-travel/",
+        "/posts/nanjing-weekend-trip/",
         "/posts/spicy-xuzhou/",
         "/posts/hangzhou-without-west-lake/",
         "/posts/dongshandao-travel/",
@@ -191,36 +201,6 @@
     "/posts/terrible-working-life/": {
       "in": [],
       "out": [
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
-        "/posts/crazy-job-searching-season/",
-        "/posts/2021-personal-summary/",
         "/posts/crazy-job-searching-season/",
         "/posts/2021-personal-summary/"
       ]
