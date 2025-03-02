@@ -42,6 +42,7 @@ theme = "hugo-theme-til"
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
+        
 [params.notes]
 showCategoryFilter = true
 [params.posts]
