@@ -11,6 +11,7 @@
     不去西湖的杭州行：亚运会&amp;青山村 | INNERSO
 </title>
   <meta name="description" content="其实主要是冲着亚运会去的，然后考虑到国庆期间杭州主要景点的爆满程度，最后挑了个距离市区一小时的青山村休闲度假游。" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
 <meta property="og:url" content="http://localhost:1313/posts/hangzhou-without-west-lake/">
   <meta property="og:site_name" content="INNERSO">
   <meta property="og:title" content="不去西湖的杭州行：亚运会&青山村">
@@ -452,6 +453,35 @@
         </section>
     </section>
 </aside>
+
+
+<head>
+    
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    
+  </head>
+  <body>
+    
+    <div id="waline" class="pt-6 not-prose"></div>
+    <script>
+    const locale = {sofa: '来发评论吧'}
+
+      Waline.init({
+        el: '#waline',
+        serverURL: 'https://waline-weld.vercel.app',
+        locale,
+      });
+    </script>
+  </body>
+  <style>
+    :root {
+  --waline-theme-color: #6b96bd!important;  
+}
+  </style>
 
 
       </main>

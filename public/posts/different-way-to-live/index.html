@@ -11,6 +11,7 @@
     一定要沿着这条路走吗 | INNERSO
 </title>
   <meta name="description" content="六月到八月的流水账" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
 <meta property="og:url" content="http://localhost:1313/posts/different-way-to-live/">
   <meta property="og:site_name" content="INNERSO">
   <meta property="og:title" content="一定要沿着这条路走吗">
@@ -427,6 +428,35 @@
         </section>
     </section>
 </aside>
+
+
+<head>
+    
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    
+  </head>
+  <body>
+    
+    <div id="waline" class="pt-6 not-prose"></div>
+    <script>
+    const locale = {sofa: '来发评论吧'}
+
+      Waline.init({
+        el: '#waline',
+        serverURL: 'https://waline-weld.vercel.app',
+        locale,
+      });
+    </script>
+  </body>
+  <style>
+    :root {
+  --waline-theme-color: #6b96bd!important;  
+}
+  </style>
 
 
       </main>
