@@ -54,9 +54,3 @@ tags: [游玩]
 年末记录一个本年的走动:
 
 {{< backlink "spicy-xuzhou" "徐州">}}
-
-{{< backlink "hangzhou-without-west-lake" "杭州">}}
-
-{{< backlink "dongshandao-travel" "东山岛">}}
-
-{{< backlink "nanjing-weekend-trip" "南京">}}
