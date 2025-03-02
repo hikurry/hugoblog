@@ -1,7 +1,9 @@
 {
   "graph": {
     "/posts/2021-personal-summary/": {
-      "in": [],
+      "in": [
+        "/posts/terrible-working-life/"
+      ],
       "out": []
     },
     "/posts/blog-wordcloud/": {
@@ -21,7 +23,9 @@
       "out": []
     },
     "/posts/crazy-job-searching-season/": {
-      "in": [],
+      "in": [
+        "/posts/terrible-working-life/"
+      ],
       "out": []
     },
     "/posts/different-way-to-live/": {
@@ -29,7 +33,9 @@
       "out": []
     },
     "/posts/dongshandao-travel/": {
-      "in": [],
+      "in": [
+        "/posts/spicy-xuzhou/"
+      ],
       "out": []
     },
     "/posts/douban-card/": {
@@ -53,7 +59,9 @@
       "out": []
     },
     "/posts/hangzhou-without-west-lake/": {
-      "in": [],
+      "in": [
+        "/posts/spicy-xuzhou/"
+      ],
       "out": []
     },
     "/posts/last-winter-vocation/": {
@@ -68,8 +76,10 @@
       "in": [],
       "out": []
     },
-    "/posts/nanjing--weekend-trip/": {
-      "in": [],
+    "/posts/nanjing-weekend-trip/": {
+      "in": [
+        "/posts/spicy-xuzhou/"
+      ],
       "out": []
     },
     "/posts/rough-road-to-customize-my-blog/": {
@@ -89,12 +99,26 @@
       "out": []
     },
     "/posts/spicy-xuzhou/": {
-      "in": [],
-      "out": []
+      "in": [
+        "/posts/spicy-xuzhou/"
+      ],
+      "out": [
+        "/posts/spicy-xuzhou/",
+        "/posts/hangzhou-without-west-lake/",
+        "/posts/dongshandao-travel/",
+        "/posts/nanjing-weekend-trip/"
+      ]
     },
     "/posts/still-alive/": {
       "in": [],
       "out": []
+    },
+    "/posts/terrible-working-life/": {
+      "in": [],
+      "out": [
+        "/posts/crazy-job-searching-season/",
+        "/posts/2021-personal-summary/"
+      ]
     },
     "/posts/until-the-end-of-the-world/": {
       "in": [],
@@ -191,8 +215,8 @@
       "section": "posts",
       "title": "Kindle 使用体验"
     },
-    "/posts/nanjing--weekend-trip/": {
-      "permalink": "/posts/nanjing--weekend-trip/",
+    "/posts/nanjing-weekend-trip/": {
+      "permalink": "/posts/nanjing-weekend-trip/",
       "section": "posts",
       "title": "长三角集结！南京周末行"
     },
@@ -225,6 +249,11 @@
       "permalink": "/posts/still-alive/",
       "section": "posts",
       "title": "考试、开学，暂时幸存"
+    },
+    "/posts/terrible-working-life/": {
+      "permalink": "/posts/terrible-working-life/",
+      "section": "posts",
+      "title": "集美怎么上班后话少了"
     },
     "/posts/until-the-end-of-the-world/": {
       "permalink": "/posts/until-the-end-of-the-world/",

@@ -1,7 +1,1646 @@
+<!doctype html>
+<html
+  lang="zh-Hans"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    豆瓣卡片测试 | INNERSO
+</title>
+  <meta name="description" content="原来的豆瓣 API 挂了，刚好看到 Neodb 的 API 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<meta property="og:url" content="http://localhost:1313/posts/douban-card/">
+  <meta property="og:site_name" content="INNERSO">
+  <meta property="og:title" content="豆瓣卡片测试">
+  <meta property="og:description" content="原来的豆瓣 API 挂了，刚好看到 Neodb 的 API 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。">
+  <meta property="og:locale" content="zh_Hans">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-04-09T08:53:12+08:00">
+    <meta property="article:modified_time" content="2023-04-09T08:53:12+08:00">
+    <meta property="article:tag" content="HUGO">
+    <meta property="article:tag" content="Shortcode">
+
+
+  <meta itemprop="name" content="豆瓣卡片测试">
+  <meta itemprop="description" content="原来的豆瓣 API 挂了，刚好看到 Neodb 的 API 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。">
+  <meta itemprop="datePublished" content="2023-04-09T08:53:12+08:00">
+  <meta itemprop="dateModified" content="2023-04-09T08:53:12+08:00">
+  <meta itemprop="wordCount" content="205">
+  <meta itemprop="keywords" content="HUGO,Shortcode">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="豆瓣卡片测试">
+  <meta name="twitter:description" content="原来的豆瓣 API 挂了，刚好看到 Neodb 的 API 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。">
+
+<link rel="canonical" href="http://localhost:1313/posts/douban-card/" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+      <script src="/js/main.js" defer></script>
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/posts/douban-card/",
+  "@type": "BlogPosting",
+  "articleSection": [
+    "LEARN"
+  ],
+  "copyrightNotice": "咖喱",
+  "datePublished": "2023-04-09",
+  "description": "原来的豆瓣 API 挂了，刚好看到 Neodb 的 API 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。",
+  "headline": "豆瓣卡片测试",
+  "isPartOf": {
+    "@id": "http://localhost:1313/posts/",
+    "@type": "Blog",
+    "name": "Posts"
+  },
+  "keywords": [
+    "HUGO",
+    "Shortcode"
+  ],
+  "mainEntityOfPage": "http://localhost:1313/posts/douban-card/",
+  "name": "豆瓣卡片测试",
+  "timeRequired": "PT1M",
+  "url": "http://localhost:1313/posts/douban-card/",
+  "wordCount": 205
+}
+</script>
+
+
+<link rel="stylesheet" href="/css/custom.css">
+
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/">INNERSO</a>
+</div>
+
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a>Notes</a
+      >
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a
+      >
+    </li>
+    <li>
+      <a href="/graph/">Graph</a
+      >
+    </li>
+    <li>
+      <a href="/about/">About</a
+      >
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        <article class="main">
+    <header>
+      <h1 class="!mb-1">豆瓣卡片测试</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2023-04-09T08:53:12&#43;08:00"
+            >April 9, 2023</time
+          >
+        </div>
+    </header>
+
+    <p>原来的豆瓣 API 挂了，刚好看到 Neodb 的 <a href="https://neodb.social/api-doc/">API</a> 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。</p>
+<p>短代码：</p>
+<figure class="codeblock not-prose relative scroll-mt-8" id="codeblock-01">
+  <aside
+    class="absolute right-0 top-0 hidden rounded-bl-sm rounded-tr-sm bg-white/10 px-2 py-1 text-white/70 transition-opacity md:inline-block"
+  >
+    <div class="codeblock-meta flex max-w-xs flex-row items-center space-x-3">
+      <div class="small-caps shrink cursor-default truncate font-mono text-xs" aria-hidden="true">
+        <span class="relative">markdown</span>
+      </div>
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy code to clipboard"
+          title="Copy code to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#codeblock-01 code"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#codeblock-01"
+          class="block"
+          aria-label="Link to this code block"
+          title="Link to this code block"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">markdown code snippet start</p>
+  <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">db</span> <span class="err">&#34;</span><span class="na">https:</span><span class="err">//</span><span class="na">neodb</span><span class="err">.</span><span class="na">social</span><span class="err">/</span><span class="na">movie</span><span class="err">/</span><span class="na">5x5G0qUlH3JmEIAkH8aOhR</span><span class="err">&#34;</span> <span class="p">&gt;</span>}}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+  <p class="sr-only">markdown code snippet end</p>
+
+  
+</figure>
+<p>效果：</p>
 
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+
+
+
+
+
+
+<div class="post-preview game movie">
+  <img
+    referrer-policy="no-referrer"
+    loading="lazy"
+    class="post-preview--image"
+    src="https://neodb.social/m/item/movie/2023/05/09/93138ddf-92a7-4fda-9d04-92f9b197d65c.webp"
+  />
+  <div class="post-preview--meta">
+    <div class="post-preview--middle">
+      <h4 class="post-preview--title">
+        <a target="_blank" href="https://neodb.social/movie/5x5G0qUlH3JmEIAkH8aOhR">龙与地下城：侠盗荣耀</a>
+      </h4>
+      <div class="rating">
+        <div class="rating-star allstar7.6"></div>
+        <div class="rating-average">7.6</div>
+        <div class="release-time"></div>
+      </div>
+      <span class="post-preview--date">
+        2023 / 动作 奇幻 冒险  /
+        美国 加拿大  / 约翰·弗朗西斯·戴利 / 克里斯·派恩 / 米歇尔·罗德里格兹
+        </span>
+      <section
+        style="max-height: 75px; overflow: hidden"
+        class="post-preview--excerpt"
+      >
+        　　吟游诗人艾德金 Edgin（克里斯·派恩 Chris Pine 饰）曾是为平衡而战的竖琴手。他在妻子死于红袍法师的报复后，退出竖琴手，酗酒度日。野蛮人霍尔盖 Holga（米歇尔·罗德里格兹 Michelle Rodriguez 饰）出现在颓废的艾德金身边，和他共同抚养女儿琪拉 Kira（克洛伊·科尔曼 Chloe Coleman 饰）。
+　　艾德金、霍尔盖带着琪拉组成了一支盗宝团队，陆续有半吊子术士西蒙 Simon（贾斯蒂斯·史密斯 Justice Smith 饰）和骗子福奇 Forge（休·格兰特 Hugh Grant 饰）等人加入，哪知道在一次行动中失手，福奇带着琪拉逃跑，艾德金和霍尔盖则锒铛入狱。一晃多年过去，艾德金和霍尔盖越狱，找到已是无冬城领主的福奇，却发现当年被福奇出卖，琪拉受福奇迷惑，与艾德金反目。为了洗刷污名，救回琪拉，让福奇付出代价，艾德金和霍尔盖找回西蒙，又招募德鲁伊女孩多莉克 Doric（索菲娅·莉莉丝 Sophia Lillis 饰），组成一支新队伍。
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-preview {
+    max-width: 780px;
+    height: 180px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: hsla( 0, 0%, 95%, 0.5 );
+    border-radius: 10px;
+  }
+  .post-preview-wrapper {
+    display: flex;
+    margin: 12px 16px;
+    width: 75%;
+  }
+  .post-preview--meta {
+    overflow: hidden;
+    margin: 8px 15px;
+  }
+  .post-preview--middle {
+    line-height: 20px;
+  }
+  .post-preview--title {
+    font-size: 16px;
+    margin: 0 !important;
+  }
+  .post-preview--title a {
+    text-decoration: none;
+  }
+  .post-preview--date {
+    font-size: 12px;
+    color: #999;
+  }
+  .post-preview--excerpt {
+    font-size: 13px;
+    line-height: 1.825;
+  }
+  .post-preview--excerpt p {
+    display: inline;
+    margin: 0;
+    line-height: 1.825;
+  }
+  .post-preview--image {
+    height: 160px !important;
+    width: auto;
+    float: right;
+    border: none !important;
+    margin: 10px 0px 10px 10px !important;
+  }
+  @media (max-width: 550px) {
+    .post-preview {
+      width: 95%;
+      height: 120px;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--excerpt {
+      display: none;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--image {
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
+    }
+  }
+  .rating {
+    display: flex;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  .rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+  }
+  .allstar10 {
+    background-position: 0px 0px;
+  }
+  .allstar9 {
+    background-position: 0px -15px;
+  }
+  .allstar8 {
+    background-position: 0px -30px;
+  }
+  .allstar7 {
+    background-position: 0px -45px;
+  }
+  .allstar6 {
+    background-position: 0px -60px;
+  }
+  .allstar5 {
+    background-position: 0px -75px;
+  }
+  .allstar4 {
+    background-position: 0px -90px;
+  }
+  .allstar3 {
+    background-position: 0px -105px;
+  }
+  .allstar2 {
+    background-position: 0px -120px;
+  }
+  .allstar1 {
+    background-position: 0px -135px;
+  }
+  .allstar0 {
+    background-position: 0px -150px;
+  }
+  .rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post-preview game movie">
+  <img
+    referrer-policy="no-referrer"
+    loading="lazy"
+    class="post-preview--image"
+    src="https://neodb.social/m/book/2022/11/11bca524e0-c983-404f-a46f-cae7e21ee003.jpg"
+  />
+  <div class="post-preview--meta">
+    <div class="post-preview--middle">
+      <h4 class="post-preview--title">
+        <a target="_blank" href="https://neodb.social/book/6YtZZFTFJ7X3u2bw5ihv5R">滔滔生活</a>
+      </h4>
+      <div class="rating">
+        <div class="rating-star allstar8.6"></div>
+        <div class="rating-average">8.6</div>
+        <div class="release-time"></div>
+      </div>
+      <span class="post-preview--date">
+        2022 / [韩]金爱烂
+        
+      </span>
+      <section
+        style="max-height: 75px; overflow: hidden"
+        class="post-preview--excerpt"
+      >
+        “韩国八零后天才女作家”金爱烂
+第二十七届申东晔创作奖获奖作品
+未来文学家奖得主 张怡微 作序《“我想抓住那道光”》
+“喜欢金爱烂的读者，很容易就会捕捉到千变万化的文学创造背后那双犀利的女性冷眼……现实冷峻如雪，作家将这些体验都划归为生活本来的样子，它是有温度的，是寒冷的。与此同时，它也是有光芒的。”
+《滔滔生活》是金爱烂的第二部短篇小说集，共收入八篇作品。这些故事写成长于饺子馆的女孩在雨水倒灌的首尔半地下出租屋里肆意弹琴，写都会女性极度疲惫而辛劳的职场生涯，有城市青年囿于物质的缺乏无法体面过圣诞节，写丈夫出轨与负债的妈妈靠开面馆养大女儿……它们聚焦了城市中那些看似平常、边缘，实则每天都在与生活无声抗争的可敬的普通人；这些充满想象力和智慧的文字就像在平淡无奇的日常生活中积聚起来的一汪水，读者映照出自己，辨认出生活的重压之下个人的内心曲折。
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-preview {
+    max-width: 780px;
+    height: 180px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: hsla( 0, 0%, 95%, 0.5 );
+    border-radius: 10px;
+  }
+  .post-preview-wrapper {
+    display: flex;
+    margin: 12px 16px;
+    width: 75%;
+  }
+  .post-preview--meta {
+    overflow: hidden;
+    margin: 8px 15px;
+  }
+  .post-preview--middle {
+    line-height: 20px;
+  }
+  .post-preview--title {
+    font-size: 16px;
+    margin: 0 !important;
+  }
+  .post-preview--title a {
+    text-decoration: none;
+  }
+  .post-preview--date {
+    font-size: 12px;
+    color: #999;
+  }
+  .post-preview--excerpt {
+    font-size: 13px;
+    line-height: 1.825;
+  }
+  .post-preview--excerpt p {
+    display: inline;
+    margin: 0;
+    line-height: 1.825;
+  }
+  .post-preview--image {
+    height: 160px !important;
+    width: auto;
+    float: right;
+    border: none !important;
+    margin: 10px 0px 10px 10px !important;
+  }
+  @media (max-width: 550px) {
+    .post-preview {
+      width: 95%;
+      height: 120px;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--excerpt {
+      display: none;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--image {
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
+    }
+  }
+  .rating {
+    display: flex;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  .rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+  }
+  .allstar10 {
+    background-position: 0px 0px;
+  }
+  .allstar9 {
+    background-position: 0px -15px;
+  }
+  .allstar8 {
+    background-position: 0px -30px;
+  }
+  .allstar7 {
+    background-position: 0px -45px;
+  }
+  .allstar6 {
+    background-position: 0px -60px;
+  }
+  .allstar5 {
+    background-position: 0px -75px;
+  }
+  .allstar4 {
+    background-position: 0px -90px;
+  }
+  .allstar3 {
+    background-position: 0px -105px;
+  }
+  .allstar2 {
+    background-position: 0px -120px;
+  }
+  .allstar1 {
+    background-position: 0px -135px;
+  }
+  .allstar0 {
+    background-position: 0px -150px;
+  }
+  .rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post-preview game movie">
+  <img
+    referrer-policy="no-referrer"
+    loading="lazy"
+    class="post-preview--image"
+    src="https://neodb.social/m/item/tmdb_tv/2024/04/05/738729a1-f9bc-4fa1-b1bb-bb190305f0cb.jpg"
+  />
+  <div class="post-preview--meta">
+    <div class="post-preview--middle">
+      <h4 class="post-preview--title">
+        <a target="_blank" href="https://neodb.social/tv/3q1DZycszvvvlUeQsfnlUA">黑暗荣耀</a>
+      </h4>
+      <div class="rating">
+        <div class="rating-star allstar7.9"></div>
+        <div class="rating-average">7.9</div>
+        <div class="release-time"></div>
+      </div>
+      <span class="post-preview--date">
+        2022 / 剧情  /
+        韩国  / Kim Eun-sook / Song Hye-kyo / Lee Do-hyun
+      </span>
+      <section
+        style="max-height: 75px; overflow: hidden"
+        class="post-preview--excerpt"
+      >
+        一名女子上高中时遭受过可怕的虐待。时隔多年，她将精心制定的复仇计划付诸实施，要让施害者为自己的罪行付出代价。
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-preview {
+    max-width: 780px;
+    height: 180px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: hsla( 0, 0%, 95%, 0.5 );
+    border-radius: 10px;
+  }
+  .post-preview-wrapper {
+    display: flex;
+    margin: 12px 16px;
+    width: 75%;
+  }
+  .post-preview--meta {
+    overflow: hidden;
+    margin: 8px 15px;
+  }
+  .post-preview--middle {
+    line-height: 20px;
+  }
+  .post-preview--title {
+    font-size: 16px;
+    margin: 0 !important;
+  }
+  .post-preview--title a {
+    text-decoration: none;
+  }
+  .post-preview--date {
+    font-size: 12px;
+    color: #999;
+  }
+  .post-preview--excerpt {
+    font-size: 13px;
+    line-height: 1.825;
+  }
+  .post-preview--excerpt p {
+    display: inline;
+    margin: 0;
+    line-height: 1.825;
+  }
+  .post-preview--image {
+    height: 160px !important;
+    width: auto;
+    float: right;
+    border: none !important;
+    margin: 10px 0px 10px 10px !important;
+  }
+  @media (max-width: 550px) {
+    .post-preview {
+      width: 95%;
+      height: 120px;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--excerpt {
+      display: none;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--image {
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
+    }
+  }
+  .rating {
+    display: flex;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  .rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+  }
+  .allstar10 {
+    background-position: 0px 0px;
+  }
+  .allstar9 {
+    background-position: 0px -15px;
+  }
+  .allstar8 {
+    background-position: 0px -30px;
+  }
+  .allstar7 {
+    background-position: 0px -45px;
+  }
+  .allstar6 {
+    background-position: 0px -60px;
+  }
+  .allstar5 {
+    background-position: 0px -75px;
+  }
+  .allstar4 {
+    background-position: 0px -90px;
+  }
+  .allstar3 {
+    background-position: 0px -105px;
+  }
+  .allstar2 {
+    background-position: 0px -120px;
+  }
+  .allstar1 {
+    background-position: 0px -135px;
+  }
+  .allstar0 {
+    background-position: 0px -150px;
+  }
+  .rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post-preview game movie">
+  <img
+    referrer-policy="no-referrer"
+    loading="lazy"
+    class="post-preview--image"
+    src="https://neodb.social/m/item/doubangame/2024/07/16/ccfaa851-6cc0-4eee-b8bc-367cb64d01b1.jpg"
+  />
+  <div class="post-preview--meta">
+    <div class="post-preview--middle">
+      <h4 class="post-preview--title">
+        <a target="_blank" href="https://neodb.social/game/2XTjC4uAk6yQKWVaucsspS">画中世界</a>
+      </h4>
+      <div class="rating">
+        <div class="rating-star allstar9.5"></div>
+        <div class="rating-average">9.5</div>
+        <div class="release-time"></div>
+      </div>
+      <time class="post-preview--date">
+        2017-12-14 / 益智  / Jason Roberts 
+        <span class="post-preview--tags">
+          
+          <span class="post-preview--tag">2017</span>
+          
+          <span class="post-preview--tag">indie</span>
+          
+          <span class="post-preview--tag">puz</span>
+          
+          <span class="post-preview--tag">puzzle</span>
+          
+          <span class="post-preview--tag">steam</span>
+          
+          <span class="post-preview--tag">冒险</span>
+          
+          <span class="post-preview--tag">华丽</span>
+          
+          <span class="post-preview--tag">单机</span>
+          
+          <span class="post-preview--tag">日本</span>
+          
+          <span class="post-preview--tag">游戏</span>
+          
+          <span class="post-preview--tag">独立游戏</span>
+          
+          <span class="post-preview--tag">画风</span>
+          
+          <span class="post-preview--tag">益智</span>
+          
+          <span class="post-preview--tag">神作</span>
+          
+          <span class="post-preview--tag">艺术</span>
+          
+          <span class="post-preview--tag">解密</span>
+          
+          <span class="post-preview--tag">解谜</span>
+          
+          <span class="post-preview--tag">音乐</span>
+          
+        </span>
+      </time>
+      <section
+        style="max-height: 75px; overflow: hidden"
+        class="post-preview--excerpt"
+      >
+        Gorogoa is a puzzle video game in development by Jason Roberts for Microsoft Windows, Mac OS, iOS, and Android. The Windows and Mac versions will be released in 2014 with the mobile version some time after.
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<style>
+  .post-preview {
+    max-width: 780px;
+    height: 180px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: hsla( 0, 0%, 95%, 0.5 );
+    border-radius: 10px;
+  }
+  .post-preview-wrapper {
+    display: flex;
+    margin: 12px 16px;
+    width: 75%;
+  }
+  .post-preview--meta {
+    overflow: hidden;
+    margin: 8px 15px;
+  }
+  .post-preview--middle {
+    line-height: 20px;
+  }
+  .post-preview--title {
+    font-size: 16px;
+    margin: 0 !important;
+  }
+  .post-preview--title a {
+    text-decoration: none;
+  }
+  .post-preview--date {
+    font-size: 12px;
+    color: #999;
+  }
+  .post-preview--excerpt {
+    font-size: 13px;
+    line-height: 1.825;
+  }
+  .post-preview--excerpt p {
+    display: inline;
+    margin: 0;
+    line-height: 1.825;
+  }
+  .post-preview--image {
+    height: 160px !important;
+    width: auto;
+    float: right;
+    border: none !important;
+    margin: 10px 0px 10px 10px !important;
+  }
+  @media (max-width: 550px) {
+    .post-preview {
+      width: 95%;
+      height: 120px;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--excerpt {
+      display: none;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--image {
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
+    }
+  }
+  .rating {
+    display: flex;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  .rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+  }
+  .allstar10 {
+    background-position: 0px 0px;
+  }
+  .allstar9 {
+    background-position: 0px -15px;
+  }
+  .allstar8 {
+    background-position: 0px -30px;
+  }
+  .allstar7 {
+    background-position: 0px -45px;
+  }
+  .allstar6 {
+    background-position: 0px -60px;
+  }
+  .allstar5 {
+    background-position: 0px -75px;
+  }
+  .allstar4 {
+    background-position: 0px -90px;
+  }
+  .allstar3 {
+    background-position: 0px -105px;
+  }
+  .allstar2 {
+    background-position: 0px -120px;
+  }
+  .allstar1 {
+    background-position: 0px -135px;
+  }
+  .allstar0 {
+    background-position: 0px -150px;
+  }
+  .rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post-preview game movie">
+  <img
+    referrer-policy="no-referrer"
+    loading="lazy"
+    class="post-preview--image"
+    src="https://neodb.social/m/item/rss/2023/02/02/0fc9d1d8-8014-4f85-b644-08026d1b73c5.jpg"
+  />
+  <div class="post-preview--meta">
+    <div class="post-preview--middle">
+      <h4 class="post-preview--title">
+        <a target="_blank" href="https://neodb.social/podcast/55pPDZBO9lnmKmOgIQnqAt">展开讲讲</a>
+      </h4>
+      <div class="rating">
+        <div class="rating-star allstar8.5"></div>
+        <div class="rating-average">8.5</div>
+        <div class="release-time"></div>
+      </div>
+      <span class="post-preview--date">
+        TV &amp; Film  / 展开讲讲编辑部 
+        </span>
+      <section
+        style="max-height: 75px; overflow: hidden"
+        class="post-preview--excerpt"
+      >
+        「展开讲讲」是一档专题式讨论好内容的播客。 每期我们会试图以一个主题串联起多部作品，包括电影、电视剧、综艺和小说等多种形式，但都有共同的特点：有深度，有关联，能让我们有触动，有想法，值得我们努力“展开讲讲”。 东亚三国剧集、Netflix、韩国综艺、HBO、任天堂、迪士尼等等都是我们的关注对象，我们希望寻找这些内容之间令人兴奋的关联和世界范围内最新的叙事潮流。
+
+「广播电视报」这是一档每月更新的影视剧书籍合集栏目。在严肃讨论之外速评每月内容领域的热点事件，或推荐或吐槽，也是我们自己的番外真人秀栏目。到每年年底，我们会颁布全年的「展开讲讲内容大赏」。 
+
+新栏目「展信佳」，展开讲讲和听众们的往复书简。来信📭：talktoomuchpro@163.com
+
+微博联系我们：@展开讲讲播客
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<style>
+  .post-preview {
+    max-width: 780px;
+    height: 180px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: hsla( 0, 0%, 95%, 0.5 );
+    border-radius: 10px;
+  }
+  .post-preview-wrapper {
+    display: flex;
+    margin: 12px 16px;
+    width: 75%;
+  }
+  .post-preview--meta {
+    overflow: hidden;
+    margin: 8px 15px;
+  }
+  .post-preview--middle {
+    line-height: 20px;
+  }
+  .post-preview--title {
+    font-size: 16px;
+    margin: 0 !important;
+  }
+  .post-preview--title a {
+    text-decoration: none;
+  }
+  .post-preview--date {
+    font-size: 12px;
+    color: #999;
+  }
+  .post-preview--excerpt {
+    font-size: 13px;
+    line-height: 1.825;
+  }
+  .post-preview--excerpt p {
+    display: inline;
+    margin: 0;
+    line-height: 1.825;
+  }
+  .post-preview--image {
+    height: 160px !important;
+    width: auto;
+    float: right;
+    border: none !important;
+    margin: 10px 0px 10px 10px !important;
+  }
+  @media (max-width: 550px) {
+    .post-preview {
+      width: 95%;
+      height: 120px;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--excerpt {
+      display: none;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--image {
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
+    }
+  }
+  .rating {
+    display: flex;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  .rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+  }
+  .allstar10 {
+    background-position: 0px 0px;
+  }
+  .allstar9 {
+    background-position: 0px -15px;
+  }
+  .allstar8 {
+    background-position: 0px -30px;
+  }
+  .allstar7 {
+    background-position: 0px -45px;
+  }
+  .allstar6 {
+    background-position: 0px -60px;
+  }
+  .allstar5 {
+    background-position: 0px -75px;
+  }
+  .allstar4 {
+    background-position: 0px -90px;
+  }
+  .allstar3 {
+    background-position: 0px -105px;
+  }
+  .allstar2 {
+    background-position: 0px -120px;
+  }
+  .allstar1 {
+    background-position: 0px -135px;
+  }
+  .allstar0 {
+    background-position: 0px -150px;
+  }
+  .rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-preview {
+    max-width: 780px;
+    height: 180px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: hsla( 0, 0%, 95%, 0.5 );
+    border-radius: 10px;
+  }
+  .post-preview-wrapper {
+    display: flex;
+    margin: 12px 16px;
+    width: 75%;
+  }
+  .post-preview--meta {
+    overflow: hidden;
+    margin: 8px 15px;
+  }
+  .post-preview--middle {
+    line-height: 20px;
+  }
+  .post-preview--title {
+    font-size: 16px;
+    margin: 0 !important;
+  }
+  .post-preview--title a {
+    text-decoration: none;
+  }
+  .post-preview--date {
+    font-size: 12px;
+    color: #999;
+  }
+  .post-preview--excerpt {
+    font-size: 13px;
+    line-height: 1.825;
+  }
+  .post-preview--excerpt p {
+    display: inline;
+    margin: 0;
+    line-height: 1.825;
+  }
+  .post-preview--image {
+    height: 160px !important;
+    width: auto;
+    float: right;
+    border: none !important;
+    margin: 10px 0px 10px 10px !important;
+  }
+  @media (max-width: 550px) {
+    .post-preview {
+      width: 95%;
+      height: 120px;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--excerpt {
+      display: none;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--image {
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
+    }
+  }
+  .rating {
+    display: flex;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  .rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+  }
+  .allstar10 {
+    background-position: 0px 0px;
+  }
+  .allstar9 {
+    background-position: 0px -15px;
+  }
+  .allstar8 {
+    background-position: 0px -30px;
+  }
+  .allstar7 {
+    background-position: 0px -45px;
+  }
+  .allstar6 {
+    background-position: 0px -60px;
+  }
+  .allstar5 {
+    background-position: 0px -75px;
+  }
+  .allstar4 {
+    background-position: 0px -90px;
+  }
+  .allstar3 {
+    background-position: 0px -105px;
+  }
+  .allstar2 {
+    background-position: 0px -120px;
+  }
+  .allstar1 {
+    background-position: 0px -135px;
+  }
+  .allstar0 {
+    background-position: 0px -150px;
+  }
+  .rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post-preview game movie">
+  <img
+    referrer-policy="no-referrer"
+    loading="lazy"
+    class="post-preview--image"
+    src="https://neodb.social/m/movie/2021/10/123e49a39f-f47a-48ba-8a8e-5db39e1d5353.jpg"
+  />
+  <div class="post-preview--meta">
+    <div class="post-preview--middle">
+      <h4 class="post-preview--title">
+        <a target="_blank" href="https://neodb.social/tv/season/2ndrjrm986DTBmyuSEfnFl">无耻之徒(美版) 第一季</a>
+      </h4>
+      <div class="rating">
+        <div class="rating-star allstar9.2"></div>
+        <div class="rating-average">9.2</div>
+        <div class="release-time"></div>
+      </div>
+      <span class="post-preview--date">
+        2011 / Drama Comedy Family  /
+        美国  / 马克·米罗 / 威廉姆·H·梅西 / 埃米·罗森
+      </span>
+      <section
+        style="max-height: 75px; overflow: hidden"
+        class="post-preview--excerpt"
+      >
+        本剧根据英国同名剧集改编。 本剧主演 William H. Macy 曾获得艾美奖。 拥有有六个孩子的单身父亲 Frank（威廉姆·H·梅西 William H. Macy 饰）和孩子们生活在周围到处是酒鬼、乞丐和罪犯的最底层社区。他收入不高，整天酗酒，根本不管儿女们的死活，不到20岁的大女儿 Fiona（埃米·罗森 Emmy Rossum 饰）不得不承担起照顾五个弟妹以及养家糊口的责任。跨过宿醉的父亲的身体争抢着偷来的早餐；凌晨4点大开着摇滚乐狂欢；纵容邻居在他们的楼梯上做爱；这个热闹非凡的家庭忙碌、自由、无法无天、充满冒险。他们拥有的不多，但他们懂得生活中最重要的是什么……
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-preview {
+    max-width: 780px;
+    height: 180px;
+    margin: 1em auto;
+    position: relative;
+    display: flex;
+    background: hsla( 0, 0%, 95%, 0.5 );
+    border-radius: 10px;
+  }
+  .post-preview-wrapper {
+    display: flex;
+    margin: 12px 16px;
+    width: 75%;
+  }
+  .post-preview--meta {
+    overflow: hidden;
+    margin: 8px 15px;
+  }
+  .post-preview--middle {
+    line-height: 20px;
+  }
+  .post-preview--title {
+    font-size: 16px;
+    margin: 0 !important;
+  }
+  .post-preview--title a {
+    text-decoration: none;
+  }
+  .post-preview--date {
+    font-size: 12px;
+    color: #999;
+  }
+  .post-preview--excerpt {
+    font-size: 13px;
+    line-height: 1.825;
+  }
+  .post-preview--excerpt p {
+    display: inline;
+    margin: 0;
+    line-height: 1.825;
+  }
+  .post-preview--image {
+    height: 160px !important;
+    width: auto;
+    float: right;
+    border: none !important;
+    margin: 10px 0px 10px 10px !important;
+  }
+  @media (max-width: 550px) {
+    .post-preview {
+      width: 95%;
+      height: 120px;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--excerpt {
+      display: none;
+    }
+    .post-preview--middle {
+      line-height: 19px;
+    }
+    .post-preview--image {
+      height: 104px !important;
+      margin: 8px 0 8px 8px!important;
+    }
+  }
+  .rating {
+    display: flex;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  .rating-star {
+    display: inline-block;
+    width: 75px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAClCAYAAAAUAAAYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrs3T9rFEEcxvG7qEQIglaCICKkin9AUEtBKxU7wS61VlYivgWj70TtNFj5BqzE7qxEWwsxKIoYn4UtluFmbm8nczvzm+/BjxyuDwNzu3uXD0+46f7LC5PA45Hm+WTYw1x2LRDc0jzTXB+wqMlsaLPutz8fDFjYZHYauAz3NBvt83XNnyUWNpn1nVm3OsHmsb3EomazzZnVXKMPNcc0xzUnNKc0Rzv/77fms+Z7O3vt9b1eU7bZrNN68l5zcolX4ofmsuZXTdnmMvyi2dR86Bmcac62P6vKrnVubpc0bxYE32nOab45N8YqsvPeDfcD4SOav4HjprPuu+H5BTt9LXDMfNbdLPfT678Fx6vKupt1o/O8+R3pkOaJ5/iktqx7z/qp+aq5q/nY+fczmheaK03Gs7D5rLtZdzSvA6/Ebc2u55j57HQB0TzW7AzkjiKzny6+2hlKNE8juMNcFqKBaIZndRlCNBBNgmx7ZkE0fbLtZkE0EA1EM17WuQwhGogGooFoss6296y52cNO+J6HLJoPaFdbsvA9zGerIxrPh85eWYgGooFoDiQbuAxp0UA0EVmdWbRo+ma1WbRoIBqIZtzsnHdDWjQQDUQD0WSbde5ZS2UhmtqJJtSEiVkXooFoIJre2VATJmZdiKZ2ogk1YSb8oVMvDeUPnSAaiCaPJkzMuhANRAPRQDQpsqEmTMy6EI11oolpwkA0EA1EcyDZmCYMRAPR+LMxTZjqiCamCQPRQDQQzehNGIgGooFoIJpVZ2OaMBBN7USTqgkD0UA0EE3vbKomDERTO9GkasKYJJpUTRiIBqKBaEZvwkA0EA1EA9GkyKZqwkA01olmrCYMRAPRQDR9LkO+0QmiKbAJUyTRjNWEgWggGohm9CYMRAPRQDQQzZDsWE0YiMYC0eTYhIFoIJrKiCbHJgxEY4FocmzCZEs0OTZhIBqIpjKiybEJA9FANBANROPL5tiEgWhKIJoSmzAQDURjjGhKbMJANCUQTYlNmNGIpsQmDEQD0RgjmhKbMBANRAPR1Es0JTZhIJpciMZaEwaigWgKJBprTRiIJheisdaESUo01powEA1EUyDRWGvCQDQQDURjm2isNWEgmlURzWw2q4pZIBqIJkOiCVyGJpkFolkV0ejMMvel28mIRptl7ku3IRqIpjCimfNuaJpZIBqIBqIpm2ice5Z5ZonJupvVkMRu4JW4qXnrOWY++1+AAQBw9BJSCTeN9wAAAABJRU5ErkJggg==);
+    overflow: hidden;
+  }
+  .allstar10 {
+    background-position: 0px 0px;
+  }
+  .allstar9 {
+    background-position: 0px -15px;
+  }
+  .allstar8 {
+    background-position: 0px -30px;
+  }
+  .allstar7 {
+    background-position: 0px -45px;
+  }
+  .allstar6 {
+    background-position: 0px -60px;
+  }
+  .allstar5 {
+    background-position: 0px -75px;
+  }
+  .allstar4 {
+    background-position: 0px -90px;
+  }
+  .allstar3 {
+    background-position: 0px -105px;
+  }
+  .allstar2 {
+    background-position: 0px -120px;
+  }
+  .allstar1 {
+    background-position: 0px -135px;
+  }
+  .allstar0 {
+    background-position: 0px -150px;
+  }
+  .rating-average {
+    color: #777;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+</style>
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shapes h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
+  />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <circle cx="17.5" cy="17.5" r="3.5" />
+</svg>
+
+        <span>Categories</span>
+      </h2>
+
+      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/categories/learn/" class="taxonomy category">LEARN</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-tags h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" />
+  <path
+    d="M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z"
+  />
+  <circle cx="6.5" cy="9.5" r=".5" fill="currentColor" />
+</svg>
+
+        <span>Tags</span>
+      </h2>
+
+      <ul class="not-prose ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/tags/hugo/" class="taxonomy tag">Hugo</a>
+          </li>
+          <li>
+            <a href="/tags/shortcode/" class="taxonomy tag">shortcode</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/posts/douban-card/"
+></content-network-graph>
+
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-newspaper h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2M18 14h-8M15 18h-5"
+  />
+  <path d="M10 6h8v4h-8V6Z" />
+</svg>
+
+        <span>Posts</span>
+      </h2>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 256 256"
+  class="h-4 w-4"
+  aria-hidden="true"
+>
+  <path
+    fill="currentColor"
+    d="M222.16 153.26a8 8 0 0 1-1 11.25c-17.36 14.38-32.86 19.49-47 19.49-18.58 0-34.82-8.81-49.93-17-25.35-13.75-47.24-25.63-79.07.74a8 8 0 1 1-10.22-12.3c40.17-33.27 70.32-16.92 96.93-2.48 25.35 13.75 47.24 25.62 79.07-.75a8 8 0 0 1 11.22 1.05m-177-49.46c31.83-26.37 53.72-14.5 79.07-.75 15.11 8.2 31.35 17 49.93 17 14.14 0 29.64-5.11 47-19.49a8 8 0 1 0-10.22-12.3c-31.83 26.37-53.72 14.49-79.07.74-26.61-14.43-56.76-30.79-96.93 2.48a8 8 0 0 0 10.17 12.32Z"
+  />
+</svg>
+
+            <span>Related</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/configure-waline/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="配置 Waline 评论"
+              >配置 Waline 评论</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/learn/"
+                  class="taxonomy"
+                  title="Posts and notes on LEARN"
+                  >LEARN</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+</ol>
+
+        </section>
+    </section>
+</aside>
+
+
+<head>
     
     <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
     <link
@@ -12,12 +1651,43 @@
   </head>
   <body>
     
-    <div id="waline"></div>
+    <div id="waline" class="pt-6 not-prose"></div>
     <script>
+    const locale = {sofa: '来发评论吧'}
+
       Waline.init({
         el: '#waline',
         serverURL: 'https://waline-weld.vercel.app',
+        locale,
       });
     </script>
   </body>
+  <style>
+    :root {
+  --waline-theme-color: #6b96bd!important;  
+}
+  </style>
 
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+      <p>Copyright &copy; 2025, 咖喱.</p>
+
+  </div>
+    <div>
+      <a
+        href="https://github.com/michenriksen/hugo-theme-til"
+        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
+        data-theme-version="0.6.0"
+        >theme: til</a
+      >
+    </div>
+</section>
+
+      </footer>
+    </div>
+    
+  </body>
+</html>

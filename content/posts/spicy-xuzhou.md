@@ -48,3 +48,15 @@ tags: [游玩]
 就是个圣诞打开拍照地，进去逛了一圈没有位置了想点的也没有就出来了，东西少贵，感觉除了拍点复古美照一无是处。
 
 疯狂吃吃吃的一个周末+圣诞，硬生生把我吃出来鼻血和口腔溃疡，可见威力之大。爽到了，也病倒了 ¯\\\_(==)\_/¯
+
+**P.S.**
+
+年末记录一个本年的走动:
+
+- {{<backlink "spicy-xuzhou" "徐州">}}
+
+- {{< backlink "hangzhou-without-west-lake" "杭州">}}
+
+- {{< backlink "dongshandao-travel" "东山岛">}}
+
+- {{< backlink "nanjing-weekend-trip" "南京">}}

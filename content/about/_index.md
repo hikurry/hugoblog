@@ -48,5 +48,5 @@ comments: true
 **茫茫人海中如果有缘相遇欢迎交换友链**
 > 名称：咖喱  
 > 地址：joysblog.vercel.app  
-> 头像：joysblog.vercel.app/icons/apple-touch-icon.png  
+> 头像：joysblog.vercel.app/images/apple-touch-icon.png  
 > 简介：即使埋藏在内心也没关系
