@@ -23,6 +23,7 @@
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
         "/posts/terrible-working-life/"
       ],
       "out": []
@@ -45,6 +46,7 @@
     },
     "/posts/crazy-job-searching-season/": {
       "in": [
+        "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
         "/posts/terrible-working-life/",
@@ -199,9 +201,11 @@
     },
     "/posts/spicy-xuzhou/": {
       "in": [
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/"
       ],
       "out": [
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/"
       ]
     },
@@ -212,6 +216,8 @@
     "/posts/terrible-working-life/": {
       "in": [],
       "out": [
+        "/posts/crazy-job-searching-season/",
+        "/posts/2021-personal-summary/",
         "/posts/crazy-job-searching-season/",
         "/posts/2021-personal-summary/",
         "/posts/crazy-job-searching-season/",
