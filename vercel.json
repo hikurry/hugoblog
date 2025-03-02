@@ -4,8 +4,5 @@
         "HUGO_VERSION": "0.145.0",
         "GO_VERSION": "1.24.0"
       }
-    },
-    "scripts": {
-      "vercel-build": "curl -sSL https://dl.google.com/go/go1.21.0.linux-amd64.tar.gz | tar -C /tmp -xz && export PATH=/tmp/go/bin:$PATH && hugo --gc --minify"
     }
   }
