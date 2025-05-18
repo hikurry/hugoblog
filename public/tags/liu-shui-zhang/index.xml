@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liu Shui Zhang on INNERSO</title>
+    <link>http://localhost:1313/tags/liu-shui-zhang/</link>
+    <description>Recent content in Liu Shui Zhang on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Tue, 18 Mar 2025 00:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/liu-shui-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>标题暂定</title>
+      <link>http://localhost:1313/posts/new-life/</link>
+      <pubDate>Tue, 18 Mar 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/new-life/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

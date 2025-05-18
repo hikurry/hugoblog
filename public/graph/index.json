@@ -117,6 +117,10 @@
         "/posts/2021-personal-summary/"
       ]
     },
+    "/posts/the-peculiar-twenties/": {
+      "in": [],
+      "out": []
+    },
     "/posts/until-the-end-of-the-world/": {
       "in": [],
       "out": []
@@ -251,6 +255,11 @@
       "permalink": "/posts/terrible-working-life/",
       "section": "posts",
       "title": "集美怎么上班后话少了"
+    },
+    "/posts/the-peculiar-twenties/": {
+      "permalink": "/posts/the-peculiar-twenties/",
+      "section": "posts",
+      "title": "奇妙的二十代"
     },
     "/posts/until-the-end-of-the-world/": {
       "permalink": "/posts/until-the-end-of-the-world/",

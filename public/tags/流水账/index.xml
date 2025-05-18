@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>zh-Hans</language>
     <copyright>咖喱</copyright>
-    <lastBuildDate>Sun, 23 Jun 2024 13:50:32 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 00:50:32 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E6%B5%81%E6%B0%B4%E8%B4%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>标题暂定</title>
+      <link>http://localhost:1313/posts/new-life/</link>
+      <pubDate>Tue, 18 Mar 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/new-life/</guid>
+      <description>&lt;p&gt;已经有两个同期的同事离职了。同事 L 下定决心离职的那个中午和我约了饭吃，感觉她整个人明亮了起来，找到工作才不是上岸，离职脱离苦海才是。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>最后一个假期</title>
       <link>http://localhost:1313/posts/last-winter-vocation/</link>
