@@ -2,6 +2,10 @@
   "graph": {
     "/posts/2021-personal-summary/": {
       "in": [
+        "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
         "/posts/terrible-working-life/"
       ],
       "out": []
@@ -28,6 +32,10 @@
     },
     "/posts/crazy-job-searching-season/": {
       "in": [
+        "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
+        "/posts/terrible-working-life/",
         "/posts/terrible-working-life/"
       ],
       "out": []
@@ -38,6 +46,10 @@
     },
     "/posts/dongshandao-travel/": {
       "in": [
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/"
       ],
       "out": []
@@ -64,6 +76,10 @@
     },
     "/posts/hangzhou-without-west-lake/": {
       "in": [
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/"
       ],
       "out": []
@@ -82,6 +98,10 @@
     },
     "/posts/nanjing-weekend-trip/": {
       "in": [
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
+        "/posts/spicy-xuzhou/",
         "/posts/spicy-xuzhou/"
       ],
       "out": []
@@ -107,6 +127,18 @@
       "out": [
         "/posts/hangzhou-without-west-lake/",
         "/posts/dongshandao-travel/",
+        "/posts/nanjing-weekend-trip/",
+        "/posts/hangzhou-without-west-lake/",
+        "/posts/dongshandao-travel/",
+        "/posts/nanjing-weekend-trip/",
+        "/posts/hangzhou-without-west-lake/",
+        "/posts/dongshandao-travel/",
+        "/posts/nanjing-weekend-trip/",
+        "/posts/hangzhou-without-west-lake/",
+        "/posts/dongshandao-travel/",
+        "/posts/nanjing-weekend-trip/",
+        "/posts/hangzhou-without-west-lake/",
+        "/posts/dongshandao-travel/",
         "/posts/nanjing-weekend-trip/"
       ]
     },
@@ -117,6 +149,14 @@
     "/posts/terrible-working-life/": {
       "in": [],
       "out": [
+        "/posts/crazy-job-searching-season/",
+        "/posts/2021-personal-summary/",
+        "/posts/crazy-job-searching-season/",
+        "/posts/2021-personal-summary/",
+        "/posts/crazy-job-searching-season/",
+        "/posts/2021-personal-summary/",
+        "/posts/crazy-job-searching-season/",
+        "/posts/2021-personal-summary/",
         "/posts/crazy-job-searching-season/",
         "/posts/2021-personal-summary/"
       ]
