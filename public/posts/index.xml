@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>zh-Hans</language>
     <copyright>咖喱</copyright>
-    <lastBuildDate>Tue, 18 Mar 2025 00:50:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 00:50:32 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生活的喘息</title>
+      <link>http://localhost:1313/posts/a-moment-of-relief/</link>
+      <pubDate>Fri, 31 Oct 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/a-moment-of-relief/</guid>
+      <description>&lt;p&gt;上班近八个月逐渐找回了生活的节奏，虽然也仅仅是片刻的喘息。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>奇妙的二十代</title>
       <link>http://localhost:1313/posts/the-peculiar-twenties/</link>
