@@ -3,6 +3,7 @@ title: "About"
 draft: false
 toc: false
 comments: true
+layout: "about"
 ---
 
 ## About Me
@@ -50,3 +51,5 @@ comments: true
 > 地址：joysblog.vercel.app  
 > 头像：joysblog.vercel.app/images/apple-touch-icon.png  
 > 简介：即使埋藏在内心也没关系
+
+    
