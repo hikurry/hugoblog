@@ -42,6 +42,8 @@ theme = "hugo-theme-til"
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
+    [markup.goldmark.renderer]
+      unsafe = true
     
 [params.notes]
 showCategoryFilter = true

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>演唱会 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/</link>
+    <description>Recent content in 演唱会 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Sun, 30 Nov 2025 00:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IZNA 首尔 FANCON 周末速通</title>
+      <link>http://localhost:1313/posts/izna-soul-trip/</link>
+      <pubDate>Sun, 30 Nov 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/izna-soul-trip/</guid>
+      <description>&lt;p&gt;从决定周末特种兵飞首尔看 FANCON 到买机票只花了十分钟，周五晚转机周六早上落地，周日晚回深圳，周末极限操作了一番。直接把备忘录内容做个搬运。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
