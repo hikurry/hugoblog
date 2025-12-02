@@ -7,20 +7,27 @@
     <generator>Hugo</generator>
     <language>zh-Hans</language>
     <copyright>咖喱</copyright>
-    <lastBuildDate>Sun, 30 Nov 2025 00:50:32 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 00:50:32 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>KPOP，演唱会</title>
-      <link>http://localhost:1313/tags/kpop%E6%BC%94%E5%94%B1%E4%BC%9A/</link>
-      <pubDate>Sun, 30 Nov 2025 00:50:32 +0800</pubDate>
-      <guid>http://localhost:1313/tags/kpop%E6%BC%94%E5%94%B1%E4%BC%9A/</guid>
+      <title>观鸟</title>
+      <link>http://localhost:1313/tags/%E8%A7%82%E9%B8%9F/</link>
+      <pubDate>Mon, 01 Dec 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E8%A7%82%E9%B8%9F/</guid>
       <description></description>
     </item>
     <item>
       <title>KPOP</title>
       <link>http://localhost:1313/tags/kpop/</link>
-      <pubDate>Fri, 31 Oct 2025 00:50:32 +0800</pubDate>
+      <pubDate>Sun, 30 Nov 2025 00:50:32 +0800</pubDate>
       <guid>http://localhost:1313/tags/kpop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>演唱会</title>
+      <link>http://localhost:1313/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/</link>
+      <pubDate>Sun, 30 Nov 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/</guid>
       <description></description>
     </item>
     <item>

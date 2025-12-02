@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>zh-Hans</language>
     <copyright>咖喱</copyright>
-    <lastBuildDate>Fri, 31 Oct 2025 00:50:32 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 00:50:32 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>鸟师傅观察日记</title>
+      <link>http://localhost:1313/posts/birding-journal/</link>
+      <pubDate>Mon, 01 Dec 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/birding-journal/</guid>
+      <description></description>
+    </item>
     <item>
       <title>生活的喘息</title>
       <link>http://localhost:1313/posts/a-moment-of-relief/</link>

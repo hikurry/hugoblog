@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>观鸟 on INNERSO</title>
+    <link>http://localhost:1313/tags/%E8%A7%82%E9%B8%9F/</link>
+    <description>Recent content in 观鸟 on INNERSO</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <copyright>咖喱</copyright>
+    <lastBuildDate>Mon, 01 Dec 2025 00:50:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%A7%82%E9%B8%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>鸟师傅观察日记</title>
+      <link>http://localhost:1313/posts/birding-journal/</link>
+      <pubDate>Mon, 01 Dec 2025 00:50:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/birding-journal/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

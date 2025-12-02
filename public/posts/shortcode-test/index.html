@@ -1107,7 +1107,7 @@
 }
 i.star-outline{
     display: inline-flex;
-  color: #eee;
+  color: var(--tw-prose-bullets);
   svg{
     width: 15px;
     fill: currentColor;
@@ -1861,8 +1861,12 @@ i.star-outline{
   <style>
     :root {
   --waline-theme-color: #6b96bd!important;  
+  --waline-active-color: #a4c8e8!important;
 }
   </style>
+
+
+
 
 
       </main>
@@ -1882,6 +1886,11 @@ i.star-outline{
     </div>
 </section>
 
+
+<script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
+<script>
+    window.ViewImage && ViewImage.init('#maincontent img');
+</script>
       </footer>
     </div>
     
