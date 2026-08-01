@@ -38,7 +38,7 @@ layout: "about"
 
 一起做赛博邻居吧！
 
-- [Muko](https://oaad.iceco.icu/): 我以前没得选，现在我想做个绝望的文盲。
+- [Muko](https://iceco.vercel.app): 我以前没得选，现在我想做个绝望的文盲。
 
 - [Missing 不想睡](https://hugo-missingid.vercel.app/):和我一起做赛博宵夜吧!
 
