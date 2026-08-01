@@ -12,6 +12,14 @@ layout: "about"
 
 **Release:**
 
+- {{< accordion "2026.08 version" >}}
+- back to 厦门
+- izna 六美萌女一 ｜ 我不会放过 WK1 的
+- 观鸟新人｜都来看小鸟吧！
+- 阿森纳今年原谅球迷了吗
+
+{{< /accordion >}}
+
 - {{< accordion "2025.01 version" >}}
 - 深圳可怜的打工牛马，无情的数据女工，卑微的数据客服
 - 随缘看看球、看看韩女
@@ -38,7 +46,7 @@ layout: "about"
 
 一起做赛博邻居吧！
 
-- [Muko](https://iceco.vercel.app): 我以前没得选，现在我想做个绝望的文盲。
+- [Muko](https://iceco.vercel.app/): 我以前没得选，现在我想做个绝望的文盲。
 
 - [Missing 不想睡](https://hugo-missingid.vercel.app/):和我一起做赛博宵夜吧!
 
