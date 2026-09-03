@@ -1,22 +1,22 @@
-<!doctype html>
-<html
-  lang="zh-Hans"
-  dir="ltr"
->
-  <head>
-    <meta charset="utf-8" />
-<meta name="language" content="en" />
-<meta name="viewport" content="width=device-width" />
-<title>
-    配置 Waline 评论 | INNERSO
-</title>
-  <meta name="description" content="虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。" />
-<link rel="icon" type="image/png" href="/images/favicon.png" />
-<meta property="og:url" content="https://joysblog.vercel.app/posts/configure-waline/">
-  <meta property="og:site_name" content="INNERSO">
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60819&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:60819/images/favicon.png" />
+<title>配置 Waline 评论 | Hugo ʕ•ᴥ•ʔ Bear Blog</title>
+<meta name="title" content="配置 Waline 评论" />
+<meta name="description" content="虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。" />
+<meta name="keywords" content="花里胡哨,Waline,Hugo," />
+
+
+<meta property="og:url" content="http://localhost:60819/posts/configure-waline/">
+  <meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear Blog">
   <meta property="og:title" content="配置 Waline 评论">
   <meta property="og:description" content="虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。">
-  <meta property="og:locale" content="zh_Hans">
+  <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2022-06-28T12:35:38+08:00">
@@ -24,6 +24,17 @@
     <meta property="article:tag" content="花里胡哨">
     <meta property="article:tag" content="Waline">
     <meta property="article:tag" content="HUGO">
+    <meta property="og:image" content="http://localhost:60819/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:60819/images/share.png">
+  <meta name="twitter:title" content="配置 Waline 评论">
+  <meta name="twitter:description" content="虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。">
+
+
 
 
   <meta itemprop="name" content="配置 Waline 评论">
@@ -31,131 +42,184 @@
   <meta itemprop="datePublished" content="2022-06-28T12:35:38+08:00">
   <meta itemprop="dateModified" content="2022-06-28T12:35:38+08:00">
   <meta itemprop="wordCount" content="40">
+  <meta itemprop="image" content="http://localhost:60819/images/share.png">
   <meta itemprop="keywords" content="花里胡哨,Waline,HUGO">
+<meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="配置 Waline 评论">
-  <meta name="twitter:description" content="虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。">
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
 
-<link rel="canonical" href="https://joysblog.vercel.app/posts/configure-waline/" />
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
 
-      <link
-        rel="stylesheet"
-        href="/css/index.min.7dc5bce5e48ff3fe71c582eac851646db39f1a70e9dc6198c199a3189731869e.css"
-        integrity="sha256-fcW85eSP8/5xxYLqyFFkbbOfGnDp3GGYwZmjGJcxhp4="
-        crossorigin="anonymous"
-      />
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
 
-      <script
-        src="/js/main.d08dd7bf84e75145632853df5565c828a4a44de84df4bf08672d692241737c30.js"
-        integrity="sha256-0I3Xv4TnUUVjKFPfVWXIKKSkTehN9L8IZy1pIkFzfDA="
-        crossorigin="anonymous"
-        defer
-      ></script>
-  
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@id": "https://joysblog.vercel.app/posts/configure-waline/",
-  "@type": "BlogPosting",
-  "articleSection": [
-    "LEARN"
-  ],
-  "copyrightNotice": "咖喱",
-  "datePublished": "2022-06-28",
-  "description": "虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。",
-  "headline": "配置 Waline 评论",
-  "isPartOf": {
-    "@id": "https://joysblog.vercel.app/posts/",
-    "@type": "Blog",
-    "name": "Posts"
-  },
-  "keywords": [
-    "HUGO",
-    "Waline",
-    "花里胡哨"
-  ],
-  "mainEntityOfPage": "https://joysblog.vercel.app/posts/configure-waline/",
-  "name": "配置 Waline 评论",
-  "timeRequired": "PT1M",
-  "url": "https://joysblog.vercel.app/posts/configure-waline/",
-  "wordCount": 40
-}
-</script>
+  a:hover {
+    text-decoration: underline;
+  }
 
+  nav a {
+    margin-right: 8px;
+  }
 
-<link rel="stylesheet" href="/css/custom.css">
+  strong,
+  b {
+    color: var(--heading-color);
+  }
 
-  </head>
-  <body>
-    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
-      <header class="flex flex-row items-center justify-between">
-        <div>
-  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
-  <a class="font-semibold" href="/">INNERSO</a>
-</div>
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
 
-  <nav>
-    <ul class="flex flex-row items-center justify-end space-x-4">
-    <li>
-      <a>Notes</a
-      >
-    </li>
-    <li>
-      <a aria-current="true" class="ancestor" href="/posts/">Posts</a
-      >
-    </li>
-    <li>
-      <a href="/graph/">Graph</a
-      >
-    </li>
-    <li>
-      <a href="/about/">About</a
-      >
-    </li>
-    </ul>
-  </nav>
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
 
+  main {
+    line-height: 1.6;
+  }
 
-      </header>
-      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        <article class="main">
-    <header>
-      <h1 class="!mb-1">配置 Waline 评论</h1><div class="flex flex-row items-center space-x-4">
-          <time class="text-sm italic opacity-80" datetime="2022-06-28T12:35:38&#43;08:00"
-            >June 28, 2022</time
-          >
-        </div>
-    </header>
+  table {
+    width: 100%;
+  }
 
-    <p>虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。</p>
-<h3 id="头像配置" class="scroll-mt-8 group">
-  头像配置
-  
-    <a href="#%e5%a4%b4%e5%83%8f%e9%85%8d%e7%bd%ae"
-        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
-        aria-hidden="true" title="Link to this heading" tabindex="-1">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="16"
-  height="16"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-link w-4 h-4 block"
-  viewBox="0 0 24 24"
->
-  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-</svg>
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
 
-    </a>
-  
-</h3>
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Hugo ʕ•ᴥ•ʔ Bear Blog</h2>
+</a>
+<nav>
+</nav>
+</header>
+  <main>
+
+<content>
+  <p>虽然无人问津但还是要“五脏俱全”，依葫芦画瓢，知其然但不知其所以然，主要是配置了头像和评论TG通知。</p>
+<h2 id="头像配置">头像配置</h2>
 <p>waline头像使用gravatar，到<a href="http://en.gravatar.com/">官网</a>注册账号后上传图片即可，注册邮箱需要和评论填写的邮箱一致。</p>
 <p>非自定义的头像默认是很丑的蓝色图像，之前的配置中只要修改 <code>avatar</code> 的设置即可，但是我设置成 <code>monsterid</code> 后还是没有改变。找了好久都不知道哪里有问题，而且 Waline 版本更新后出的新的官方文档中删掉了 <code>avatar</code> 这个组建属性，两个官方文档我切换来切换去都搞懵了。 最后在官方 <a href="https://github.com/walinejs/waline/issues/775">issue</a> 中看到了这条，就索性更新版本后按照评论中的方式设置环境变量试一试。</p>
 <p><img src="https://s2.loli.net/2022/06/28/YK7qjVbOcl8sIxh.png" alt="" title="非自定义头像配置"></p>
@@ -163,256 +227,34 @@
 <p><code>GRAVATAR_STR = https://cravatar.cn/avatar/{{mail|md5}}?d=monsterid </code></p>
 <p>然后重新部署，最后测试发现小怪兽头像配置成功了！</p>
 <p><img src="https://s2.loli.net/2022/06/28/RBfEw9egUZXSGNy.png" alt=""></p>
-<h3 id="配置评论通知" class="scroll-mt-8 group">
-  配置评论通知
-  
-    <a href="#%e9%85%8d%e7%bd%ae%e8%af%84%e8%ae%ba%e9%80%9a%e7%9f%a5"
-        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
-        aria-hidden="true" title="Link to this heading" tabindex="-1">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="16"
-  height="16"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-link w-4 h-4 block"
-  viewBox="0 0 24 24"
->
-  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-</svg>
-
-    </a>
-  
-</h3>
+<h2 id="配置评论通知">配置评论通知</h2>
 <p>虽然 Waine 提供了后台，但每次登录查看也还是不方便。于是按照<a href="https://waline.js.org/guide/server/notification.html#telegram-%E9%80%9A%E7%9F%A5">官方文档</a>配置了评论 TG通知。选择 TG 的原因是我会经常看，同时消息较少不容易被错过。</p>
 <p>TG 推送评论通知效果如下：</p>
 <p><img src="https://s2.loli.net/2022/06/28/XMOtsASYGcHfkd7.png" alt=""></p>
-<h3 id="其他环境变量" class="scroll-mt-8 group">
-  其他环境变量
-  
-    <a href="#%e5%85%b6%e4%bb%96%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f"
-        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
-        aria-hidden="true" title="Link to this heading" tabindex="-1">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="16"
-  height="16"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-link w-4 h-4 block"
-  viewBox="0 0 24 24"
->
-  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-</svg>
-
-    </a>
-  
-</h3>
+<h2 id="其他环境变量">其他环境变量</h2>
 <p>隐藏评论者的用户代理：</p>
 <p><code>DISABLE_USERAGENT = true</code></p>
 <p>隐藏评论者的归属地：</p>
 <p><code>DISABLE_REGION = true</code></p>
-  </article>
-    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
-    <section class="flex flex-col space-y-4">
-      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-shapes h-4 w-4"
-  viewBox="0 0 24 24"
-  aria-hidden="true"
->
-  <path
-    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
-  />
-  <rect width="7" height="7" x="3" y="14" rx="1" />
-  <circle cx="17.5" cy="17.5" r="3.5" />
-</svg>
-
-        <span>Categories</span>
-      </h2>
-
-      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
-          <li>
-            <a href="/categories/learn/" class="taxonomy category">LEARN</a>
-          </li>
-      </ul>
-    </section>
-    <section class="flex flex-col space-y-4">
-      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-tags h-4 w-4"
-  viewBox="0 0 24 24"
-  aria-hidden="true"
->
-  <path d="m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" />
-  <path
-    d="M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z"
-  />
-  <circle cx="6.5" cy="9.5" r=".5" fill="currentColor" />
-</svg>
-
-        <span>Tags</span>
-      </h2>
-
-      <ul class="not-prose ml-6 flex flex-row flex-wrap items-center space-x-2">
-          <li>
-            <a href="/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" class="taxonomy tag">花里胡哨</a>
-          </li>
-          <li>
-            <a href="/tags/waline/" class="taxonomy tag">Waline</a>
-          </li>
-          <li>
-            <a href="/tags/hugo/" class="taxonomy tag">Hugo</a>
-          </li>
-      </ul>
-    </section>
-    <section class="flex flex-col space-y-4">
-      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-newspaper h-4 w-4"
-  viewBox="0 0 24 24"
-  aria-hidden="true"
->
-  <path
-    d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2M18 14h-8M15 18h-5"
-  />
-  <path d="M10 6h8v4h-8V6Z" />
-</svg>
-
-        <span>Posts</span>
-      </h2>
-        <section class="flex flex-col space-y-1">
-          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
-            <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 256 256"
-  class="h-4 w-4"
-  aria-hidden="true"
->
-  <path
-    fill="currentColor"
-    d="M222.16 153.26a8 8 0 0 1-1 11.25c-17.36 14.38-32.86 19.49-47 19.49-18.58 0-34.82-8.81-49.93-17-25.35-13.75-47.24-25.63-79.07.74a8 8 0 1 1-10.22-12.3c40.17-33.27 70.32-16.92 96.93-2.48 25.35 13.75 47.24 25.62 79.07-.75a8 8 0 0 1 11.22 1.05m-177-49.46c31.83-26.37 53.72-14.5 79.07-.75 15.11 8.2 31.35 17 49.93 17 14.14 0 29.64-5.11 47-19.49a8 8 0 1 0-10.22-12.3c-31.83 26.37-53.72 14.49-79.07.74-26.61-14.43-56.76-30.79-96.93 2.48a8 8 0 0 0 10.17 12.32Z"
-  />
-</svg>
-
-            <span>Related</span>
-          </h3>
-
-          <ol class="not-prose ml-6">
-    <li>
-      <article class="flex flex-row items-center">
-        <header class="grow">
-          <h3>
-            <a
-              href="/posts/rough-road-to-customize-my-blog/"
-              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="坎坷的博客装修之路"
-              >坎坷的博客装修之路</a
-            >
-          </h3>
-        </header>
-          <ul class="flex flex-row items-center justify-end space-x-2">
-              <li>
-                <a
-                  href="/categories/learn/"
-                  class="taxonomy"
-                  title="Posts and notes on LEARN"
-                  >LEARN</a
-                >
-              </li>
-          </ul>
-      </article>
-    </li>
-</ol>
-
-        </section>
-    </section>
-</aside>
-
-
-<head>
-    
-    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
-    />
-    
-  </head>
-  <body>
-    
-    <div id="waline" class="pt-6 not-prose"></div>
-    <script>
-    const locale = {sofa: '来发评论吧'}
-
-      Waline.init({
-        el: '#waline',
-        serverURL: 'https://waline-weld.vercel.app',
-        locale,
-      });
-    </script>
-  </body>
-  <style>
-    :root {
-  --waline-theme-color: #6b96bd!important;  
-  --waline-active-color: #a4c8e8!important;
-}
-  </style>
+</content>
 
 
 
+<p>
+  
+  <a href="http://localhost:60819/blog/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/">#花里胡哨</a>
+  
+  <a href="http://localhost:60819/blog/waline/">#Waline</a>
+  
+  <a href="http://localhost:60819/blog/hugo/">#HUGO</a>
+  
+</p>
 
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
 
-      </main>
-      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-        <section class="items-top flex flex-row justify-between opacity-70">
-  <div class="flex flex-col space-y-2">
-      <p>Copyright &copy; 2026, 咖喱.</p>
+  
+</body>
 
-  </div>
-    <div>
-      <a
-        href="https://github.com/michenriksen/hugo-theme-til"
-        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
-        data-theme-version="0.6.0"
-        >theme: til</a
-      >
-    </div>
-</section>
-
-
-<script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
-<script>
-    window.ViewImage && ViewImage.init('#maincontent img');
-</script>
-      </footer>
-    </div>
-    
-  </body>
 </html>

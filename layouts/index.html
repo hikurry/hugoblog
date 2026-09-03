@@ -1,0 +1,59 @@
+{{ define "main" }}
+<img class="home-img" src="/images/home/home.png" alt="">
+<section class="home-intro">
+{{ .Content }}
+</section>
+<section class="recent-posts">
+
+  <div class="section-heading">
+    <h2>Recent posts</h2>
+    <span class="heading-mark">✦</span>
+  </div>
+
+  <div class="post-list">
+
+    {{ range first 5 (where site.RegularPages "Type" "blog") }}
+
+      <article class="recent-post">
+
+        <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+          <span class="date-day">
+    {{ .Date.Format "02" }}
+  </span>
+
+  <span class="date-month">
+    {{ .Date.Format "Jan" }}
+  </span>
+
+  <span class="date-divider"></span>
+
+  <span class="date-year">
+    {{ .Date.Format "2006" }}
+  </span>
+        </time>
+
+        <div class="post-content">
+
+          <h3>
+            <a href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </h3>
+
+          {{ with .Summary }}
+            <div class="post-summary">
+              {{ . }}
+            </div>
+          {{ end }}
+
+        </div>
+
+      </article>
+
+    {{ end }}
+
+  </div>
+
+</section>
+
+{{ end }}

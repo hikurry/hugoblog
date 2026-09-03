@@ -1,968 +1,642 @@
-<!doctype html>
-<html
-  lang="zh-Hans"
-  dir="ltr"
->
-  <head>
-    <meta charset="utf-8" />
-<meta name="language" content="en" />
-<meta name="viewport" content="width=device-width" />
-<title>
-    Posts | INNERSO
-</title>
-<link rel="icon" type="image/png" href="/images/favicon.png" />
-<meta property="og:url" content="https://joysblog.vercel.app/posts/">
-  <meta property="og:site_name" content="INNERSO">
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60819&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:60819/images/favicon.png" />
+<title>Posts | Hugo ʕ•ᴥ•ʔ Bear Blog</title>
+<meta name="title" content="Posts" />
+<meta name="description" content="Hugo &#43; Bear = :heart:" />
+<meta name="keywords" content="learn,life,travel,hugo,kindle,kpop,shortcode,waline,woso,世界杯,书籍,亚运会,值得打上一个废话的标签,厂子,回顾,学校,工作,工具,年度总结,影视,情绪,打工人,找工,流水账,游戏,游玩,演唱会,漫画,猫咪,统计,考试,花里胡哨,观鸟,词云,足球,近视手术,音乐," />
+
+
+<meta property="og:url" content="http://localhost:60819/posts/">
+  <meta property="og:site_name" content="Hugo ʕ•ᴥ•ʔ Bear Blog">
   <meta property="og:title" content="Posts">
-  <meta property="og:locale" content="zh_Hans">
+  <meta property="og:description" content="Hugo &#43; Bear = :heart:">
+  <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:60819/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:60819/images/share.png">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Hugo &#43; Bear = :heart:">
+
+
 
 
   <meta itemprop="name" content="Posts">
+  <meta itemprop="description" content="Hugo &#43; Bear = :heart:">
   <meta itemprop="datePublished" content="2025-12-02T00:50:32+08:00">
   <meta itemprop="dateModified" content="2025-12-02T00:50:32+08:00">
+  <meta itemprop="image" content="http://localhost:60819/images/share.png">
+<meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Posts">
+  <link rel="alternate" type="application/rss+xml" href="http://localhost:60819/posts/index.xml" title="Hugo ʕ•ᴥ•ʔ Bear Blog" />
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
 
-<link rel="canonical" href="https://joysblog.vercel.app/posts/" /><link rel="alternate" type="application/rss&#43;xml" href="https://joysblog.vercel.app/posts/index.xml" /><link rel="alternate" type="application/json" href="https://joysblog.vercel.app/posts/index.json" />
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
 
-      <link
-        rel="stylesheet"
-        href="/css/index.min.7dc5bce5e48ff3fe71c582eac851646db39f1a70e9dc6198c199a3189731869e.css"
-        integrity="sha256-fcW85eSP8/5xxYLqyFFkbbOfGnDp3GGYwZmjGJcxhp4="
-        crossorigin="anonymous"
-      />
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
 
-      <script
-        src="/js/main.d08dd7bf84e75145632853df5565c828a4a44de84df4bf08672d692241737c30.js"
-        integrity="sha256-0I3Xv4TnUUVjKFPfVWXIKKSkTehN9L8IZy1pIkFzfDA="
-        crossorigin="anonymous"
-        defer
-      ></script>
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Hugo ʕ•ᴥ•ʔ Bear Blog</h2>
+</a>
+<nav>
+</nav>
+</header>
+  <main>
+<content>
   
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "copyrightNotice": "咖喱",
-  "description": "",
-  "headline": "Posts"
-}
-</script>
-
-
-<link rel="stylesheet" href="/css/custom.css">
-
-  </head>
-  <body>
-    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
-      <header class="flex flex-row items-center justify-between">
-        <div>
-  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
-  <a class="font-semibold" href="/">INNERSO</a>
-</div>
-
-  <nav>
-    <ul class="flex flex-row items-center justify-end space-x-4">
-    <li>
-      <a>Notes</a
-      >
-    </li>
-    <li>
-      <a aria-current="page" class="active" href="/posts/">Posts</a
-      >
-    </li>
-    <li>
-      <a href="/graph/">Graph</a
-      >
-    </li>
-    <li>
-      <a href="/about/">About</a
-      >
-    </li>
-    </ul>
-  </nav>
-
-
-      </header>
-      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
-        
-  <h1 class="flex flex-row space-x-2 items-center">
-    <span>Posts</span><a
-        rel="alternate"
-        type="application/rss+xml"
-        href="/posts/index.xml"
-        title="Subscribe to the Posts RSS feed"
-        class="text-slate-300 hover:text-orange-600"
-      >
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-rss block"
->
-  <path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16" />
-  <circle cx="5" cy="19" r="1" />
-</svg>
-
-      </a>
-  </h1>
-
-  
-
-  <div class="flex flex-col space-y-8">
-    <aside class="relative flex flex-col space-y-1">
-      <details class="not-prose">
-          <summary class="cursor-pointer">Categories & Tags</summary>
-          
-        <div class="mt-2 space-y-4 pl-2">
-          
-          <ul class="flex flex-row flex-wrap space-x-2">
-            
-            
-              
-                
-                
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/categories/learn/" class="taxonomy">
-                    <span>learn</span>
-                    <span class="count">6</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/categories/life/" class="taxonomy">
-                    <span>life</span>
-                    <span class="count">20</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/categories/travel/" class="taxonomy">
-                    <span>travel</span>
-                    <span class="count">5</span>
-                  </a>
-                </li>
-          </ul>
-  
-          
-          <hr class="border-gray-300 my-2">
-  
-          
-          <ul class="flex flex-row flex-wrap space-x-2">
-            
-            
-              
-                
-                
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/hugo/" class="taxonomy">
-                    <span>hugo</span>
-                    <span class="count">6</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/kindle/" class="taxonomy">
-                    <span>kindle</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/kpop/" class="taxonomy">
-                    <span>kpop</span>
-                    <span class="count">4</span>
-                  </a>
-                </li>
-              
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/shortcode/" class="taxonomy">
-                    <span>shortcode</span>
-                    <span class="count">2</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/waline/" class="taxonomy">
-                    <span>waline</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/woso/" class="taxonomy">
-                    <span>woso</span>
-                    <span class="count">4</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E4%B8%96%E7%95%8C%E6%9D%AF/" class="taxonomy">
-                    <span>世界杯</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E4%B9%A6%E7%B1%8D/" class="taxonomy">
-                    <span>书籍</span>
-                    <span class="count">2</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E4%BA%9A%E8%BF%90%E4%BC%9A/" class="taxonomy">
-                    <span>亚运会</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%80%BC%E5%BE%97%E6%89%93%E4%B8%8A%E4%B8%80%E4%B8%AA%E5%BA%9F%E8%AF%9D%E7%9A%84%E6%A0%87%E7%AD%BE/" class="taxonomy">
-                    <span>值得打上一个废话的标签</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%8E%82%E5%AD%90/" class="taxonomy">
-                    <span>厂子</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%9B%9E%E9%A1%BE/" class="taxonomy">
-                    <span>回顾</span>
-                    <span class="count">2</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%AD%A6%E6%A0%A1/" class="taxonomy">
-                    <span>学校</span>
-                    <span class="count">3</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%B7%A5%E4%BD%9C/" class="taxonomy">
-                    <span>工作</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%B7%A5%E5%85%B7/" class="taxonomy">
-                    <span>工具</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/" class="taxonomy">
-                    <span>年度总结</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E5%BD%B1%E8%A7%86/" class="taxonomy">
-                    <span>影视</span>
-                    <span class="count">2</span>
-                  </a>
-                </li>
-              
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%83%85%E7%BB%AA/" class="taxonomy">
-                    <span>情绪</span>
-                    <span class="count">2</span>
-                  </a>
-                </li>
-              
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%89%93%E5%B7%A5%E4%BA%BA/" class="taxonomy">
-                    <span>打工人</span>
-                    <span class="count">2</span>
-                  </a>
-                </li>
-              
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%89%BE%E5%B7%A5/" class="taxonomy">
-                    <span>找工</span>
-                    <span class="count">2</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%B5%81%E6%B0%B4%E8%B4%A6/" class="taxonomy">
-                    <span>流水账</span>
-                    <span class="count">6</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%B8%B8%E6%88%8F/" class="taxonomy">
-                    <span>游戏</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%B8%B8%E7%8E%A9/" class="taxonomy">
-                    <span>游玩</span>
-                    <span class="count">7</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/" class="taxonomy">
-                    <span>演唱会</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E6%BC%AB%E7%94%BB/" class="taxonomy">
-                    <span>漫画</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E7%8C%AB%E5%92%AA/" class="taxonomy">
-                    <span>猫咪</span>
-                    <span class="count">3</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E7%BB%9F%E8%AE%A1/" class="taxonomy">
-                    <span>统计</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E8%80%83%E8%AF%95/" class="taxonomy">
-                    <span>考试</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/" class="taxonomy">
-                    <span>花里胡哨</span>
-                    <span class="count">3</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E8%A7%82%E9%B8%9F/" class="taxonomy">
-                    <span>观鸟</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E8%AF%8D%E4%BA%91/" class="taxonomy">
-                    <span>词云</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E8%B6%B3%E7%90%83/" class="taxonomy">
-                    <span>足球</span>
-                    <span class="count">3</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E8%BF%91%E8%A7%86%E6%89%8B%E6%9C%AF/" class="taxonomy">
-                    <span>近视手术</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-              
-                
-                <li class="first:ml-2">
-                  <a href="/tags/%E9%9F%B3%E4%B9%90/" class="taxonomy">
-                    <span>音乐</span>
-                    <span class="count">1</span>
-                  </a>
-                </li>
-          </ul>
-        </div>
-        
-      </details>
-      </aside>
-      
+  <ul class="blog-posts">
     
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-12-02'>
+            02 Dec, 2025
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/birding-journal/">从零开始的观鸟碰壁之路</a>
+    </li>
     
-      <section class="not-prose flex flex-col space-y-4">
-        <h2 class="text-xl font-semibold opacity-60 text-right border-b">2025</h2>
-
-        <div class="not-prose">
-  <ol>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/birding-journal/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >从零开始的观鸟碰壁之路</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2025-12-02T00:50:32&#43;08:00"
-              >December 2, 2025</time
-            >
-          </header>
-
-          <div class="text-sm"><p>在朋友连续发了 N 条夜鹭师傅的多重宇宙梗图之后，开始留意身边的鸟鸣，及树间掠过的黑影。然后某个做饭的下午，在厨房窗前遇见了初恋鹎鹎。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/izna-soul-trip/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >IZNA 首尔场周末速通</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2025-11-30T00:50:32&#43;08:00"
-              >November 30, 2025</time
-            >
-          </header>
-
-          <div class="text-sm"><p>从决定周末特种兵飞首尔看 FANCON 到买机票只花了十分钟，周五晚转机周六早上落地，周日晚回深圳，周末极限操作了一番。直接把备忘录内容做个搬运。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/a-moment-of-relief/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >生活的喘息</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2025-10-31T00:50:32&#43;08:00"
-              >October 31, 2025</time
-            >
-          </header>
-
-          <div class="text-sm"><p>上班近八个月逐渐找回了生活的节奏，虽然也仅仅是片刻的喘息。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/the-peculiar-twenties/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >奇妙的二十代</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2025-03-18T00:50:32&#43;08:00"
-              >March 18, 2025</time
-            >
-          </header>
-
-          <div class="text-sm"><p>已经有两个同期的同事离职了。同事 L 本来还在犹豫，领导跟她说可以把她换到我们区域来。和我中午约过饭后，下午便果断提离职了。饭后回公司的路上，感觉她整个人明亮了起来。我说一不小心推波助澜了，她说这是送她脱离苦海。看来找到工作不是上岸，离职才是。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/terrible-working-life/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >集美怎么上班后话少了</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2025-03-01T00:50:32&#43;08:00"
-              >March 1, 2025</time
-            >
-          </header>
-
-          <div class="text-sm"><p>打工已有半年，感想是接小行星撞地球。</p></div>
-        </article>
-      </li>
-  </ol>
-</div>
-
-      </section>
-      <section class="not-prose flex flex-col space-y-4">
-        <h2 class="text-xl font-semibold opacity-60 text-right border-b">2024</h2>
-
-        <div class="not-prose">
-  <ol>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/last-winter-vocation/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >最后一个假期</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2024-06-23T13:50:32&#43;08:00"
-              >June 23, 2024</time
-            >
-          </header>
-
-          <div class="text-sm"><p>拖到夏天写寒假==</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/blog-wordcloud/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >博主口癖一览</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2024-01-27T22:59:27&#43;08:00"
-              >January 27, 2024</time
-            >
-          </header>
-
-          <div class="text-sm"><p>论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。</p></div>
-        </article>
-      </li>
-  </ol>
-</div>
-
-      </section>
-      <section class="not-prose flex flex-col space-y-4">
-        <h2 class="text-xl font-semibold opacity-60 text-right border-b">2023</h2>
-
-        <div class="not-prose">
-  <ol>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/crazy-job-searching-season/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >疯狂的秋招：面试面试面试</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-12-30T13:50:32&#43;08:00"
-              >December 30, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>不完全统计投递了两百家家企业，收到一百多个测评，五十左右的面试，最后大概率确定了去深圳打工了。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/spicy-xuzhou/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >火辣辣的徐州</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-12-30T12:50:32&#43;08:00"
-              >December 30, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>圣诞+朋友生日所以在周末去了趟徐州，吃了很多徐州美食，在寒气以及火辣的双重攻击之下我不幸地病倒了两天，好在跨年前成功恢复健康～</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/hangzhou-without-west-lake/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >不去西湖的杭州行：亚运会&amp;青山村</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-11-10T13:47:32&#43;08:00"
-              >November 10, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>其实主要是冲着亚运会去的，然后考虑到国庆期间杭州主要景点的爆满程度，最后挑了个距离市区一小时的青山村休闲度假游。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/woso-is-the-best/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >女足就是最棒的</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-11-10T12:47:32&#43;08:00"
-              >November 10, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>封面是最爱的马屁^ ^</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/different-way-to-live/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >一定要沿着这条路走吗</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-09-05T11:24:32&#43;08:00"
-              >September 5, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>六月到八月的流水账</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/dongshandao-travel/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >计划了但又没有：东山岛一夜一天自驾游</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-09-02T13:50:32&#43;08:00"
-              >September 2, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>趁期末结束离实习入职还有两周的时间回了趟家，时间比较短要做的事情又很多，七月初就简单就近去了趟东山岛自驾游。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/until-the-end-of-the-world/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >直到世界尽头</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-05-31T08:53:12&#43;08:00"
-              >May 31, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>又是标题和正文无关的一篇博文^ ^</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/douban-card/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >豆瓣卡片测试</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-04-09T08:53:12&#43;08:00"
-              >April 9, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>原来的豆瓣 API 挂了，刚好看到 Neodb 的 <a href="https://neodb.social/api-doc/">API</a> 更新了，逃避给老板做 Farewell 册子于是开始尝试。方法论：一个萝卜一个坑，指哪塞哪，已有的代码和 ChatGPT 缝合大法。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/nanjing-weekend-trip/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >长三角集结！南京周末行</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-03-10T12:45:12&#43;08:00"
-              >March 10, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>本科期间经常出去玩的三人组现在一个在徐州一个在南京一个在上海，上上周末 cc 提出去南京后大家火速安排好了行程，长三角 AKA 包邮区（接代购）群网友终于奔现了。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/great-italian-left-back/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >伟大的意大利的左后卫</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2023-01-06T15:05:38&#43;08:00"
-              >January 6, 2023</time
-            >
-          </header>
-
-          <div class="text-sm"><p>好久没有更新博客了，其实十月十一月都有动笔过，但是每次写完开头就会碰上一系列糟心事，导致我没有继续写下去的心情，只想暴躁地按下键盘上的删除键，最好连自己也一同从这个世界删除掉。</p></div>
-        </article>
-      </li>
-  </ol>
-</div>
-
-      </section>
-      <section class="not-prose flex flex-col space-y-4">
-        <h2 class="text-xl font-semibold opacity-60 text-right border-b">2022</h2>
-
-        <div class="not-prose">
-  <ol>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/still-alive/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >考试、开学，暂时幸存</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2022-09-10T15:37:38&#43;08:00"
-              >September 10, 2022</time
-            >
-          </header>
-
-          <div class="text-sm"><p>这篇真的拖了好久，不知道为啥我写不出来了。八月底九月初的流水账。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/short-summary-during-rest/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >休息期间小记</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2022-08-01T05:37:38&#43;08:00"
-              >August 1, 2022</time
-            >
-          </header>
-
-          <div class="text-sm"><p>做了近视手术之后为了防止我躺在家里看手机，基本上每天晚上都被拉出去开车兜圈，转了大半个市区。期间也看了几本书。</p></div>
-        </article>
-      </li>
-      <li class="mb-6">
-        <article class="flex flex-col space-y-1">
-          <header>
-            <h3 class="text-lg font-semibold leading-none">
-              <a
-                href="/posts/smile-eye-surgery-record/"
-                class="underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-                >全飞秒近视手术记录（附半飞秒手术及我的视力矫正史）</a
-              >
-            </h3><time class="text-sm italic leading-5 opacity-80" datetime="2022-07-13T05:54:38&#43;08:00"
-              >July 13, 2022</time
-            >
-          </header>
-
-          <div class="text-sm"><p>做了全飞秒近视手术，感觉自己重生了。</p></div>
-        </article>
-      </li>
-  </ol>
-</div>
-
-      </section>
-      
-  <ul class="pagination">
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-11-30'>
+            30 Nov, 2025
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/izna-soul-trip/">IZNA 首尔场周末速通</a>
+    </li>
     
-      
-        <li class="page-item disabled">
-          <a
-            aria-disabled="true"
-            aria-label="First"
-            class="page-link"
-            role="button"
-            tabindex="-1"
-            ><span aria-hidden="true">&laquo;</span></a
-          >
-        </li>
-      <li class="page-item disabled">
-        <a
-          aria-disabled="true"
-          aria-label="Previous"
-          class="page-link"
-          role="button"
-          tabindex="-1"
-          ><span aria-hidden="true">&#8249;</span></a
-        >
-      </li>
-        <li class="page-item active">
-          <a
-            aria-current="page"
-            aria-label="Page 1"
-            class="page-link"
-            role="button"
-            >1</a
-          >
-        </li>
-        <li class="page-item">
-          <a
-            href="/posts/page/2/"
-            aria-label="Page 2"
-            class="page-link"
-            role="button"
-            >2</a
-          >
-        </li>
-      <li class="page-item">
-        <a href="/posts/page/2/" aria-label="Next" class="page-link" role="button"
-          ><span aria-hidden="true">&#8250;</span></a
-        >
-      </li>
-        <li class="page-item">
-          <a href="/posts/page/2/" aria-label="Last" class="page-link" role="button"
-            ><span aria-hidden="true">&raquo;</span></a
-          >
-        </li>
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-10-31'>
+            31 Oct, 2025
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/a-moment-of-relief/">生活的喘息</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-03-18'>
+            18 Mar, 2025
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/the-peculiar-twenties/">奇妙的二十代</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-03-01'>
+            01 Mar, 2025
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/terrible-working-life/">集美怎么上班后话少了</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-06-23'>
+            23 Jun, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/last-winter-vocation/">最后一个假期</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-01-27'>
+            27 Jan, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/blog-wordcloud/">博主口癖一览</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-12-30'>
+            30 Dec, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/crazy-job-searching-season/">疯狂的秋招：面试面试面试</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-12-30'>
+            30 Dec, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/spicy-xuzhou/">火辣辣的徐州</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-11-10'>
+            10 Nov, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/hangzhou-without-west-lake/">不去西湖的杭州行：亚运会&amp;青山村</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-11-10'>
+            10 Nov, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/woso-is-the-best/">女足就是最棒的</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-09-05'>
+            05 Sep, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/different-way-to-live/">一定要沿着这条路走吗</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-09-02'>
+            02 Sep, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/dongshandao-travel/">计划了但又没有：东山岛一夜一天自驾游</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-05-31'>
+            31 May, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/until-the-end-of-the-world/">直到世界尽头</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-04-09'>
+            09 Apr, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/douban-card/">豆瓣卡片测试</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-03-10'>
+            10 Mar, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/nanjing-weekend-trip/">长三角集结！南京周末行</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-01-06'>
+            06 Jan, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/great-italian-left-back/">伟大的意大利的左后卫</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-09-10'>
+            10 Sep, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/still-alive/">考试、开学，暂时幸存</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-08-01'>
+            01 Aug, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/short-summary-during-rest/">休息期间小记</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-07-13'>
+            13 Jul, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/smile-eye-surgery-record/">全飞秒近视手术记录（附半飞秒手术及我的视力矫正史）</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-06-28'>
+            28 Jun, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/configure-waline/">配置 Waline 评论</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-06-11'>
+            11 Jun, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/fear-that-we-are-facing/">凭什么我们生来就要遭受这种恐惧</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-06-06'>
+            06 Jun, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/my-kindle-experience/">Kindle 使用体验</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-05-29'>
+            29 May, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/feel-sad-about-my-cat-growing-up/">成长痛：小猫长大了</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-05-26'>
+            26 May, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/shortcode-test/">短代码测试</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-05-19'>
+            19 May, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/goodbye-my-university/">拜拜北六环</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-04-30'>
+            30 Apr, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/blowing-in-the-wind/">答案在风中飘荡</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-02-28'>
+            28 Feb, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/change-blog-theme-from-stack-to-meme/">博客主题更换：Stack to MemE</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-02-10'>
+            10 Feb, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/my-first-experience-as-a-catkeeper/">铲屎官初体验</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-01-24'>
+            24 Jan, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/rough-road-to-customize-my-blog/">坎坷的博客装修之路</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-01-03'>
+            03 Jan, 2022
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:60819/posts/2021-personal-summary/">2021年度总结</a>
+    </li>
+    
   </ul>
-  </section>
-  </div>
-
-
-      </main>
-      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
-        <section class="items-top flex flex-row justify-between opacity-70">
-  <div class="flex flex-col space-y-2">
-      <p>Copyright &copy; 2026, 咖喱.</p>
-
-  </div>
+  
+  <small>
     <div>
-      <a
-        href="https://github.com/michenriksen/hugo-theme-til"
-        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
-        data-theme-version="0.6.0"
-        >theme: til</a
-      >
+      
+      <a href="http://localhost:60819/blog/hugo/">#HUGO</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/kindle/">#Kindle</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/kpop/">#KPOP</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/shortcode/">#Shortcode</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/waline/">#Waline</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/woso/">#Woso</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E4%B8%96%E7%95%8C%E6%9D%AF/">#世界杯</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E4%B9%A6%E7%B1%8D/">#书籍</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E4%BA%9A%E8%BF%90%E4%BC%9A/">#亚运会</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%80%BC%E5%BE%97%E6%89%93%E4%B8%8A%E4%B8%80%E4%B8%AA%E5%BA%9F%E8%AF%9D%E7%9A%84%E6%A0%87%E7%AD%BE/">#值得打上一个废话的标签</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%8E%82%E5%AD%90/">#厂子</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%9B%9E%E9%A1%BE/">#回顾</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%AD%A6%E6%A0%A1/">#学校</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%B7%A5%E4%BD%9C/">#工作</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%B7%A5%E5%85%B7/">#工具</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">#年度总结</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E5%BD%B1%E8%A7%86/">#影视</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%83%85%E7%BB%AA/">#情绪</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%89%93%E5%B7%A5%E4%BA%BA/">#打工人</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%89%BE%E5%B7%A5/">#找工</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%B5%81%E6%B0%B4%E8%B4%A6/">#流水账</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%B8%B8%E6%88%8F/">#游戏</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%B8%B8%E7%8E%A9/">#游玩</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%BC%94%E5%94%B1%E4%BC%9A/">#演唱会</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E6%BC%AB%E7%94%BB/">#漫画</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E7%8C%AB%E5%92%AA/">#猫咪</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E7%BB%9F%E8%AE%A1/">#统计</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E8%80%83%E8%AF%95/">#考试</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/">#花里胡哨</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E8%A7%82%E9%B8%9F/">#观鸟</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E8%AF%8D%E4%BA%91/">#词云</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E8%B6%B3%E7%90%83/">#足球</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E8%BF%91%E8%A7%86%E6%89%8B%E6%9C%AF/">#近视手术</a>&nbsp;
+      
+      <a href="http://localhost:60819/blog/%E9%9F%B3%E4%B9%90/">#音乐</a>&nbsp;
+      
     </div>
-</section>
+  </small>
+  
+</content>
 
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
 
-<script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
-<script>
-    window.ViewImage && ViewImage.init('#maincontent img');
-</script>
-      </footer>
-    </div>
-    
-  </body>
+  
+</body>
+
 </html>

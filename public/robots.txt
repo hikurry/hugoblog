@@ -1,4 +1,2 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://joysblog.vercel.app/sitemap.xml
+User-Agent: *
+Sitemap: http://localhost:65355/sitemap.xml

@@ -1,0 +1,30 @@
+<head>
+    <!-- ... -->
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    <!-- ... -->
+  </head>
+  <body>
+    <!-- ... -->
+    <div id="waline" class="pt-6 not-prose"></div>
+    <script>
+    const locale = {sofa: '来发评论吧'}
+
+      Waline.init({
+        el: '#waline',
+        serverURL: 'https://waline-weld.vercel.app',
+        locale,
+      });
+    </script>
+  </body>
+  <style>
+    :root {
+  --waline-theme-color: #8a7564!important; /* 你想要的颜色 */
+  --waline-active-color: #6f7f5b!important;
+  --waline-bgcolor:rgba(252, 250, 250, 0.5);
+  --waline-bgcolor-light:fbf5ef!important;
+}
+  </style>x 

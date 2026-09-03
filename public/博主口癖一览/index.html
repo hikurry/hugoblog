@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=65355&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:65355/images/favicon.png" />
+<title>博主口癖一览 | INNERSO</title>
+<meta name="title" content="博主口癖一览" />
+<meta name="description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。" />
+<meta name="keywords" content="Hugo,词云,统计,花里胡哨," />
+
+
+<meta property="og:url" content="http://localhost:65355/%E5%8D%9A%E4%B8%BB%E5%8F%A3%E7%99%96%E4%B8%80%E8%A7%88/">
+  <meta property="og:site_name" content="INNERSO">
+  <meta property="og:title" content="博主口癖一览">
+  <meta property="og:description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-01-27T22:59:27+08:00">
+    <meta property="article:modified_time" content="2024-01-27T22:59:27+08:00">
+    <meta property="article:tag" content="HUGO">
+    <meta property="article:tag" content="词云">
+    <meta property="article:tag" content="统计">
+    <meta property="article:tag" content="花里胡哨">
+    <meta property="og:image" content="http://localhost:65355/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:65355/images/share.png">
+  <meta name="twitter:title" content="博主口癖一览">
+  <meta name="twitter:description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。">
+
+
+
+
+  <meta itemprop="name" content="博主口癖一览">
+  <meta itemprop="description" content="论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。">
+  <meta itemprop="datePublished" content="2024-01-27T22:59:27+08:00">
+  <meta itemprop="dateModified" content="2024-01-27T22:59:27+08:00">
+  <meta itemprop="wordCount" content="260">
+  <meta itemprop="image" content="http://localhost:65355/images/share.png">
+  <meta itemprop="keywords" content="HUGO,词云,统计,花里胡哨">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+  .highlight pre,
+  .code pre {
+    min-width: 100%;
+    width: max-content;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+<style>
+  :root {
+    --background-color: #f8f5ec !important;
+    --heading-color: #2f302b;
+    --text-color: #4b4a43;
+    --link-color: #6f7f5b;
+    --visited-color: #8a7564;
+    --blockquote-color: #3d3c36;
+  }
+
+   
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #f8f5ec;
+      --heading-color: #2f302b;
+      --text-color: #4b4a43;
+      --link-color: #6f7f5b;
+      --visited-color: #8a7564;
+      --blockquote-color: #3d3c36;
+    }
+  }
+
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  time {
+    font-family: Courier;
+  }
+
+li {
+  list-style: none;  
+  position: relative;
+  padding-left: 1.2em;
+}
+
+li::before {
+  content: "✧";  
+  position: absolute;
+  left: 0;
+  opacity: 0.7;  
+}
+
+
+  body {
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9999;
+
+    opacity: 0.2;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' seed='31'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='.7'/%3E%3C/svg%3E");
+
+    mix-blend-mode: multiply;
+  }
+
+   
+  content p:has(> img:nth-child(2)) {
+    column-count: 2;
+    column-gap: 8px;
+    margin: 1.3333333em 0;
+  }
+  content p:has(> img:nth-child(3)) {
+    column-count: 3;
+  }
+  content p:has(> img:nth-child(4)) {
+    column-count: 4;
+  }
+  content p:has(> img:nth-child(5)) {
+    column-count: 5;
+  }
+  content p:has(> img:nth-child(6)) {
+    column-count: 4;
+  }
+  content p:has(> img:nth-child(2)) img {
+    display: inherit;
+  }
+  content p:has(> img:nth-child(6)) img {
+    margin-bottom: 1.3333333em;
+  }
+
+  content img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border-radius: 5px;
+  }
+
+   
+  .home-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: min(25vh, 700px);
+    object-fit: contain;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    position: relative;
+    z-index: 2;
+    border-bottom: 2px dashed var(--background-color);
+    transition: 0.3s;
+  }
+
+  .home-intro {
+    position: relative;
+    padding: 1.5em;
+    padding-top: 2.5em;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    z-index: 1;
+    margin-top: -2em;
+    border-radius: 5px;
+  }
+
+  nav a {
+    font-weight: 600;
+    font-size: 1em;
+    transition: all 0.15s ease;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+  }
+
+  nav a:hover{
+    transform: rotate(-5deg);
+    display: inline-block;
+  }
+  
+
+  nav a::before {
+    content: "[ ";
+    opacity: 0.6;  
+  }
+
+  nav a::after {
+    content: " ]";
+    opacity: 0.6;
+  }
+
+  nav a.active {
+  text-decoration: underline;
+  color: var(--text-color);
+  display: inline-block;
+}
+
+   
+
+  .recent-post {
+    display: grid;
+    grid-template-columns: 4.5em 1fr;
+    column-gap: 1.5em;
+    padding: 1.5em 0;
+    border-bottom: 2px dotted rgba(128, 128, 128, 1);
+  }
+
+  .recent-posts {
+    margin-top: 40px;
+  }
+
+   
+
+  .section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 0.8em;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+
+    font-size: 1.5em;
+    font-weight: 600;
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .heading-mark {
+    font-size: 1.5em;
+    opacity: 0.65;
+  }
+
+   
+
+  .post-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 4rem;
+    padding-top: 0.15em;
+
+    line-height: 1;
+  }
+
+  .date-year {
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    opacity: 0.6;
+  }
+
+  .date-month {
+    margin-top: 0.35em;
+
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+
+    text-transform: uppercase;
+    opacity: 0.75;
+  }
+
+  .date-day {
+    font-size: 2em;
+    font-weight: 600;
+
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+  }
+
+  .date-divider {
+    width: 1.2rem;
+    height: 1px;
+
+    margin: 0.55rem 0 0.45em;
+
+    background: currentColor;
+    opacity: 0.35;
+  }
+
+   
+
+  .post-content h3 {
+    margin: 0 0 0.45em;
+
+    font-size: 1.25em;
+    line-height: 1.35;
+  }
+
+  .post-content h3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .post-content h3 a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    color: var(--link-color);
+  }
+
+   
+
+  .post-summary {
+    line-height: 1.65;
+    opacity: 0.72;
+  }
+
+  .post-summary p {
+    margin: 0;
+  }
+
+   
+
+  @media (max-width: 600px) {
+    .recent-post {
+      grid-template-columns: 3.5em 1fr;
+      column-gap: 1em;
+    }
+
+    .date-day {
+      font-size: 1.45em;
+    }
+  }
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>INNERSO</h2>
+</a>
+<nav>
+  <a href="/" class="nav-item">
+     Home 
+  </a>
+
+  <a href="/about/" class="nav-item">
+     About 
+  </a>
+
+  <a href="/blog/" class="nav-item active">
+     Blog 
+  </a>
+
+</nav>
+</header>
+  <main>
+
+<h1>博主口癖一览</h1>
+<p>
+  <i>
+    <time datetime='2024-01-27'>
+      27 Jan, 2024
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>论文遇到文本识别词频统计我卖惨求换题，博客想做点年终统计我二话不说火速开动。</p>
+<p>一开始只是想着年终了要不也做点什么博客总结，比如看看这一年的关键词是什么。用 python 又是 jieba 又是 wordcloud 筛选了两个字及以上的非数字、英文词语后发现根本没有啥关键词，只是口癖大赏罢了。（用的是建站以来所有的博文不单是 24 年的）</p>
+<p>前十高频词全部都是习惯用语，引用毛象上看到的一条，“真的感觉没有真的感觉就不会说话了”，“真的特别喜欢用真的感觉”。倒是“没有”断层第一有点意料之外，居然会说得这么经常。十一至二十高频词开始有了一些主题，比如“眼睛”、“女性”、“女足”、“粉丝”、“猫咪”。第二十个词是“晚上”，晚起晚睡人士大概很多事情都是在晚上做的所以提到的次数多吧。</p>
+<table>
+  <thead>
+      <tr>
+          <th>排名</th>
+          <th>词语</th>
+          <th>词频</th>
+          <th>排名</th>
+          <th>词语</th>
+          <th>词频</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>没有</td>
+          <td>121</td>
+          <td>11</td>
+          <td>眼睛</td>
+          <td>36</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>最后</td>
+          <td>52</td>
+          <td>12</td>
+          <td>女性</td>
+          <td>35</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>喜欢</td>
+          <td>51</td>
+          <td>13</td>
+          <td>这种</td>
+          <td>32</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>现在</td>
+          <td>47</td>
+          <td>14</td>
+          <td>需要</td>
+          <td>30</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>真的</td>
+          <td>46</td>
+          <td>15</td>
+          <td>可能</td>
+          <td>29</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>特别</td>
+          <td>46</td>
+          <td>16</td>
+          <td>女足</td>
+          <td>29</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>看到</td>
+          <td>43</td>
+          <td>17</td>
+          <td>粉丝</td>
+          <td>29</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>感觉</td>
+          <td>43</td>
+          <td>18</td>
+          <td>猫咪</td>
+          <td>28</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>很多</td>
+          <td>41</td>
+          <td>19</td>
+          <td>感受</td>
+          <td>27</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>觉得</td>
+          <td>36</td>
+          <td>20</td>
+          <td>晚上</td>
+          <td>26</td>
+      </tr>
+  </tbody>
+</table>
+<p>呈上词云（用了猫咪图片做遮罩，P2试了下用图片颜色做文字颜色）：</p>
+<p><img src="https://s2.loli.net/2024/06/04/aWHMGJu6gPYqy8L.png" alt="wc1"></p>
+<p><img src="https://s2.loli.net/2024/06/04/nrEV2kiAjNqOgWK.png" alt="wc2"></p>
+<p><details class="accordion" >
+    <summary class="accordion-summary">代码</summary>
+    <div class="accordion-details"><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">os</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">jieba</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">wordcloud</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">WordCloud</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">ImageColorGenerator</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">re</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span><span style="color:#204a87;font-weight:bold">from</span> <span style="color:#000">collections</span> <span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">Counter</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span><span style="color:#204a87;font-weight:bold">import</span> <span style="color:#000">imageio</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span><span style="color:#8f5902;font-style:italic"># 设置停用词,哈工大版 from github &amp; 手工加了些词</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span><span style="color:#000">stopwords_file</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;/Users/joy/Desktop/hit_stopwords.txt&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span><span style="color:#204a87;font-weight:bold">with</span> <span style="color:#204a87">open</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">stopwords_file</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;r&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">encoding</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;utf-8&#39;</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">f</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span><span style="color:#000">stopwords</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87">set</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">f</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">read</span><span style="color:#000;font-weight:bold">()</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">splitlines</span><span style="color:#000;font-weight:bold">())</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span><span style="color:#8f5902;font-style:italic"># 遍历指定文件夹下的所有 md 文件</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span><span style="color:#000">md_folder</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;/Users/joy/Documents/hugoblog/content/posts&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span><span><span style="color:#000">text</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span><span><span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">root</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">dirs</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">files</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">walk</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">md_folder</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span><span><span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">file</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">files</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span><span><span style="color:#204a87;font-weight:bold">if</span> <span style="color:#000">file</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">endswith</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;.md&#39;</span><span style="color:#000;font-weight:bold">):</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span><span><span style="color:#000">filepath</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">os</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">path</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">join</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">root</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">file</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span><span><span style="color:#204a87;font-weight:bold">with</span> <span style="color:#204a87">open</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">filepath</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#39;r&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">encoding</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;utf-8&#39;</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#204a87;font-weight:bold">as</span> <span style="color:#000">f</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span><span><span style="color:#000">text</span> <span style="color:#ce5c00;font-weight:bold">+=</span> <span style="color:#000">f</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">read</span><span style="color:#000;font-weight:bold">()</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span><span><span style="color:#8f5902;font-style:italic"># 使用 jieba 进行分词</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27</span><span><span style="color:#000">words</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">jieba</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">lcut</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">text</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29</span><span><span style="color:#8f5902;font-style:italic"># 过滤停用词、单个字母数字组合以及长度小于 2 的词</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31</span><span><span style="color:#000">words</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#000">word</span> <span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">word</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">words</span> <span style="color:#204a87;font-weight:bold">if</span> <span style="color:#204a87">len</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">word</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">&gt;=</span> <span style="color:#0000cf;font-weight:bold">2</span> <span style="color:#204a87;font-weight:bold">and</span> <span style="color:#000">word</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">strip</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#204a87;font-weight:bold">and</span> <span style="color:#000">word</span> <span style="color:#204a87;font-weight:bold">not</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">stopwords</span> <span style="color:#204a87;font-weight:bold">and</span> <span style="color:#204a87;font-weight:bold">not</span> <span style="color:#000">re</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#204a87;font-weight:bold">match</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">r</span><span style="color:#4e9a06">&#39;^[a-zA-Z0-9]+$&#39;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">word</span><span style="color:#000;font-weight:bold">)]</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33</span><span><span style="color:#8f5902;font-style:italic"># 计算词频</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35</span><span><span style="color:#000">word_counter</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">Counter</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">words</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37</span><span><span style="color:#000">top_words</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">word_counter</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">most_common</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">100</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38</span><span><span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;输入二个字及以上单词的词频:&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39</span><span><span style="color:#204a87;font-weight:bold">for</span> <span style="color:#000">word</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">count</span> <span style="color:#204a87;font-weight:bold">in</span> <span style="color:#000">top_words</span><span style="color:#000;font-weight:bold">:</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40</span><span><span style="color:#204a87">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">word</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">count</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42</span><span><span style="color:#8f5902;font-style:italic"># 生成遮罩</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44</span><span><span style="color:#000">mask_image</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;/Users/joy/Desktop/cat.png&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45</span><span><span style="color:#000">mask</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">imageio</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">imread</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">mask_image</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47</span><span><span style="color:#8f5902;font-style:italic"># 生成词云，mac 需要把字体定位到系统字体文件夹，不如中文会显示框框</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49</span><span><span style="color:#000">wc1</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">WordCloud</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">font_path</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;/System/Library/fonts/PingFang.ttc&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">width</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">800</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">height</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">400</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">background_color</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;white&#39;</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">mask</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">mask</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">generate_from_frequencies</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">word_counter</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51</span><span><span style="color:#8f5902;font-style:italic"># 保存词云图像</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53</span><span><span style="color:#000">wc1</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">to_file</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;wc1.png&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55</span><span><span style="color:#8f5902;font-style:italic"># 生成遮罩</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57</span><span><span style="color:#000">color_image</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;/Users/joy/Desktop/test.png&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58</span><span><span style="color:#000">color</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">imageio</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">imread</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">color_image</span><span style="color:#000;font-weight:bold">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60</span><span><span style="color:#8f5902;font-style:italic"># 提取颜色</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62</span><span><span style="color:#000">img_colors</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">ImageColorGenerator</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">color</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">#生成词云</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63</span><span><span style="color:#000">wc2</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">WordCloud</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">font_path</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;/System/Library/fonts/PingFang.ttc&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">width</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">800</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">height</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">400</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">background_color</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#39;white&#39;</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">mask</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">color</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">generate_from_frequencies</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">word_counter</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">#修改字体颜色</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64</span><span><span style="color:#000">wc2</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">recolor</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">color_func</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">img_colors</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic">#保存图像</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65</span><span><span style="color:#000">wc2</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">to_file</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;wc2.png&#39;</span><span style="color:#000;font-weight:bold">)</span>
+</span></span></code></pre></div></div>
+</details></p>
+</content>
+
+<div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
+  <p>
+    
+    <a href="http://localhost:65355/%E7%96%AF%E7%8B%82%E7%9A%84%E7%A7%8B%E6%8B%9B%E9%9D%A2%E8%AF%95%E9%9D%A2%E8%AF%95%E9%9D%A2%E8%AF%95/">
+      &lt;&lt; Previous Post</a>
+        
+  </p>
+  <p>|</p>
+  <p>
+    
+    <a href="http://localhost:65355/%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%81%87%E6%9C%9F/">Next Post >></a>
+    
+  </p>
+</div>
+
+
+<p>
+  
+  <a href="http://localhost:65355/blog/hugo/">#HUGO</a>
+  
+  <a href="http://localhost:65355/blog/%E8%AF%8D%E4%BA%91/">#词云</a>
+  
+  <a href="http://localhost:65355/blog/%E7%BB%9F%E8%AE%A1/">#统计</a>
+  
+  <a href="http://localhost:65355/blog/%E8%8A%B1%E9%87%8C%E8%83%A1%E5%93%A8/">#花里胡哨</a>
+  
+</p><head>
+    
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    
+  </head>
+  <body>
+    
+    <div id="waline" class="pt-6 not-prose"></div>
+    <script>
+    const locale = {sofa: '来发评论吧'}
+
+      Waline.init({
+        el: '#waline',
+        serverURL: 'https://waline-weld.vercel.app',
+        locale,
+      });
+    </script>
+  </body>
+  <style>
+    :root {
+  --waline-theme-color: #8a7564!important;  
+  --waline-active-color: #6f7f5b!important;
+  --waline-bgcolor:rgba(252, 250, 250, 0.5);
+  --waline-bgcolor-light:fbf5ef!important;
+}
+  </style>x 
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+<script src="//tokinx.github.io/ViewImage/view-image.min.js"></script>
+<script>
+    window.ViewImage && ViewImage.init('content img');
+</script>
+</body>
+
+</html>
