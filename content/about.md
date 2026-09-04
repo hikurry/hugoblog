@@ -38,7 +38,7 @@ weight = 20
 
 ## About Blog
 
-博客框架是 [Hugo](https://gohugo.io/)，托管在 [Github](https://github.com/) 上，通过 [Vercel](https://vercel.app/) 部署，需要科学上网。博客主题是 [til](https://github.com/michenriksen/til-example-site/blob/main/content/_index.md?plain=1)。站点 favicon 来自 [Flaticon](https://www.flaticon.com/)。
+博客框架是 [Hugo](https://gohugo.io/)，托管在 [Github](https://github.com/) 上，通过 [Vercel](https://vercel.app/) 部署，需要科学上网。博客主题是 [hugo-bearlog](https://github.com/janraasch/hugo-bearblog)。站点 favicon 来自 [Flaticon](https://www.flaticon.com/)。
 
 ## About Friends
 
