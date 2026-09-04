@@ -22,7 +22,10 @@
 
 
   h1 {
-    font-size: 1.7em;
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.3em;
   }
 
   time {
@@ -59,7 +62,57 @@ li::before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' seed='31'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='.7'/%3E%3C/svg%3E");
     mix-blend-mode: multiply;
   }
+/* table */
+table {
+  width: 100%;
+  margin: 2em 0;
+  border-collapse: collapse;
+  font-size: 0.8em;
+  line-height: 1.7;
+}
 
+
+thead {
+  background-color:  rgba(138, 117, 100, 0.15);
+ 
+}
+
+
+th {
+  padding: 0.75em 1em;
+  text-align: left;
+  font-weight: 600;
+}
+
+
+td {
+  padding: 0.75em 1em;
+  
+  vertical-align: top;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: rgba(138, 117, 100, 0.06);
+}
+
+
+tbody tr:hover {
+  background: rgba(138, 117, 100, 0.05);
+}
+
+
+@media (max-width: 768px) {
+
+  table {
+    display: block;
+
+    overflow-x: auto;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+}
   /* images */
   content p:has(> img:nth-child(2)) {
     column-count: 2;
