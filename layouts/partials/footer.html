@@ -1,6 +1,10 @@
 <p> [ archive status: open ]  [ last updated: occasionally ]</p>
 {{ if not (.Param "hideMadeWithLine") }}
 Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+<div class="site-footer-info">
+  <span>© 2022 – {{ now.Format "2006" }}</span>
+  <span id="site-running-time">已运行 0 天</span>
+</div>
 <div class="bird-station">
   <div class="bird-station-header" onclick="fetchRandomBird()">
     <span class="indicator-dot"></span>
@@ -10,7 +14,7 @@ Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•
 
   <div id="bird-card" class="bird-card-body">
     <div class="bird-img-container">
-      <img id="bird-img" src="" alt="Bird" />
+      <img id="bird-img" src="" alt="Bird" style="display: none;"/>
     </div>
     <div class="bird-details">
       <span class="bird-tag">SOME-RANDOM-API OBSERVED</span>
@@ -18,7 +22,23 @@ Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•
     </div>
   </div>
 </div>
-
+<script>
+  (function() {
+    // 1. 设置你的建站日期（格式：YYYY-MM-DD）
+    const startDate = new Date('2022-01-03'); 
+    const now = new Date();
+    
+    // 2. 计算相差天数
+    const diffTime = Math.abs(now - startDate);
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    
+    // 3. 渲染到页面
+    const elem = document.getElementById('site-running-time');
+    if (elem) {
+      elem.innerText = ` | 已运行 ${diffDays} 天`;
+    }
+  })();
+</script>
 <script>
 async function fetchRandomBird() {
   const card = document.getElementById('bird-card');
@@ -27,6 +47,8 @@ async function fetchRandomBird() {
   
   card.classList.add('is-open');
   card.style.opacity = '0.5';
+  img.style.display = 'none';
+  img.src = '';
   fact.innerText = '正在调用望远镜...';
 
   try {
