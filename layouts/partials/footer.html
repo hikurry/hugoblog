@@ -4,14 +4,14 @@
   <span id="site-running-time">已运行 0 天</span>
   {{ if not (.Param "hideMadeWithLine") }}
 <a href="https://github.com/janraasch/hugo-bearblog/"> · Hugo ʕ•ᴥ•ʔ Bear </a>
-</div>
+
 <div class="bird-station">
   <div class="bird-station-header" onclick="fetchRandomBird()">
     <span class="indicator-dot"></span>
     <span class="header-title">✦ 翻开草丛：随机观测野生鸟类</span>
     <span class="refresh-icon">↺</span>
   </p>
-
+</div>
   <div id="bird-card" class="bird-card-body">
     <div class="bird-img-container">
       <img id="bird-img" src="" alt="Bird"/>
@@ -21,7 +21,7 @@
       <p id="bird-fact" class="bird-fact">点击上方按键，开始寻找小鸟...</p>
     </div>
   </div>
-</div>
+
 <script>
   (function() {
     // 1. 设置你的建站日期（格式：YYYY-MM-DD）
