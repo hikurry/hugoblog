@@ -47,12 +47,13 @@ async function fetchRandomBird() {
   
   card.classList.add('is-open');
   card.style.opacity = '0.5';
+  
+  // 1. 开始查询时，立刻隐藏之前的图片，避免显示裂图占位符
   img.style.display = 'none';
-  img.src = '';
+  img.src = ''; 
   fact.innerText = '正在调用望远镜...';
 
   try {
-    // 请求本站同源代理路径（加上时间戳破除缓存）
     const response = await fetch('/api/bird?t=' + Date.now());
     if (!response.ok) throw new Error("Network response was not ok");
 
@@ -62,13 +63,16 @@ async function fetchRandomBird() {
       const tempImg = new Image();
       tempImg.src = data.image;
 
+      // 2. 图片在后台加载完成后，再给页面上的 img 赋值并显示
       tempImg.onload = () => {
         img.src = data.image;
+        img.style.display = 'block'; // 彻底加载好后再显现
         fact.innerHTML = `<strong>BIRD FACT: </strong><br>${data.fact}`;
         card.style.opacity = '1';
       };
 
       tempImg.onerror = () => {
+        img.style.display = 'none'; // 图片加载失败时保持隐藏
         fact.innerHTML = `<strong>BIRD FACT: </strong><br>${data.fact}<br><br><small style="color:#888;">(照片未能加载，再试一次吧)</small>`;
         card.style.opacity = '1';
       };
@@ -78,9 +82,11 @@ async function fetchRandomBird() {
 
   } catch (error) {
     console.error("Bird API Error:", error);
+    img.style.display = 'none';
     fact.innerText = '小鸟扑腾着飞走了，再试一次吧。';
     card.style.opacity = '1';
   }
+}
 }
 </script>
 {{ end }}
