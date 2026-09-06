@@ -1,16 +1,16 @@
 <p> [ archive status: open ]  [ last updated: occasionally ]</p>
-{{ if not (.Param "hideMadeWithLine") }}
-Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
-<div class="site-footer-info">
+<p class="site-footer-info">
   <span>© 2022 – {{ now.Format "2006" }}</span>
   <span id="site-running-time">已运行 0 天</span>
+  {{ if not (.Param "hideMadeWithLine") }}
+<a href="https://github.com/janraasch/hugo-bearblog/"> · Hugo ʕ•ᴥ•ʔ Bear </a>
 </div>
 <div class="bird-station">
   <div class="bird-station-header" onclick="fetchRandomBird()">
     <span class="indicator-dot"></span>
     <span class="header-title">✦ 翻开草丛：随机观测野生鸟类</span>
     <span class="refresh-icon">↺</span>
-  </div>
+  </p>
 
   <div id="bird-card" class="bird-card-body">
     <div class="bird-img-container">
