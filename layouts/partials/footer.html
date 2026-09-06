@@ -1,4 +1,74 @@
 <p> [ archive status: open ]  [ last updated: occasionally ]</p>
 {{ if not (.Param "hideMadeWithLine") }}
 Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+<div class="bird-station">
+  <div class="bird-station-header" onclick="fetchRandomBird()">
+    <span class="indicator-dot"></span>
+    <span class="header-title">✦ 翻开草丛：随机观测野生鸟类</span>
+    <span class="refresh-icon">↺</span>
+  </div>
+
+  <div id="bird-card" class="bird-card-body">
+    <div class="bird-img-container">
+      <img id="bird-img" src="" alt="Bird" />
+    </div>
+    <div class="bird-details">
+      <span class="bird-tag">SOME-RANDOM-API OBSERVED</span>
+      <p id="bird-fact" class="bird-fact">点击上方按键，开始寻找小鸟...</p>
+    </div>
+  </div>
+</div>
+
+<script>
+async function fetchRandomBird() {
+  const card = document.getElementById('bird-card');
+  const img = document.getElementById('bird-img');
+  const fact = document.getElementById('bird-fact');
+  
+  card.classList.add('is-open');
+  card.style.opacity = '0.5';
+  fact.innerText = '正在调优望远镜，连接 Some-Random-API...';
+
+  try {
+    // 1. 目标 API
+    const targetUrl = 'https://some-random-api.com/animal/bird';
+    
+    // 2. 通过 allorigins API 代理（通过 encodeURIComponent 包装，稳定避开 CORS 跨域拦截）
+    const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}&timestamp=${new Date().getTime()}`;
+
+    const response = await fetch(proxyUrl);
+    if (!response.ok) throw new Error("Network response was not ok");
+
+    const wrapperData = await response.json();
+    
+    // 3. 解析原 API 返回的 JSON (contents)
+    const data = JSON.parse(wrapperData.contents);
+
+    if (data && data.image && data.fact) {
+      // 创建图片预加载，防止显示卡顿
+      const tempImg = new Image();
+      tempImg.src = data.image;
+
+      tempImg.onload = () => {
+        img.src = data.image;
+        fact.innerHTML = `<strong>BIRD FACT / 鸟类冷知识：</strong><br>${data.fact}`;
+        card.style.opacity = '1';
+      };
+
+      tempImg.onerror = () => {
+        // 如果原图链接（如 imgur）加载失败，给予温馨提示
+        fact.innerHTML = `<strong>BIRD FACT：</strong><br>${data.fact}<br><br><small style="color:#888;">(照片未能加载，再试一次吧)</small>`;
+        card.style.opacity = '1';
+      };
+    } else {
+      throw new Error("Invalid payload format");
+    }
+
+  } catch (error) {
+    console.error("Some-Random-API Error:", error);
+    fact.innerText = '网络连接超时，小鸟隐入树林中了，再试一次吧。';
+    card.style.opacity = '1';
+  }
+}
+</script>
 {{ end }}
