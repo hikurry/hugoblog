@@ -27,25 +27,16 @@ async function fetchRandomBird() {
   
   card.classList.add('is-open');
   card.style.opacity = '0.5';
-  fact.innerText = '正在调优望远镜，连接 Some-Random-API...';
+  fact.innerText = '正在调优望远镜，连接小鸟档案库...';
 
   try {
-    // 1. 目标 API
-    const targetUrl = 'https://some-random-api.com/animal/bird';
-    
-    // 2. 通过 allorigins API 代理（通过 encodeURIComponent 包装，稳定避开 CORS 跨域拦截）
-    const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}&timestamp=${new Date().getTime()}`;
-
-    const response = await fetch(proxyUrl);
+    // 请求本站同源代理路径（加上时间戳破除缓存）
+    const response = await fetch('/api/bird?t=' + Date.now());
     if (!response.ok) throw new Error("Network response was not ok");
 
-    const wrapperData = await response.json();
-    
-    // 3. 解析原 API 返回的 JSON (contents)
-    const data = JSON.parse(wrapperData.contents);
+    const data = await response.json();
 
     if (data && data.image && data.fact) {
-      // 创建图片预加载，防止显示卡顿
       const tempImg = new Image();
       tempImg.src = data.image;
 
@@ -56,7 +47,6 @@ async function fetchRandomBird() {
       };
 
       tempImg.onerror = () => {
-        // 如果原图链接（如 imgur）加载失败，给予温馨提示
         fact.innerHTML = `<strong>BIRD FACT：</strong><br>${data.fact}<br><br><small style="color:#888;">(照片未能加载，再试一次吧)</small>`;
         card.style.opacity = '1';
       };
@@ -65,8 +55,8 @@ async function fetchRandomBird() {
     }
 
   } catch (error) {
-    console.error("Some-Random-API Error:", error);
-    fact.innerText = '网络连接超时，小鸟隐入树林中了，再试一次吧。';
+    console.error("Bird API Error:", error);
+    fact.innerText = '小鸟扑腾着飞走了，再试一次吧。';
     card.style.opacity = '1';
   }
 }

@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/bird",
+      "destination": "https://some-random-api.com/animal/bird"
+    }
+  ]
+}
