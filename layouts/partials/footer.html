@@ -27,7 +27,7 @@ async function fetchRandomBird() {
   
   card.classList.add('is-open');
   card.style.opacity = '0.5';
-  fact.innerText = '正在调优望远镜，连接小鸟档案库...';
+  fact.innerText = '正在调用望远镜...';
 
   try {
     // 请求本站同源代理路径（加上时间戳破除缓存）
@@ -42,12 +42,12 @@ async function fetchRandomBird() {
 
       tempImg.onload = () => {
         img.src = data.image;
-        fact.innerHTML = `<strong>BIRD FACT / 鸟类冷知识：</strong><br>${data.fact}`;
+        fact.innerHTML = `<strong>BIRD FACT: </strong><br>${data.fact}`;
         card.style.opacity = '1';
       };
 
       tempImg.onerror = () => {
-        fact.innerHTML = `<strong>BIRD FACT：</strong><br>${data.fact}<br><br><small style="color:#888;">(照片未能加载，再试一次吧)</small>`;
+        fact.innerHTML = `<strong>BIRD FACT: </strong><br>${data.fact}<br><br><small style="color:#888;">(照片未能加载，再试一次吧)</small>`;
         card.style.opacity = '1';
       };
     } else {
